@@ -1,0 +1,43 @@
+---
+---
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | default: site.title }}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="theme-dark">
+    <header class="site-header container">
+      <a class="logo" href="{{ '/' | relative_url }}">
+        <span class="logo-mark">⛨</span>
+        <span class="logo-text">SQ / Cyber</span>
+      </a>
+      <nav class="nav">
+        <a href="{{ '/pages/about/' | relative_url }}">À propos</a>
+        <a href="{{ '/pages/articles/' | relative_url }}">Articles</a>
+        <a href="{{ '/pages/red-team/' | relative_url }}">Red Team</a>
+        <a href="{{ '/pages/blue-team/' | relative_url }}">Blue Team</a>
+        <a href="{{ '/pages/projects/' | relative_url }}">Projets</a>
+        <a href="{{ '/pages/resources/' | relative_url }}">Ressources</a>
+        <a href="{{ '/pages/contact/' | relative_url }}">Contact</a>
+      </nav>
+      <button id="themeToggle" class="btn-ghost" aria-label="Toggle theme">🌓</button>
+    </header>
+
+    <main class="container">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer container">
+      <p>© {{ site.time | date: '%Y' }} {{ site.author }} — Fait avec GitHub Pages & Jekyll.</p>
+    </footer>
+
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+  </body>
+</html>
