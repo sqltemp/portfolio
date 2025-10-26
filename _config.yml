@@ -1,7 +1,7 @@
 title: "SQ | Cybersecurity Portfolio"
 description: "Offensive & defensive security articles, playbooks, and demos"
 url: ""  # set to https://<username>.github.io/<repo> when ready
-baseurl: ""  # set if using a project site, e.g., /portfolio
+baseurl: "/portfolio"  # set if using a project site, e.g., /portfolio
 author: SQ
 markdown: kramdown
 highlighter: rouge
