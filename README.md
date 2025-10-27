@@ -1,4 +1,4 @@
-# Portfolio SQLTemp Cybersecurite
+# Portfolio SQLTemp Cybersécurité
 
 Un template visuel et simple pour présenter vos contenus offensive/defensive, articles, projets et ressources — optimisé pour GitHub Pages.
 
