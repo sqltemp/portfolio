@@ -27,7 +27,6 @@
         </div>
       </div>
     </header>
-
     <section id="about">
       <div class="container">
         <h2>A propos</h2>
@@ -36,7 +35,6 @@
         </p>
       </div>
     </section>
-
     <main id="projects">
       <h2>Projets</h2>
       <div class="projects-container">
@@ -91,7 +89,6 @@
         </div>
       </div>
     </main>
-
     <section id="contact">
       <div class="container">
         <h2>Information Links</h2>
@@ -109,7 +106,6 @@
         </div>
       </div>
     </section>
-
     <footer>
       <p>&copy; 2025 SQLTemp Cybersecurite. All rights reserved.</p>
     </footer>
