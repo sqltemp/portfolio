@@ -6,6 +6,6 @@ permalink: /pages/about/
 
 <div class="card">
   <h1>À propos</h1>
-  <p>Je suis consultant freelance en cybersécurité. J'aide les PME à renforcer leur posture de sécurité et j'anime des formations (anti-hameconnage, bonnes pratiques, etc.).</p>
-  <p>Centres d'intérêt : investigations, protection des utilisateurs, OSINT, Blue/Red Team, sensibilisation grand public.</p>
+  <p>Consultant freelance en cybersécurité, j’aide les PME, OBNL et particuliers à renforcer leur posture de sécurité. </p>
+  <p>Mes champs d’intérêt sont multiples : développement de programmes de défense, protection des équipements et des données, sensibilisation et formation des usagers, tests de vulnérabilité, OSINT, ...</p>
 </div>
