@@ -24,7 +24,7 @@ defaults:
       layout: project
 sass:
   sass_dir: assets/css
-theme: jekyll-theme-cayman
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
