@@ -29,5 +29,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# === OPTIONS SEO / MISE EN PAGE ===
+social_links:
+  github: https://sqltemp.github.io/portfolio/
+  linkedin: https://www.linkedin.com/in/thierrymatrat/
+  email: contact@sqltemp.com
+
 paginate: 8
 paginate_path: "/articles/page:num"
