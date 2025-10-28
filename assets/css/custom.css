@@ -1,0 +1,83 @@
+/* ====== BASE ====== */
+.projects-row {
+  /* rien ici pour desktop, ton inline fait déjà le job */
+}
+
+/* Cartes : règles génériques au cas où */
+.project-card {
+  box-sizing: border-box;
+}
+.project-card img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ====== ACCESSIBILITÉ / TAP ====== */
+.project-card a {
+  min-height: 44px;              /* cible tactile confortable */
+  line-height: 1.2;
+}
+
+/* ====== TABLETTES (≤ 1024px) ====== */
+@media (max-width: 1024px) {
+  .projects-row {
+    gap: 16px;
+    padding: 24px;
+  }
+  .project-card {
+    max-width: 340px;             /* 2 cartes par ligne si la place le permet */
+  }
+}
+
+/* ====== TÉLÉPHONES (≤ 640px) ====== */
+@media (max-width: 640px) {
+  .projects-row {
+    display: block;               /* empilement simple */
+    padding: 18px 14px;
+    border-radius: 10px;
+  }
+
+  /* chaque carte prend toute la largeur, centrée */
+  .project-card {
+    width: 100%;
+    max-width: 560px;             /* limite esthétique sur grands mobiles */
+    margin: 0 auto 16px auto;
+    padding: 16px;
+    border-radius: 10px;
+    /* conserve ton thème terminal : fond noir et bordure verte viennent déjà de l’existant */
+  }
+
+  .project-card h3 {
+    font-size: 1.05rem;           /* légère baisse pour éviter les retours à la ligne trop rapides */
+    margin-top: 4px;
+    margin-bottom: 8px;
+  }
+  .project-card p {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+  .project-card a {
+    width: 100%;                  /* bouton pleine largeur sur mobile : plus simple à cliquer */
+    text-align: center;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-weight: 700;
+  }
+}
+
+/* ====== ÉCRANS TRÈS ÉTROITS (≤ 360px) ====== */
+@media (max-width: 360px) {
+  .projects-row {
+    padding: 14px 10px;
+  }
+  .project-card {
+    padding: 12px;
+  }
+  .project-card h3 {
+    font-size: 1rem;
+  }
+  .project-card p {
+    font-size: 0.9rem;
+  }
+}
