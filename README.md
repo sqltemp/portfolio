@@ -108,19 +108,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 ---
 
-<div style="background:#f6f8fa; padding:18px 16px; border:1px solid #e5e7eb; border-radius:12px;">
-  <strong>📐 Méthodologie de projet</strong>
-  <ol>
-    <li>Contexte & objectifs (risques, portée, hypothèses)</li>
-    <li>Collecte de données (outils, logs, preuves)</li>
-    <li>Analyse & détection (règles, corrélations, hunting)</li>
-    <li>Résultats (captures, métriques, tableaux)</li>
-    <li>Recommandations & limites (ce qui reste à faire)</li>
-  </ol>
-</div>
-
----
-
 <h2 id="contact">📫 Contact</h2>
 
 - **Email** : contact@sqltemp.com  
