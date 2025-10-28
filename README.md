@@ -47,7 +47,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;">
 
   <!-- CARTE 1 -->
-  <div style="flex:1 1 300px; min-width:260px; max-width:320px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
     <img src="assets/project1.png" alt="Audit réseau" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Audit réseau & vulnérabilités</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Cartographie, scans (Nmap/Nessus), priorisation CVSS, remédiations et rapport.</p>
@@ -56,7 +56,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
   <!-- CARTE 2 -->
-  <div style="flex:1 1 300px; min-width:260px; max-width:320px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
     <img src="assets/project2.png" alt="Détection d’intrusion" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Détection d’intrusion & SIEM</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Pipeline de logs, règles de détection, hunting et tableaux de bord.</p>
@@ -65,7 +65,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
   <!-- CARTE 3 -->
-  <div style="flex:1 1 300px; min-width:260px; max-width:320px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
     <img src="assets/project3.png" alt="Automatisation sécurité" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Automatisation & réponse</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Scripts d’enrichissement IOC/API, playbooks, export rapports.</p>
