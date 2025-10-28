@@ -11,7 +11,7 @@ Mode d’emploi :
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
   <img src="assets/profilepic.jpg" alt="Photo de [VOTRE NOM]" width="150" style="border-radius:50%; border:4px solid #3fb950;">
   <h1 style="margin:18px 0 6px;">Thierry Matrat</h1>
-  <p style="margin:0; font-size:18px; opacity:.9;">Analyste en cybersécurité • Blue/Red Team • Automatisation</p>
+  <p style="margin:0; font-size:18px; opacity:.9;">Analyste en cybersécurité • Blue/Red Team • Support techique et formation</p>
   <p style="margin:8px 0 0; font-size:14px; opacity:.85;">Mes projets, articles et ressources pour votre cybersécurité.</p>
   
   <!-- mini navigation -->
@@ -96,21 +96,20 @@ J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux me
 <!-- ===== COMPÉTENCES ===== -->
 <h2 id="competences">🛠️ Compétences</h2>
 
-**Défense / Blue Team** : SIEM (Elastic, Splunk), EDR, Sysmon, Sigma, Suricata, Zeek, SOAR, MITRE ATT&CK  
-**Offensif / Red Team** : Nmap, Burp, Metasploit, wordlists, phishing (éthique & contrôlé)  
-**Langages & Scripting** : Python, Bash, PowerShell, Regex, YAML/JSON  
-**Systèmes & Réseau** : Linux, Windows, TCP/IP, DNS, proxy, TLS, Wireshark  
-**Cloud & IAM** : AWS/Azure (IAM, policies, logging, GuardDuty/Defender)  
-**Méthodes** : triage, investigation, hypothèses, reproductibilité, reporting clair
+**Défense / Blue Team** : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)
+**Offensif / Red Team** : , Reconnaissance, Penetration & Scanners vulnerabilites (Nmap, BurpSuite, Metasploit, mimikatz, Nessus)
+**Langages & Scripting** : C#, C++, Python, Bash, PowerShell, Regex, YAML/JSON  
+**Systèmes & Réseau** : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark  
+**Normes et Standards** : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
 
 ---
 
 <!-- ===== CERTIFICATIONS ===== -->
 <h2 id="certifications">🎓 Certifications & formations</h2>
 
-- [Certif 1] – [Éditeur], [Année] – [lien PDF ou badge]  
-- [Certif 2] – [Éditeur], [Année]  
-- Formations notables : [ex. Google Cybersecurity], [ex. TryHackMe/HTB parcours]
+- [Professionnal Certificate in Cybersecurity] – [Massachussets Institute of Technology], [2022] – [MIT](https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ) 
+- [Security+] – [CompTIA], [2025] -  [Security+](https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272) 
+- Formations notables : TryHackMe (Certificats 'Blue Team', 'Red Teaming', 'Jr Penetration Tester')
 
 ---
 
@@ -133,8 +132,6 @@ J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux me
 - **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)
 - **GitHub** : [https://github.com/votreprofil](https://github.com/votreprofil)  
 - **CV** : [CV Thierry Matrat](assets/CV_ThierryMatrat.pdf)
-
-> 👀 Astuce : gardez ce README “vivant” (commits réguliers, changelog succinct) pour montrer votre activité.
 
 ---
 
