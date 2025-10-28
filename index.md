@@ -91,11 +91,11 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <!-- ===== COMPÉTENCES ===== -->
 <h2 id="competences">🛠️ Compétences</h2>
 
-**Défense / Blue Team** : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)
-**Offensif / Red Team** : Reconnaissance, Penetration & Scanners vulnerabilites (Nmap, BurpSuite, Metasploit, mimikatz, Nessus)
-**Langages & Scripting** : C#, C++, Python, Bash, PowerShell, JavaScript
-**Systèmes & Réseau** : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark  
-**Normes et Standards** : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
+**Défense / Blue Team** : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)</br>
+**Offensif / Red Team** : Reconnaissance, Penetration & Scanners vulnerabilites (Nmap, BurpSuite, Metasploit, mimikatz, Nessus)</br>
+**Langages & Scripting** : C#, C++, Python, Bash, PowerShell, JavaScript</br>
+**Systèmes & Réseau** : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark  </br>
+**Normes et Standards** : NIST CSF2.0, OSSTMM, ISO27001, IEC62443</br>
 
 ---
 
