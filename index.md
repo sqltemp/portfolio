@@ -130,7 +130,7 @@ J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux me
 <h2 id="contact">📫 Contact</h2>
 
 - **Email** : contact@sqltemp.com  
-- **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)]  
+- **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)
 - **GitHub** : [https://github.com/votreprofil](https://github.com/votreprofil)  
 - **CV** : [/assets/CV.pdf](assets/CV.pdf)
 
