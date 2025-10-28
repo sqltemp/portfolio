@@ -132,46 +132,9 @@ J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux me
 - **Email** : contact@sqltemp.com  
 - **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)
 - **GitHub** : [https://github.com/votreprofil](https://github.com/votreprofil)  
-- **CV** : [/assets/CV.pdf](assets/CV.pdf)
+- **CV** : [CV Thierry Matrat](assets/CV_ThierryMatrat.pdf)
 
 > 👀 Astuce : gardez ce README “vivant” (commits réguliers, changelog succinct) pour montrer votre activité.
 
 ---
-
-## 💡 Version alternative 100% Markdown (si HTML pose souci)
-<details>
-<summary>Cliquer pour dérouler</summary>
-
-# [Votre Nom] – Portfolio cybersécurité
-
-![Photo](assets/profilepic.jpg)
-
-**Analyste en cybersécurité • Blue/Red Team • Automatisation**
-
-[À propos](#à-propos-md) • [Projets](#projets-md) • [Compétences](#compétences-md) • [Certifications](#certifications-md) • [Contact](#contact-md)
-
----
-
-## À propos (MD)
-Texte d’intro…
-
-## Projets (MD)
-- **Audit réseau & vulnérabilités** – [Voir le projet](projects/projet-audit-reseau/README.md)
-- **Détection d’intrusion & SIEM** – [Voir le projet](projects/projet-detection-intrusion/README.md)
-- **Automatisation & réponse** – [Voir le projet](projects/projet-automation/README.md)
-
-## Compétences (MD)
-Liste courte…
-
-## Certifications (MD)
-- Certif 1 – Éditeur – Année
-
-## Contact (MD)
-Email, LinkedIn, GitHub, CV
-
-</details>
-
----
-
-## 📂 Structure de repo conseillée
 
