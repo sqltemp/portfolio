@@ -35,10 +35,9 @@ Mode d’emploi :
 Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité au quotidien par des actions concrètes.
 
 
-- 🔭 Actuellement : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et développement de réflexes de défense contre les attaques par hameçonnage'  
-- 💡 Intérêts : Blue/Red Team, DFIR, SIEM, EDR, Sécurité infonuagique, cartographie de menaces  
-
-> **Objectif du portfolio :** mettre à disposition l'ensemble de mes notes de projets (générales et non confidentielles), et de mes notes de cours via des cheatsheets claires et concises.
+- 👉 Objectif du portfolio : mettre à disposition l'ensemble de mes notes de projets (générales et non confidentielles), et de mes notes de cours via des cheatsheets claires et concises.
+- 🔭 Sujets principaux : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et développement de réflexes de défense contre les attaques par hameçonnage'  
+- 💡 Mes intérêts : Blue/Red Team, DFIR, SIEM, EDR, Sécurité infonuagique, cartographie de menaces
 
 ---
 
