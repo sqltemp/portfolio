@@ -50,7 +50,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
   <!-- CARTE 1 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project1.png" alt="Audit réseau" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
+    <img src="assets/project1.png" alt="Sécurité des PME" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Développement de programmes de cybersécurité pour les PME</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Inventaire actifs, scans (Nmap/Nessus), choix et configuration d'outils défensifs.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Nmap · Nessus · Python</p>
@@ -59,7 +59,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
   <!-- CARTE 2 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project2.png" alt="Détection d’intrusion" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
+    <img src="assets/project2.png" alt="Formations" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Cybersécurité 101'</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameconnage via des activités ludiques et des périodes de discussion.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : support de formation · activités en ligne </p>
@@ -68,7 +68,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
   <!-- CARTE 3 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project3.png" alt="Automatisation sécurité" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
+    <img src="assets/project3.png" alt="A venir" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> A Déterminer</h3>
     <p style="margin:0 0 12px; line-height:1.5;">A Déterminer.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : A Déterminer · A Déterminer · A Déterminer </p>
