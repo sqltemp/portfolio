@@ -6,7 +6,7 @@ Mode d’emploi :
 3) Placez vos images dans /assets/ (profilepic.jpg, project*.png, logos…).
 4) Si certains styles HTML sont trop “stricts” pour GitHub Mobile, utilisez la SECTION DE SECOURS (pur Markdown) plus bas.
 -->
-
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="stylesheet" href="/assets/css/custom.css">
 
 
@@ -93,13 +93,16 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 ---
 
 <!-- ===== COMPÉTENCES ===== -->
-<h2 id="competences">🛠️ Compétences</h2>
-
-**Défense / Blue Team** : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)</br>
-**Offensif / Red Team** : Reconnaissance, Penetration & Scanners vulnerabilites (Nmap, BurpSuite, Metasploit, mimikatz, Nessus)</br>
-**Langages & Scripting** : C#, C++, Python, Bash, PowerShell, JavaScript</br>
-**Systèmes & Réseau** : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark  </br>
-**Normes et Standards** : NIST CSF2.0, OSSTMM, ISO27001, IEC62443</br>
+<section class="terminal-section" id="competences">
+  <h2>🛠️ Compétences</h2>
+  <p>
+    <strong>Défense / Blue Team</strong> : SIEM, IPS & Scanners vulnerabilites (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints, Nessus)<br>
+    <strong>Offensif / Red Team</strong> : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
+    <strong>Langages & Scripting</strong> : C#, C++, Python, Bash, PowerShell, JavaScript<br>
+    <strong>Systèmes & Réseau</strong> : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
+    <strong>Normes & Standards</strong> : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
+  </p>
+</section>
 
 ---
 
