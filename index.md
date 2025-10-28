@@ -43,42 +43,38 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <!-- ===== PROJETS (cartes) ===== -->
 <h2 id="projets">🧩 Projets phares</h2>
 
-<div style="display:flex; flex-wrap:wrap; gap:18px;">
-  
+<!-- SECTION PROJETS PHARES – STYLE TERMINAL -->
+<div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center; background-color:#000; padding:30px; border-radius:12px;">
+
   <!-- CARTE 1 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgb(0,0,0);">
-    <img src="assets/project1.png" alt="Audit réseau" style="width:100%; display:block;">
-    <div style="padding:14px 16px 18px;">
-      <h3 style="margin:4px 0 8px;">Audit réseau & vulnérabilités</h3>
-      <p style="margin:0 0 10px; line-height:1.55;">Cartographie, scans (Nmap/Nessus), priorisation CVSS, remédiations et rapport.</p>
-      <p style="margin:0 0 12px; font-size:14px; opacity:.85;">Stack : Nmap · Nessus · Python · Markdown</p>
-      <a href="projects/projet-audit-reseau/README.md" style="display:inline-block; padding:8px 12px; background:#3fb950; color:#fff; border-radius:6px; text-decoration:none;">Voir le projet →</a>
-    </div>
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background-color:#0d0d0d; border:1px solid #00ff7f; border-radius:10px; padding:18px; color:#00ff7f; font-family:'Courier New', monospace; box-shadow:0 0 12px rgba(0,255,127,0.25);">
+    <img src="assets/project1.png" alt="Audit réseau" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #00ff7f;">
+    <h3 style="margin:6px 0 10px; color:#00ff7f;">> Audit réseau & vulnérabilités</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Cartographie, scans (Nmap/Nessus), priorisation CVSS, remédiations et rapport.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Nmap · Nessus · Python · Markdown</p>
+    <a href="projects/projet-audit-reseau/README.md" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#00ff7f; color:#000; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 2 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.06);">
-    <img src="assets/project2.png" alt="Détection d’intrusion" style="width:100%; display:block;">
-    <div style="padding:14px 16px 18px;">
-      <h3 style="margin:4px 0 8px;">Détection d’intrusion & SIEM</h3>
-      <p style="margin:0 0 10px; line-height:1.55;">Pipeline de logs, règles de détection, hunting et tableaux de bord.</p>
-      <p style="margin:0 0 12px; font-size:14px; opacity:.85;">Stack : Suricata · Elastic/Splunk · Sysmon · Sigma</p>
-      <a href="projects/projet-detection-intrusion/README.md" style="display:inline-block; padding:8px 12px; background:#3fb950; color:#fff; border-radius:6px; text-decoration:none;">Voir le projet →</a>
-    </div>
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background-color:#0d0d0d; border:1px solid #00ff7f; border-radius:10px; padding:18px; color:#00ff7f; font-family:'Courier New', monospace; box-shadow:0 0 12px rgba(0,255,127,0.25);">
+    <img src="assets/project2.png" alt="Détection d’intrusion" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #00ff7f;">
+    <h3 style="margin:6px 0 10px; color:#00ff7f;">> Détection d’intrusion & SIEM</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Pipeline de logs, règles de détection, hunting et tableaux de bord.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Suricata · Elastic/Splunk · Sysmon · Sigma</p>
+    <a href="projects/projet-detection-intrusion/README.md" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#00ff7f; color:#000; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 3 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.06);">
-    <img src="assets/project3.png" alt="Automatisation sécurité" style="width:100%; display:block;">
-    <div style="padding:14px 16px 18px;">
-      <h3 style="margin:4px 0 8px;">Automatisation & réponse</h3>
-      <p style="margin:0 0 10px; line-height:1.55;">Scripts d’enrichissement IOC/API, playbooks, export rapports.</p>
-      <p style="margin:0 0 12px; font-size:14px; opacity:.85;">Stack : Python · Bash · REST API · JQ</p>
-      <a href="projects/projet-automation/README.md" style="display:inline-block; padding:8px 12px; background:#3fb950; color:#fff; border-radius:6px; text-decoration:none;">Voir le projet →</a>
-    </div>
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background-color:#0d0d0d; border:1px solid #00ff7f; border-radius:10px; padding:18px; color:#00ff7f; font-family:'Courier New', monospace; box-shadow:0 0 12px rgba(0,255,127,0.25);">
+    <img src="assets/project3.png" alt="Automatisation sécurité" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #00ff7f;">
+    <h3 style="margin:6px 0 10px; color:#00ff7f;">> Automatisation & réponse</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Scripts d’enrichissement IOC/API, playbooks, export rapports.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Python · Bash · REST API · JQ</p>
+    <a href="projects/projet-automation/README.md" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#00ff7f; color:#000; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
 </div>
+
 
 <details>
 <summary>➕ Voir d’autres projets (write-ups CTF, cloud, IAM, forensic…)</summary>
