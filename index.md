@@ -29,8 +29,8 @@ Mode d’emploi :
 <!-- ===== À PROPOS ===== -->
 <h2 id="a-propos">👋 À propos</h2>
 
-Je suis [votre rôle : ex. analyste SOC / consultant sécurité], spécialisé·e en [domaines clés].  
-J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux menaces, détection, automatisation et amélioration continue.
+Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité au quotidien par des actions concrètes.
+
 
 - 🔭 Actuellement : [projets en cours]  
 - 💡 Intérêts : Blue/Red Team, DFIR, SIEM, EDR, Cloud Security, cartographie de menaces  
