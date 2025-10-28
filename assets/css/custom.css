@@ -5,12 +5,19 @@
 
 /* Cartes : règles génériques au cas où */
 .project-card {
+  display: flex;
+  flex-direction: column;      /* empile le contenu verticalement */
+  justify-content: space-between; /* répartit espace entre le haut (texte) et le bas (bouton) */
   box-sizing: border-box;
 }
 .project-card img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+.project-card .btn {
+  align-self: center;          /* centre le bouton horizontalement */
+  margin-top: auto;            /* pousse le bouton en bas de la carte */
 }
 
 /* ====== ACCESSIBILITÉ / TAP ====== */
