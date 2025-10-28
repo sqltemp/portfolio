@@ -46,7 +46,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <div style="display:flex; flex-wrap:wrap; gap:18px;">
   
   <!-- CARTE 1 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgb(0,0,0);">
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.06);">
     <img src="assets/project1.png" alt="Audit réseau" style="width:100%; display:block;">
     <div style="padding:14px 16px 18px;">
       <h3 style="margin:4px 0 8px;">Audit réseau & vulnérabilités</h3>
