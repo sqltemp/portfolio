@@ -10,9 +10,9 @@ Mode d’emploi :
 <!-- ===== HERO / BANNIÈRE ===== -->
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
   <img src="assets/profilepic.jpg" alt="Photo de [VOTRE NOM]" width="150" style="border-radius:50%; border:4px solid #3fb950;">
-  <h1 style="margin:18px 0 6px;">[Votre Nom]</h1>
-  <p style="margin:0; font-size:18px; opacity:.9;">Analyste en cybersécurité • Blue/Red Team • Automatisation</p>
-  <p style="margin:8px 0 0; font-size:14px; opacity:.85;">Montrer – pas seulement dire. Ce portfolio présente mes projets, méthodologies et résultats.</p>
+  <h1 style="margin:18px 0 6px;">Thierry Matrat</h1>
+  <p style="margin:0; font-size:18px; opacity:.9;">Analyste en cybersécurité • Blue/Red Team • Support techique et formation</p>
+  <p style="margin:8px 0 0; font-size:14px; opacity:.85;">Mes projets, articles et ressources pour votre cybersécurité.</p>
   
   <!-- mini navigation -->
   <p style="margin-top:22px;">
@@ -29,57 +29,52 @@ Mode d’emploi :
 <!-- ===== À PROPOS ===== -->
 <h2 id="a-propos">👋 À propos</h2>
 
-Je suis [votre rôle : ex. analyste SOC / consultant sécurité], spécialisé·e en [domaines clés].  
-J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux menaces, détection, automatisation et amélioration continue.
+Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité au quotidien par des actions concrètes.
 
-- 🔭 Actuellement : [projets en cours]  
+
+- 🔭 Actuellement : renforcement de la posture cyberdefensive de PME, formations 'Cybersécurité 101 et développement de réflexes de défense contre les attaques par hameçonnage'  
 - 💡 Intérêts : Blue/Red Team, DFIR, SIEM, EDR, Cloud Security, cartographie de menaces  
-- 🧪 Méthodo : hypothèses → preuves (captures, POC, scripts) → résultats (tableaux, graphes)  
-- 🗂️ Ce repo sert de **hub** : chaque projet a son dossier, sa doc et ses artefacts (captures, exports, scripts)
+- 🗂️ Ce dépôt Github sert de **hub** : chaque projet dispose de son dossier, sa doc et ses artefacts (captures, scripts)
 
-> **Objectif du portfolio :** démontrer la **pratique** (données, captures, scripts) et la **pédagogie** (readme clairs, pas-à-pas, risques & limites).
+> **Objectif du portfolio :** mettre à disposition l'ensemble de mes notes de projets et de cours, via des cheatsheets claires et concises.
 
 ---
 
 <!-- ===== PROJETS (cartes) ===== -->
 <h2 id="projets">🧩 Projets phares</h2>
 
-<div style="display:flex; flex-wrap:wrap; gap:18px;">
-  
+<!-- SECTION PROJETS PHARES – STYLE TERMINAL -->
+<div style="display:flex; flex-wrap:wrap; gap:20px; justify-content:center; background-color:#000; padding:30px; border-radius:12px;">
+
   <!-- CARTE 1 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.06);">
-    <img src="assets/project1.png" alt="Audit réseau" style="width:100%; display:block;">
-    <div style="padding:14px 16px 18px;">
-      <h3 style="margin:4px 0 8px;">Audit réseau & vulnérabilités</h3>
-      <p style="margin:0 0 10px; line-height:1.55;">Cartographie, scans (Nmap/Nessus), priorisation CVSS, remédiations et rapport.</p>
-      <p style="margin:0 0 12px; font-size:14px; opacity:.85;">Stack : Nmap · Nessus · Python · Markdown</p>
-      <a href="projects/projet-audit-reseau/README.md" style="display:inline-block; padding:8px 12px; background:#3fb950; color:#fff; border-radius:6px; text-decoration:none;">Voir le projet →</a>
-    </div>
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background-color:#0d0d0d; border:1px solid #00ff7f; border-radius:10px; padding:18px; color:#00ff7f; font-family:'Courier New', monospace; box-shadow:0 0 12px rgba(0,255,127,0.25);">
+    <img src="assets/project1.png" alt="Audit réseau" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #00ff7f;">
+    <h3 style="margin:6px 0 10px; color:#00ff7f;">> Audit réseau & vulnérabilités</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Cartographie, scans (Nmap/Nessus), priorisation CVSS, remédiations et rapport.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Nmap · Nessus · Python · Markdown</p>
+    <a href="projects/projet-audit-reseau/README.md" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#00ff7f; color:#000; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 2 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.06);">
-    <img src="assets/project2.png" alt="Détection d’intrusion" style="width:100%; display:block;">
-    <div style="padding:14px 16px 18px;">
-      <h3 style="margin:4px 0 8px;">Détection d’intrusion & SIEM</h3>
-      <p style="margin:0 0 10px; line-height:1.55;">Pipeline de logs, règles de détection, hunting et tableaux de bord.</p>
-      <p style="margin:0 0 12px; font-size:14px; opacity:.85;">Stack : Suricata · Elastic/Splunk · Sysmon · Sigma</p>
-      <a href="projects/projet-detection-intrusion/README.md" style="display:inline-block; padding:8px 12px; background:#3fb950; color:#fff; border-radius:6px; text-decoration:none;">Voir le projet →</a>
-    </div>
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background-color:#0d0d0d; border:1px solid #00ff7f; border-radius:10px; padding:18px; color:#00ff7f; font-family:'Courier New', monospace; box-shadow:0 0 12px rgba(0,255,127,0.25);">
+    <img src="assets/project2.png" alt="Détection d’intrusion" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #00ff7f;">
+    <h3 style="margin:6px 0 10px; color:#00ff7f;">> Détection d’intrusion & SIEM</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Pipeline de logs, règles de détection, hunting et tableaux de bord.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Suricata · Elastic/Splunk · Sysmon · Sigma</p>
+    <a href="projects/projet-detection-intrusion/README.md" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#00ff7f; color:#000; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 3 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.06);">
-    <img src="assets/project3.png" alt="Automatisation sécurité" style="width:100%; display:block;">
-    <div style="padding:14px 16px 18px;">
-      <h3 style="margin:4px 0 8px;">Automatisation & réponse</h3>
-      <p style="margin:0 0 10px; line-height:1.55;">Scripts d’enrichissement IOC/API, playbooks, export rapports.</p>
-      <p style="margin:0 0 12px; font-size:14px; opacity:.85;">Stack : Python · Bash · REST API · JQ</p>
-      <a href="projects/projet-automation/README.md" style="display:inline-block; padding:8px 12px; background:#3fb950; color:#fff; border-radius:6px; text-decoration:none;">Voir le projet →</a>
-    </div>
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background-color:#0d0d0d; border:1px solid #00ff7f; border-radius:10px; padding:18px; color:#00ff7f; font-family:'Courier New', monospace; box-shadow:0 0 12px rgba(0,255,127,0.25);">
+    <img src="assets/project3.png" alt="Automatisation sécurité" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #00ff7f;">
+    <h3 style="margin:6px 0 10px; color:#00ff7f;">> Automatisation & réponse</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Scripts d’enrichissement IOC/API, playbooks, export rapports.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Python · Bash · REST API · JQ</p>
+    <a href="projects/projet-automation/README.md" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#00ff7f; color:#000; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
 </div>
+
 
 <details>
 <summary>➕ Voir d’autres projets (write-ups CTF, cloud, IAM, forensic…)</summary>
@@ -96,21 +91,20 @@ J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux me
 <!-- ===== COMPÉTENCES ===== -->
 <h2 id="competences">🛠️ Compétences</h2>
 
-**Défense / Blue Team** : SIEM (Elastic, Splunk), EDR, Sysmon, Sigma, Suricata, Zeek, SOAR, MITRE ATT&CK  
-**Offensif / Red Team** : Nmap, Burp, Metasploit, wordlists, phishing (éthique & contrôlé)  
-**Langages & Scripting** : Python, Bash, PowerShell, Regex, YAML/JSON  
-**Systèmes & Réseau** : Linux, Windows, TCP/IP, DNS, proxy, TLS, Wireshark  
-**Cloud & IAM** : AWS/Azure (IAM, policies, logging, GuardDuty/Defender)  
-**Méthodes** : triage, investigation, hypothèses, reproductibilité, reporting clair
+**Défense / Blue Team** : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)
+**Offensif / Red Team** : Reconnaissance, Penetration & Scanners vulnerabilites (Nmap, BurpSuite, Metasploit, mimikatz, Nessus)
+**Langages & Scripting** : C#, C++, Python, Bash, PowerShell, JavaScript
+**Systèmes & Réseau** : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark  
+**Normes et Standards** : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
 
 ---
 
 <!-- ===== CERTIFICATIONS ===== -->
 <h2 id="certifications">🎓 Certifications & formations</h2>
 
-- [Certif 1] – [Éditeur], [Année] – [lien PDF ou badge]  
-- [Certif 2] – [Éditeur], [Année]  
-- Formations notables : [ex. Google Cybersecurity], [ex. TryHackMe/HTB parcours]
+- [Professionnal Certificate in Cybersecurity] – [Massachussets Institute of Technology], [2022] – [MIT](https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ) 
+- [Security+] – [CompTIA], [2025] -  [Security+](https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272) 
+- Formations notables : TryHackMe (Certificats [Blue Team](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZVVQEKCLAQ.pdf), [Redteaming](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KGKMGGWDIB.pdf) , [Jr Penetration Tester](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CVEG9XZNC6.pdf))
 
 ---
 
@@ -129,49 +123,10 @@ J’aime **opérationnaliser** la sécurité : triage d’alertes, chasse aux me
 
 <h2 id="contact">📫 Contact</h2>
 
-- **Email** : [votre.email@exemple.com]  
-- **LinkedIn** : [lien]  
+- **Email** : contact@sqltemp.com  
+- **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)
 - **GitHub** : [https://github.com/votreprofil](https://github.com/votreprofil)  
-- **CV** : [/assets/CV.pdf](assets/CV.pdf)
-
-> 👀 Astuce : gardez ce README “vivant” (commits réguliers, changelog succinct) pour montrer votre activité.
+- **CV** : [CV Thierry Matrat](assets/CV_ThierryMatrat.pdf)
 
 ---
-
-## 💡 Version alternative 100% Markdown (si HTML pose souci)
-<details>
-<summary>Cliquer pour dérouler</summary>
-
-# [Votre Nom] – Portfolio cybersécurité
-
-![Photo](assets/profilepic.jpg)
-
-**Analyste en cybersécurité • Blue/Red Team • Automatisation**
-
-[À propos](#à-propos-md) • [Projets](#projets-md) • [Compétences](#compétences-md) • [Certifications](#certifications-md) • [Contact](#contact-md)
-
----
-
-## À propos (MD)
-Texte d’intro…
-
-## Projets (MD)
-- **Audit réseau & vulnérabilités** – [Voir le projet](projects/projet-audit-reseau/README.md)
-- **Détection d’intrusion & SIEM** – [Voir le projet](projects/projet-detection-intrusion/README.md)
-- **Automatisation & réponse** – [Voir le projet](projects/projet-automation/README.md)
-
-## Compétences (MD)
-Liste courte…
-
-## Certifications (MD)
-- Certif 1 – Éditeur – Année
-
-## Contact (MD)
-Email, LinkedIn, GitHub, CV
-
-</details>
-
----
-
-## 📂 Structure de repo conseillée
 
