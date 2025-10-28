@@ -32,12 +32,11 @@ Mode d’emploi :
 Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité au quotidien par des actions concrètes.
 
 
-- 🔭 Actuellement : [projets en cours]  
+- 🔭 Actuellement : renforcement de la posture cyberdefensive de PME, formations 'Cybersécurité 101 et développement de réflexes de défense contre les attaques par hameçonnage'  
 - 💡 Intérêts : Blue/Red Team, DFIR, SIEM, EDR, Cloud Security, cartographie de menaces  
-- 🧪 Méthodo : hypothèses → preuves (captures, POC, scripts) → résultats (tableaux, graphes)  
-- 🗂️ Ce repo sert de **hub** : chaque projet a son dossier, sa doc et ses artefacts (captures, exports, scripts)
+- 🗂️ Ce dépôt Github sert de **hub** : chaque projet dispose de son dossier, sa doc et ses artefacts (captures, scripts)
 
-> **Objectif du portfolio :** démontrer la **pratique** (données, captures, scripts) et la **pédagogie** (readme clairs, pas-à-pas, risques & limites).
+> **Objectif du portfolio :** mettre à disposition l'ensemble de mes notes de projets et de cours, via des cheatsheets claires et concises.
 
 ---
 
@@ -47,7 +46,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <div style="display:flex; flex-wrap:wrap; gap:18px;">
   
   <!-- CARTE 1 -->
-  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,.06);">
+  <div style="flex:1 1 300px; min-width:280px; max-width:360px; background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgb(0,0,0);">
     <img src="assets/project1.png" alt="Audit réseau" style="width:100%; display:block;">
     <div style="padding:14px 16px 18px;">
       <h3 style="margin:4px 0 8px;">Audit réseau & vulnérabilités</h3>
