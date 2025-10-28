@@ -7,6 +7,9 @@ Mode d’emploi :
 4) Si certains styles HTML sont trop “stricts” pour GitHub Mobile, utilisez la SECTION DE SECOURS (pur Markdown) plus bas.
 -->
 
+<link rel="stylesheet" href="/assets/css/custom.css">
+
+
 <!-- ===== HERO / BANNIÈRE ===== -->
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
   <img src="assets/profilepic.jpg" alt="Photo de [VOTRE NOM]" width="150" style="border-radius:50%; border:4px solid #3fb950;">
