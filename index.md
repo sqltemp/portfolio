@@ -79,7 +79,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 
 <details>
-<summary>➕ Voir d’autres projets (write-ups CTF, articles, cheatsheets, cheatsheet et ressources diverses par thème…)</summary>
+<summary>➕ Voir d’autres projets (write-ups CTF, articles, cheatsheets et ressources diverses par thème…)</summary>
 
 <a href="projects/ctf/" class="btn">📜 Voir les CTF</a>
 <a href="projects/articles/" class="btn">📜 Voir les articles</a>
