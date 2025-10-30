@@ -78,7 +78,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </div>
 
 
- <!-- ===== PROJETS (cartes) ===== -->
+ <!-- ===== AUTRES PROJETS (cartes) ===== -->
 <h3 id="Autres projets">➕ Autres projets (write-ups CTF, articles, cheatsheets et ressources diverses par thème…)</h3>
 <details>
 <!-- SECTION PROJETS PHARES – ALIGNEMENT 3 CARTES & TEXTE BLANC -->
@@ -87,32 +87,28 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
   <!-- CARTE 4 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project1.png" alt="Sécurité des PME" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> CTF </h3>
+    <img src="assets/project1.png" alt="CTFs" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <p style="margin:0 0 12px; line-height:1.5;">Write-ups de divers CTFs.</p>
     <a href="projects/ctf/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 5 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project2.png" alt="Formations" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> Articles '</h3>
+    <img src="assets/project2.png" alt="Articles" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <p style="margin:0 0 12px; line-height:1.5;"> Articles sur divers sujets </p>
     <a href="projects/formations-101/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 6 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project3.png" alt="A venir" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> Cheatsheets</h3>
+    <img src="assets/project3.png" alt="Cheatsheets" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <p style="margin:0 0 12px; line-height:1.5;">Fiches pratiques</p>
     <a href="projects/a-venir/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
   
   <!-- CARTE 7 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project3.png" alt="A venir" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> Ressources </h3>
+    <img src="assets/project3.png" alt="Ressources" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <p style="margin:0 0 12px; line-height:1.5;">Bibliothèque de ressources</p>
     <a href="projects/a-venir/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
