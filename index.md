@@ -81,7 +81,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <details>
 <summary>➕ Voir d’autres projets (write-ups CTF, cloud, IAM, forensic…)</summary>
 
-- [Write-ups CTF](projects/ctf-writeups/README.md)
+- [Write-ups CTF](projects/ctf/README.md)
 - [Cheatsheet Défense](projects/hardening/README.md)
 - [Cheatsheet Attaque](projects/cloud-security/README.md)
 - [Forensic & DFIR notes](projects/dfir/README.md)
