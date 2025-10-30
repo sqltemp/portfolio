@@ -2,11 +2,6 @@
 .projects-row {
   /* rien ici pour desktop, ton inline fait déjà le job */
 }
-.logo {
-  text-align: center;   /* centre le contenu horizontalement */
-  margin: 20px auto;    /* espace autour du logo */
-  display: block;
-}
 
 /* Cartes : règles génériques au cas où */
 .project-card {
