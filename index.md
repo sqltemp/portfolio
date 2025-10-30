@@ -81,7 +81,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <details>
 <summary>➕ Voir d’autres projets (write-ups CTF, cloud, IAM, forensic…)</summary>
 
-<a href="/portfolio/projects/ctf" class="btn">📜 Voir les CTF</a>
+<a href="projects/ctf" class="btn">📜 Voir les CTF</a>
 
 </details>
 
