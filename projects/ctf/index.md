@@ -20,117 +20,38 @@ title: Capture The Flag
   </nav>
 </section>
 
-<!-- ===== WEB ===== -->
-<section class="terminal-section" id="web">
-  <h2>🌐 Web</h2>
-  <div class="projects-row">
 
-    <div class="project-card">
-      <img src="/assets/ctf/web-1.png" alt="CTF Web 1">
-      <h3>&gt; SQLi Shop — Injection SQL basique</h3>
-      <p>Exploitation d’une injection SQL pour contourner l’authentification et exfiltrer des données.</p>
-      <p class="stack">Outils : Burp Suite · sqlmap · Firefox DevTools</p>
-      <div class="tags"><span class="tag">easy</span><span class="tag">web</span><span class="tag">sqli</span></div>
-      <a class="btn" href="/assets/reports/ctf-sqli-shop.pdf">Ouvrir le rapport</a>
-    </div>
+<div class="projects-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;">
 
-    <div class="project-card">
-      <img src="/assets/ctf/web-2.png" alt="CTF Web 2">
-      <h3>&gt; XSS Forum — Cross-Site Scripting</h3>
-      <p>XSS stocké, prise de session administrateur (cookie theft) et propositions de mitigation.</p>
-      <p class="stack">Outils : Burp · DOM Invader · CSP Evaluator</p>
-      <div class="tags"><span class="tag">medium</span><span class="tag">web</span><span class="tag">xss</span></div>
-      <a class="btn" href="/assets/reports/ctf-xss-forum.pdf">Ouvrir le rapport</a>
-    </div>
-
-    <div class="project-card">
-      <img src="/assets/ctf/web-3.png" alt="CTF Web 3">
-      <h3>&gt; Auth Logic — Bypass d’authentification</h3>
-      <p>Bypass logique (validation token défaillante) puis escalade vers panneau d’admin.</p>
-      <p class="stack">Outils : Burp · JWT Toolkit · Postman</p>
-      <div class="tags"><span class="tag">medium</span><span class="tag">web</span><span class="tag">logic</span></div>
-      <a class="btn" href="/assets/reports/ctf-auth-logic.pdf">Ouvrir le rapport</a>
-    </div>
-
+  <!-- CARTE 1 -->
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
+    <img src="assets/project1.png" alt="Sécurité des PME" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
+    <h3 style="margin:6px 0 10px; color:#ffffff;">> Développement de programmes de cybersécurité pour les PME</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Inventaire actifs, scans (Nmap/Nessus), choix et configuration d'outils défensifs.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Nmap · Nessus · Python</p>
+    <a href="projects/secu-PME/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
-</section>
 
-<!-- ===== PWN / BINARY ===== -->
-<section class="terminal-section" id="pwn">
-  <h2>🧨 Pwn / Binary</h2>
-  <div class="projects-row">
-
-    <div class="project-card">
-      <img src="/assets/ctf/pwn-1.png" alt="Pwn 1">
-      <h3>&gt; Buffer Overflow — ret2win</h3>
-      <p>Écrasement d’EIP et redirection contrôlée vers la fonction de victoire.</p>
-      <p class="stack">Outils : gdb-gef · pwntools · checksec</p>
-      <div class="tags"><span class="tag">medium</span><span class="tag">pwn</span><span class="tag">bo</span></div>
-      <a class="btn" href="/assets/reports/ctf-bo-ret2win.pdf">Ouvrir le rapport</a>
-    </div>
-
-    <div class="project-card">
-      <img src="/assets/ctf/pwn-2.png" alt="Pwn 2">
-      <h3>&gt; Format String — Leak & overwrite</h3>
-      <p>Fuite d’adresses et écriture contrôlée pour détourner le flux d’exécution.</p>
-      <p class="stack">Outils : gdb · pwntools · ROPgadget</p>
-      <div class="tags"><span class="tag">hard</span><span class="tag">pwn</span><span class="tag">fmt</span></div>
-      <a class="btn" href="/assets/reports/ctf-format-string.pdf">Ouvrir le rapport</a>
-    </div>
-
+  <!-- CARTE 2 -->
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
+    <img src="assets/project2.png" alt="Formations" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
+    <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Cybersécurité 101'</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameconnage via des activités ludiques et des périodes de discussion.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : support de formation · en présentiel · activités ludiques </p>
+    <a href="projects/formations-101/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
-</section>
 
-<!-- ===== FORENSIC ===== -->
-<section class="terminal-section" id="forensic">
-  <h2>🔎 Forensic</h2>
-  <div class="projects-row">
-
-    <div class="project-card">
-      <img src="/assets/ctf/forensic-1.png" alt="Forensic 1">
-      <h3>&gt; PCAP Hunt — Exfiltration réseau</h3>
-      <p>Analyse PCAP : extraction d’objets, reconstruction de flux, IOC et chronologie.</p>
-      <p class="stack">Outils : Wireshark · Zeek · NetworkMiner</p>
-      <div class="tags"><span class="tag">easy</span><span class="tag">forensic</span><span class="tag">pcap</span></div>
-      <a class="btn" href="/assets/reports/ctf-pcap-hunt.pdf">Ouvrir le rapport</a>
-    </div>
-
+  <!-- CARTE 3 -->
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
+    <img src="assets/project3.png" alt="A venir" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
+    <h3 style="margin:6px 0 10px; color:#ffffff;">> A Déterminer</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">A Déterminer.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : A Déterminer · A Déterminer · A Déterminer </p>
+    <a href="projects/a-venir/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
-</section>
 
-<!-- ===== CRYPTO ===== -->
-<section class="terminal-section" id="crypto">
-  <h2>🔐 Crypto</h2>
-  <div class="projects-row">
+</div>
 
-    <div class="project-card">
-      <img src="/assets/ctf/crypto-1.png" alt="Crypto 1">
-      <h3>&gt; RSA Basics — Clé faible</h3>
-      <p>Factorisation via GCD sur clés réutilisées et récupération du message.</p>
-      <p class="stack">Outils : RsaCtfTool · Python · Sage</p>
-      <div class="tags"><span class="tag">easy</span><span class="tag">crypto</span><span class="tag">rsa</span></div>
-      <a class="btn" href="/assets/reports/ctf-rsa-basics.pdf">Ouvrir le rapport</a>
-    </div>
-
-  </div>
-</section>
-
-<!-- ===== MISC ===== -->
-<section class="terminal-section" id="misc">
-  <h2>🧩 Misc</h2>
-  <div class="projects-row">
-
-    <div class="project-card">
-      <img src="/assets/ctf/misc-1.png" alt="Misc 1">
-      <h3>&gt; OSINT — Profilage rapide</h3>
-      <p>Recoupement de traces publiques (images, métadonnées) pour identifier un individu.</p>
-      <p class="stack">Outils : exiftool · Google dorks · Spiderfoot</p>
-      <div class="tags"><span class="tag">medium</span><span class="tag">osint</span></div>
-      <a class="btn" href="/assets/reports/ctf-osint-profiling.pdf">Ouvrir le rapport</a>
-    </div>
-
-  </div>
-</section>
 
 <!--
 Dossiers attendus :
