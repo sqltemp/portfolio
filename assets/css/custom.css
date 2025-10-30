@@ -2,6 +2,19 @@
 .projects-row {
   /* rien ici pour desktop, ton inline fait déjà le job */
 }
+.logo {
+  text-align: center;   /* centre le contenu horizontalement */
+  margin: 20px auto;    /* espace autour du logo */
+  display: block;
+}
+
+.logo h1 {
+  color: var(--accent); /* couleur verte si tu veux garder ton thème */
+  font-family: "Courier New", monospace;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
 /* Cartes : règles génériques au cas où */
 .project-card {
