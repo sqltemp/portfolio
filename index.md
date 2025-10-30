@@ -80,7 +80,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
  <!-- ===== AUTRES PROJETS (cartes) ===== -->
 <h3 id="Autres projets">➕ Autres projets (write-ups CTF, articles, cheatsheets et ressources diverses par thème…)</h3>
-<details>
 <!-- SECTION PROJETS PHARES – ALIGNEMENT 3 CARTES & TEXTE BLANC -->
 <!--div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;"> -->
 <div class="projects-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;">
@@ -114,9 +113,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
   
 </div>
-
-
-</details>
 
 ---
 
