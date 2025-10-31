@@ -114,7 +114,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   
 </div>
 
-<!-- ===== HUB – 4 cartes (CTF / Articles / Cheatsheets / Ressources) ===== -->
+<!-- ===== HUB – 4 cartes alignées (CTF / Articles / Cheatsheets / Ressources) ===== -->
 <section class="terminal-section" id="hub">
   <h2>🗺️ Hub</h2>
 
@@ -132,7 +132,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card card-accent-purple">
     <img src="assets/hub/articles.png" alt="Articles">
     <h3>&gt; Articles</h3>
-    <p>Notes techniques et billets d’analyse : détection, DFIR, cloud, IAM, sécurité offensive/défensive.</p>
+    <p>Notes techniques et analyses sur la détection, DFIR, cloud, IAM, et la sécurité offensive/défensive.</p>
     <p class="stack">Formats : billets courts · deep dives</p>
     <a class="btn" href="articles/">Ouvrir</a>
   </div>
@@ -141,7 +141,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card card-accent-orange">
     <img src="assets/hub/cheatsheets.png" alt="Cheatsheets">
     <h3>&gt; Cheatsheets</h3>
-    <p>Mémentos rapides orientés pratique : commandes, checklists, playbooks d’investigation.</p>
+    <p>Mémentos rapides : commandes, checklists et playbooks d’investigation à portée de main.</p>
     <p class="stack">Linux · Windows · Réseau · SIEM · Cloud</p>
     <a class="btn" href="cheatsheets/">Ouvrir</a>
   </div>
@@ -150,12 +150,13 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card card-accent-teal">
     <img src="assets/hub/resources.png" alt="Ressources">
     <h3>&gt; Ressources</h3>
-    <p>Liens utiles : outils, datasets, lab environments, standards & guides de référence.</p>
+    <p>Liens utiles : outils, datasets, labs, standards et guides de référence pour la cybersécurité.</p>
     <p class="stack">Bookmarks : DFIR · Red/Blue · Cloud</p>
     <a class="btn" href="resources/">Ouvrir</a>
   </div>
   </div>
 </section>
+
 
 ---
 
