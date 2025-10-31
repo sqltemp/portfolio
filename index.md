@@ -78,84 +78,98 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </div>
 
 
- <!-- ===== AUTRES PROJETS (cartes) ===== -->
+<!-- ===== AUTRES PROJETS (cartes) ===== -->
 <h3 id="Autres projets">➕ Autres projets (write-ups CTF, articles, cheatsheets et ressources diverses par thème…)</h3>
-<!-- SECTION PROJETS PHARES – ALIGNEMENT 3 CARTES & TEXTE BLANC -->
-<!--div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;"> -->
-<div class="projects-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;">
+
+<div class="projects-row" style="
+  display:flex; 
+  flex-wrap:nowrap; 
+  justify-content:center; 
+  gap:16px; 
+  background-color:#000; 
+  padding:24px; 
+  border-radius:12px;
+  overflow-x:auto; 
+  -webkit-overflow-scrolling:touch;
+">
+
+  <!-- STYLE COMMUN (bleu/cyan, différencié du vert terminal) -->
+  <!-- Pense à réutiliser ce style pour chaque carte -->
 
   <!-- CARTE 4 -->
-  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project1.png" alt="CTFs" style="width:75%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <p style="margin:0 0 12px; line-height:1.5;">Write-ups de divers CTFs.</p>
-    <a href="projects/ctf/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  <div style="
+    flex:0 0 calc((100% - 48px)/4); 
+    max-width:calc((100% - 48px)/4);
+    background-color:#0a0f16; 
+    border:1px solid #4fb3ff; 
+    border-radius:10px; 
+    padding:14px; 
+    color:#e9f1ff; 
+    font-family:'Courier New', monospace; 
+    box-shadow:0 0 10px rgba(79,179,255,0.18); 
+    text-align:left;
+  ">
+    <img src="assets/project1.png" alt="CTFs" style="width:70%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <p style="margin:0 0 10px; line-height:1.45;">Write-ups de divers CTFs.</p>
+    <a href="projects/ctf/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 5 -->
-  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project2.png" alt="Articles" style="width:75%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <p style="margin:0 0 12px; line-height:1.5;"> Articles sur divers sujets </p>
-    <a href="projects/formations-101/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  <div style="
+    flex:0 0 calc((100% - 48px)/4); 
+    max-width:calc((100% - 48px)/4);
+    background-color:#0a0f16; 
+    border:1px solid #4fb3ff; 
+    border-radius:10px; 
+    padding:14px; 
+    color:#e9f1ff; 
+    font-family:'Courier New', monospace; 
+    box-shadow:0 0 10px rgba(79,179,255,0.18); 
+    text-align:left;
+  ">
+    <img src="assets/project2.png" alt="Articles" style="width:70%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <p style="margin:0 0 10px; line-height:1.45;">Articles sur divers sujets.</p>
+    <a href="projects/formations-101/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 6 -->
-  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project3.png" alt="Cheatsheets" style="width:75%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <p style="margin:0 0 12px; line-height:1.5;">Fiches pratiques</p>
-    <a href="projects/a-venir/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  <div style="
+    flex:0 0 calc((100% - 48px)/4); 
+    max-width:calc((100% - 48px)/4);
+    background-color:#0a0f16; 
+    border:1px solid #4fb3ff; 
+    border-radius:10px; 
+    padding:14px; 
+    color:#e9f1ff; 
+    font-family:'Courier New', monospace; 
+    box-shadow:0 0 10px rgba(79,179,255,0.18); 
+    text-align:left;
+  ">
+    <img src="assets/project3.png" alt="Cheatsheets" style="width:70%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques.</p>
+    <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
-  
+
   <!-- CARTE 7 -->
-  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:left;">
-    <img src="assets/project3.png" alt="Ressources" style="width:75%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <p style="margin:0 0 12px; line-height:1.5;">Bibliothèque de ressources</p>
-    <a href="projects/a-venir/" style="display:inline-block; margin-top:10px; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  <div style="
+    flex:0 0 calc((100% - 48px)/4); 
+    max-width:calc((100% - 48px)/4);
+    background-color:#0a0f16; 
+    border:1px solid #4fb3ff; 
+    border-radius:10px; 
+    padding:14px; 
+    color:#e9f1ff; 
+    font-family:'Courier New', monospace; 
+    box-shadow:0 0 10px rgba(79,179,255,0.18); 
+    text-align:left;
+  ">
+    <img src="assets/project3.png" alt="Ressources" style="width:70%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <p style="margin:0 0 10px; line-height:1.45;">Bibliothèque de ressources.</p>
+    <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
-  
+
 </div>
 
-<!-- ===== HUB – 4 cartes alignées (CTF / Articles / Cheatsheets / Ressources) ===== -->
-<section class="terminal-section" id="hub">
-  <h2>🗺️ Hub</h2>
-
-  <div class="projects-row hub-row">
-    <!-- CTF -->
-    <div class="project-card card-accent-blue">
-      <img src="assets/hub/ctf.png" alt="CTF">
-      <h3>&gt; Capture The Flag</h3>
-      <p>Write-ups, méthodologies et rapports PDF classés par catégories (Web, Pwn, Forensic, Crypto, Misc).</p>
-      <p class="stack">Parcours : labs · plates-formes · compétitions</p>
-      <a class="btn" href="projects/ctf/">Ouvrir</a>
-    </div>
-
-  <!-- Articles -->
-  <div class="project-card card-accent-purple">
-    <img src="assets/hub/articles.png" alt="Articles">
-    <h3>&gt; Articles</h3>
-    <p>Notes techniques et analyses sur la détection, DFIR, cloud, IAM, et la sécurité offensive/défensive.</p>
-    <p class="stack">Formats : billets courts · deep dives</p>
-    <a class="btn" href="articles/">Ouvrir</a>
-  </div>
-
-  <!-- Cheatsheets -->
-  <div class="project-card card-accent-orange">
-    <img src="assets/hub/cheatsheets.png" alt="Cheatsheets">
-    <h3>&gt; Cheatsheets</h3>
-    <p>Mémentos rapides : commandes, checklists et playbooks d’investigation à portée de main.</p>
-    <p class="stack">Linux · Windows · Réseau · SIEM · Cloud</p>
-    <a class="btn" href="cheatsheets/">Ouvrir</a>
-  </div>
-
-  <!-- Ressources -->
-  <div class="project-card card-accent-teal">
-    <img src="assets/hub/resources.png" alt="Ressources">
-    <h3>&gt; Ressources</h3>
-    <p>Liens utiles : outils, datasets, labs, standards et guides de référence pour la cybersécurité.</p>
-    <p class="stack">Bookmarks : DFIR · Red/Blue · Cloud</p>
-    <a class="btn" href="resources/">Ouvrir</a>
-  </div>
-  </div>
-</section>
 
 
 ---
