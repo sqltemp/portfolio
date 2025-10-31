@@ -144,7 +144,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     text-align:center;
   ">
     <!--img src="assets/project3.png" alt="Cheatsheets" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques.</p>
+    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques.       </p>
     <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Cheatsheets</a>
   </div>
 
