@@ -107,7 +107,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
     text-align:left;
   ">
-    <img src="assets/project1.png" alt="CTFs" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <!--img src="assets/project1.png" alt="CTFs" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Write-ups de divers CTFs.</p>
     <a href="projects/ctf/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">CTF</a>
   </div>
@@ -125,7 +125,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
     text-align:left;
   ">
-    <img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Articles sur divers sujets.</p>
     <a href="projects/formations-101/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Articles</a>
   </div>
@@ -143,7 +143,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
     text-align:left;
   ">
-    <img src="assets/project3.png" alt="Cheatsheets" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <!--img src="assets/project3.png" alt="Cheatsheets" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques.</p>
     <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Cheatsheets</a>
   </div>
@@ -161,7 +161,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
     text-align:left;
   ">
-    <img src="assets/project3.png" alt="Ressources" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
+    <!--img src="assets/project3.png" alt="Ressources" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Bibliothèque de ressources.</p>
     <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ressources</a>
   </div>
