@@ -96,8 +96,8 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <!-- STYLE BLEU / CYBER -->
   <!-- CARTE 4 -->
   <div style="
-    flex:0 0 22%; 
-    max-width:22%; 
+    flex:0 0 20%; 
+    max-width:20%; 
     background-color:#0a0f16; 
     border:1px solid #4fb3ff; 
     border-radius:10px; 
@@ -109,13 +109,13 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   ">
     <img src="assets/project1.png" alt="CTFs" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
     <p style="margin:0 0 10px; line-height:1.45;">Write-ups de divers CTFs.</p>
-    <a href="projects/ctf/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/ctf/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">CTF</a>
   </div>
 
   <!-- CARTE 5 -->
   <div style="
-    flex:0 0 22%; 
-    max-width:22%; 
+    flex:0 0 20%; 
+    max-width:20%; 
     background-color:#0a0f16; 
     border:1px solid #4fb3ff; 
     border-radius:10px; 
@@ -127,13 +127,13 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   ">
     <img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
     <p style="margin:0 0 10px; line-height:1.45;">Articles sur divers sujets.</p>
-    <a href="projects/formations-101/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/formations-101/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Articles</a>
   </div>
 
   <!-- CARTE 6 -->
   <div style="
-    flex:0 0 22%; 
-    max-width:22%; 
+    flex:0 0 20%; 
+    max-width:20%; 
     background-color:#0a0f16; 
     border:1px solid #4fb3ff; 
     border-radius:10px; 
@@ -145,13 +145,13 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   ">
     <img src="assets/project3.png" alt="Cheatsheets" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
     <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques.</p>
-    <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Cheatsheets</a>
   </div>
 
   <!-- CARTE 7 -->
   <div style="
-    flex:0 0 22%; 
-    max-width:22%; 
+    flex:0 0 20%; 
+    max-width:20%; 
     background-color:#0a0f16; 
     border:1px solid #4fb3ff; 
     border-radius:10px; 
@@ -163,7 +163,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   ">
     <img src="assets/project3.png" alt="Ressources" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;">
     <p style="margin:0 0 10px; line-height:1.45;">Bibliothèque de ressources.</p>
-    <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/a-venir/" style="display:inline-block; margin-top:8px; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ressources</a>
   </div>
 
 </div>
