@@ -89,49 +89,101 @@
   }
 }
 
-/* ===== HUB – 4 cartes sur une ligne ===== */
-.hub-row .project-card {
-  /* 4 par rang sur grands écrans */
-  flex: 1 1 240px;
-  min-width: 220px;
-  max-width: 260px;
+/* ===== HUB – 4 cartes encadrées alignées ===== */
+.hub-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  background: var(--terminal-bg);
+  padding: 10px 0 0;
 }
 
-/* Variantes d'accent couleurs (gardent le thème terminal) */
-.card-accent-blue    { border-color: #3fb9f0; }
-.card-accent-blue img{ border-color: #3fb9f0; }
-.card-accent-blue .btn { background: #3fb9f0; color: #000; }
+/* 4 cartes par rangée sur desktop */
+.hub-row .project-card {
+  flex: 1 1 240px;
+  min-width: 240px;
+  max-width: 260px;
+  background: var(--card-bg);
+  border: 1px solid var(--accent);
+  border-radius: 10px;
+  padding: 18px;
+  color: var(--text);
+  font-family: "Courier New", monospace;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
 
-.card-accent-purple    { border-color: #b86bff; }
-.card-accent-purple img{ border-color: #b86bff; }
-.card-accent-purple .btn { background: #b86bff; color: #000; }
+/* Image des cartes */
+.hub-row .project-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 12px;
+  border: 1px solid var(--accent);
+}
 
-.card-accent-orange    { border-color: #ffb347; }
-.card-accent-orange img{ border-color: #ffb347; }
-.card-accent-orange .btn { background: #ffb347; color: #000; }
-
-.card-accent-teal      { border-color: #2dd4bf; }
-.card-accent-teal img  { border-color: #2dd4bf; }
-.card-accent-teal .btn { background: #2dd4bf; color: #000; }
-
-/* Harmonisation hover */
-.card-accent-blue   .btn:hover,
-.card-accent-purple .btn:hover,
-.card-accent-orange .btn:hover,
-.card-accent-teal   .btn:hover {
+/* Bouton */
+.hub-row .project-card .btn {
+  align-self: center;
+  margin-top: auto;
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
+  transition: filter 0.2s ease;
+}
+.hub-row .project-card .btn:hover {
   filter: brightness(1.05);
 }
 
-/* Responsive : 2 cartes / rang sur tablette, 1 par rang sur mobile */
-@media (max-width: 1024px) {
-  .hub-row .project-card { max-width: 320px; }
+/* Variantes de couleurs */
+.card-accent-blue {
+  border-color: #3fb9f0;
+  box-shadow: 0 0 10px rgba(63,185,240,0.25);
 }
+.card-accent-blue img { border-color: #3fb9f0; }
+.card-accent-blue .btn { background: #3fb9f0; }
 
+.card-accent-purple {
+  border-color: #b86bff;
+  box-shadow: 0 0 10px rgba(184,107,255,0.25);
+}
+.card-accent-purple img { border-color: #b86bff; }
+.card-accent-purple .btn { background: #b86bff; }
+
+.card-accent-orange {
+  border-color: #ffb347;
+  box-shadow: 0 0 10px rgba(255,179,71,0.25);
+}
+.card-accent-orange img { border-color: #ffb347; }
+.card-accent-orange .btn { background: #ffb347; }
+
+.card-accent-teal {
+  border-color: #2dd4bf;
+  box-shadow: 0 0 10px rgba(45,212,191,0.25);
+}
+.card-accent-teal img { border-color: #2dd4bf; }
+.card-accent-teal .btn { background: #2dd4bf; }
+
+/* Responsive : 2 cartes par ligne sur tablette, 1 sur mobile */
+@media (max-width: 1024px) {
+  .hub-row .project-card {
+    max-width: 320px;
+  }
+}
 @media (max-width: 640px) {
-  .hub-row { display: block; }
+  .hub-row {
+    display: block;
+  }
   .hub-row .project-card {
     width: 100%;
     max-width: 560px;
     margin: 0 auto 16px;
   }
 }
+
