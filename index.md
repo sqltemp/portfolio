@@ -105,7 +105,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     color:#e9f1ff; 
     font-family:'Courier New', monospace; 
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:left;
+    text-align:center;
   ">
     <!--img src="assets/project1.png" alt="CTFs" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Write-ups de divers CTFs.</p>
@@ -123,7 +123,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     color:#e9f1ff; 
     font-family:'Courier New', monospace; 
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:left;
+    text-align:center;
   ">
     <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Articles sur divers sujets.</p>
@@ -141,7 +141,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     color:#e9f1ff; 
     font-family:'Courier New', monospace; 
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:left;
+    text-align:center;
   ">
     <!--img src="assets/project3.png" alt="Cheatsheets" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques.</p>
@@ -159,7 +159,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     color:#e9f1ff; 
     font-family:'Courier New', monospace; 
     box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:left;
+    text-align:center;
   ">
     <!--img src="assets/project3.png" alt="Ressources" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Bibliothèque de ressources.</p>
@@ -167,10 +167,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
 </div>
-
-
-
-
 
 ---
 
