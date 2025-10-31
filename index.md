@@ -128,32 +128,32 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       <a class="btn" href="projects/ctf/">Ouvrir</a>
     </div>
 
-    <!-- Articles -->
-    <div class="project-card card-accent-purple">
-      <img src="assets/hub/articles.png" alt="Articles">
-      <h3>&gt; Articles</h3>
-      <p>Notes techniques et billets d’analyse : détection, DFIR, cloud, IAM, sécurité offensive/défensive.</p>
-      <p class="stack">Formats : billets courts · deep dives</p>
-      <a class="btn" href="articles/">Ouvrir</a>
-    </div>
+  <!-- Articles -->
+  <div class="project-card card-accent-purple">
+    <img src="assets/hub/articles.png" alt="Articles">
+    <h3>&gt; Articles</h3>
+    <p>Notes techniques et billets d’analyse : détection, DFIR, cloud, IAM, sécurité offensive/défensive.</p>
+    <p class="stack">Formats : billets courts · deep dives</p>
+    <a class="btn" href="articles/">Ouvrir</a>
+  </div>
 
-    <!-- Cheatsheets -->
-    <div class="project-card card-accent-orange">
-      <img src="assets/hub/cheatsheets.png" alt="Cheatsheets">
-      <h3>&gt; Cheatsheets</h3>
-      <p>Mémentos rapides orientés pratique : commandes, checklists, playbooks d’investigation.</p>
-      <p class="stack">Linux · Windows · Réseau · SIEM · Cloud</p>
-      <a class="btn" href="cheatsheets/">Ouvrir</a>
-    </div>
+  <!-- Cheatsheets -->
+  <div class="project-card card-accent-orange">
+    <img src="assets/hub/cheatsheets.png" alt="Cheatsheets">
+    <h3>&gt; Cheatsheets</h3>
+    <p>Mémentos rapides orientés pratique : commandes, checklists, playbooks d’investigation.</p>
+    <p class="stack">Linux · Windows · Réseau · SIEM · Cloud</p>
+    <a class="btn" href="cheatsheets/">Ouvrir</a>
+  </div>
 
-    <!-- Ressources -->
-    <div class="project-card card-accent-teal">
-      <img src="assets/hub/resources.png" alt="Ressources">
-      <h3>&gt; Ressources</h3>
-      <p>Liens utiles : outils, datasets, lab environments, standards & guides de référence.</p>
-      <p class="stack">Bookmarks : DFIR · Red/Blue · Cloud</p>
-      <a class="btn" href="resources/">Ouvrir</a>
-    </div>
+  <!-- Ressources -->
+  <div class="project-card card-accent-teal">
+    <img src="assets/hub/resources.png" alt="Ressources">
+    <h3>&gt; Ressources</h3>
+    <p>Liens utiles : outils, datasets, lab environments, standards & guides de référence.</p>
+    <p class="stack">Bookmarks : DFIR · Red/Blue · Cloud</p>
+    <a class="btn" href="resources/">Ouvrir</a>
+  </div>
   </div>
 </section>
 
