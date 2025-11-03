@@ -179,9 +179,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 ---
 
 <!-- ===== COMPÉTENCES ===== -->
-<section class="terminal-section" id="competences" style="text-align:center; margin: 0 auto; max-width: 900px;">
+<section class="terminal-section" id="competences" style="text-align:left; margin: 0 auto; max-width: 900px;">
   <h2>🛠️ Compétences</h2>
-  <p style="text-align:center; line-height:1.6; font-size:1.1em;">
+  <p style="text-align:left; line-height:1.6; font-size:1.1em;">
   - Défense / Blue Team : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
   - Offensif / Red Team : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
   - Langages & Scripting : C#, C++, Python, Bash, PowerShell, JavaScript<br>
@@ -193,9 +193,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 ---
 
 <!-- ===== CERTIFICATIONS ===== -->
-<section class="terminal-section" id="certifications" style="text-align:center; margin: 0 auto; max-width: 900px; padding: 40px 20px;">
+<section class="terminal-section" id="certifications" style="text-align:left; margin: 0 auto; max-width: 900px; padding: 40px 20px;">
   <h2>🎓 Certifications & formations</h2>
-  <p style="text-align:center; line-height:1.6; font-size:1.1em;">
+  <p style="text-align:left; line-height:1.6; font-size:1.1em;">
     - Professionnal Certificate in Cybersecurity (Massachusetts Institute of Technology, 2022) – 
     <a href="https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ" target="_blank" rel="noopener noreferrer">MIT</a><br>
     - Security+ (CompTIA, 2025) – 
@@ -210,12 +210,15 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 
 ---
-<section class="terminal-section" id="contact" style="text-align:center; margin: 0 auto; max-width: 900px;">
-<h2 id="contact">📫 Contact</h2>
-<p style="text-align:center; line-height:1.6; font-size:1.1em;">
-- **Email** : contact@sqltemp.com  
-- **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)
-- **CV** : [CV Thierry Matrat](assets/CV_ThierryMatrat.pdf)
+<section class="terminal-section" id="contact" style="text-align:left; margin: 0 auto; max-width: 900px; padding: 40px 20px;">
+  <h2>📫 Contact</h2>
+  <p style="text-align:left; line-height:1.6; font-size:1.1em;">
+    - <strong>Email :</strong> <a href="mailto:contact@sqltemp.com">contact@sqltemp.com</a><br>
+    - <strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/thierrymatrat/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/thierrymatrat/</a><br>
+    - <strong>CV :</strong> <a href="assets/CV_ThierryMatrat.pdf" target="_blank" rel="noopener noreferrer">Télécharger le CV de Thierry Matrat (PDF)</a>
+  </p>
+</section>
+
 
 ---
 
