@@ -195,8 +195,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <!-- ===== CERTIFICATIONS ===== -->
 <h2 id="certifications">🎓 Certifications & formations</h2>
 
-- Professionnal Certificate in Cybersecurity – Massachussets Institute of Technology, 2022 – [MIT](https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ) 
-- Security+ – CompTIA, 2025 -  [Security+](https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272) 
+- Professionnal Certificate in Cybersecurity (Massachussets Institute of Technology, 2022) – [MIT](https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ) 
+- Security+ (CompTIA, 2025) -  [Security+](https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272)
+- Maitrise en Informatique (Conservatoire National des Arts & Metiers, Lyon, France, 2004) 
 - Formations notables : TryHackMe (Certificats [Blue Team](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZVVQEKCLAQ.pdf), [Redteaming](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KGKMGGWDIB.pdf) , [Jr Penetration Tester](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CVEG9XZNC6.pdf))
 
 ---
@@ -205,7 +206,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 - **Email** : contact@sqltemp.com  
 - **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)
-- **GitHub** : [https://github.com/votreprofil](https://github.com/votreprofil)  
 - **CV** : [CV Thierry Matrat](assets/CV_ThierryMatrat.pdf)
 
 ---
