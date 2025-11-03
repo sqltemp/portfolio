@@ -182,11 +182,11 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <section class="terminal-section" id="competences" style="text-align:center; margin: 0 auto; max-width: 900px;">
   <h2>🛠️ Compétences</h2>
   <p style="text-align:center; line-height:1.6; font-size:1.1em;">
-    Défense / Blue Team : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
-    Offensif / Red Team : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
-    Langages & Scripting : C#, C++, Python, Bash, PowerShell, JavaScript<br>
-    Systèmes & Réseau : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
-    Normes & Standards : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
+  - Défense / Blue Team : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
+  - Offensif / Red Team : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
+  - Langages & Scripting : C#, C++, Python, Bash, PowerShell, JavaScript<br>
+  - Systèmes & Réseau : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
+  - Normes & Standards : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
   </p>
 </section>
 
@@ -202,9 +202,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 - Formations notables : TryHackMe (Certificats [Blue Team](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZVVQEKCLAQ.pdf), [Redteaming](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KGKMGGWDIB.pdf) , [Jr Penetration Tester](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CVEG9XZNC6.pdf))
 
 ---
-
+<section class="terminal-section" id="contact" style="text-align:center; margin: 0 auto; max-width: 900px;">
 <h2 id="contact">📫 Contact</h2>
-
+<p style="text-align:center; line-height:1.6; font-size:1.1em;">
 - **Email** : contact@sqltemp.com  
 - **LinkedIn** : [https://www.linkedin.com](https://www.linkedin.com/in/thierrymatrat/)
 - **CV** : [CV Thierry Matrat](assets/CV_ThierryMatrat.pdf)
