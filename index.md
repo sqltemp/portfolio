@@ -182,19 +182,20 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <section class="terminal-section" id="competences" style="text-align:center; margin: 0 auto; max-width: 900px;">
   <h2>🛠️ Compétences</h2>
   <p style="text-align:center; line-height:1.6; font-size:1.1em;">
-    <strong>Défense / Blue Team</strong> : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
-    <strong>Offensif / Red Team</strong> : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
-    <strong>Langages & Scripting</strong> : C#, C++, Python, Bash, PowerShell, JavaScript<br>
-    <strong>Systèmes & Réseau</strong> : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
-    <strong>Normes & Standards</strong> : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
+    Défense / Blue Team : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
+    Offensif / Red Team : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
+    Langages & Scripting : C#, C++, Python, Bash, PowerShell, JavaScript<br>
+    Systèmes & Réseau : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
+    Normes & Standards : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
   </p>
 </section>
 
 ---
 
 <!-- ===== CERTIFICATIONS ===== -->
+<section class="terminal-section" id="certifications" style="text-align:center; margin: 0 auto; max-width: 900px;">
 <h2 id="certifications">🎓 Certifications & formations</h2>
-
+<p style="text-align:center; line-height:1.6; font-size:1.1em;">
 - Professionnal Certificate in Cybersecurity (Massachussets Institute of Technology, 2022) – [MIT](https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ) 
 - Security+ (CompTIA, 2025) -  [Security+](https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272)
 - Maîtrise en Informatique (Conservatoire National des Arts & Métiers, France, 2004) 
