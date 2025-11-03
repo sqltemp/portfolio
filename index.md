@@ -182,7 +182,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <section class="terminal-section" id="competences" style="text-align:left; margin: 0 auto; padding: 40px 20px;">
   <h2>🛠️ Compétences</h2>
   <p style="text-align:left; line-height:1.6; font-size:1.1em;">
-  🔒 <strong>Défense / Blue Team</strong>strong> : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
+  🔒 <strong>Défense / Blue Team</strong> : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
   ⚔️ <strong>Offensif / Red Team</strong> : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
   💻 <strong>Languages & Scripting</strong> : C#, C++, Python, Bash, PowerShell, JavaScript<br>
   🌐 <strong>Systèmes & Réseau</strong> : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
