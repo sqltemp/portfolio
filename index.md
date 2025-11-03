@@ -32,12 +32,12 @@ Mode d’emploi :
 <!-- ===== À PROPOS ===== -->
 <h2 id="a-propos">👋 À propos</h2>
 
-Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité au quotidien par des actions concrètes.
+Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité par des actions concrètes.
 
 
-- 👉 Objectif du portfolio : mettre à disposition l'ensemble de mes notes de projets (générales et non confidentielles), et de mes notes de cours via des cheatsheets claires et concises.
-- 🔭 Sujets principaux : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et développement de réflexes de défense contre les attaques par hameçonnage'  
-- 💡 Mes intérêts : Blue/Red Team, DFIR, SIEM, EDR, Sécurité infonuagique, cartographie de menaces
+- 👉 Objectif du portfolio : mettre à disposition l'ensemble de mes notes de projets et de cours, via des cheatsheets claires et concises.
+- 🔭 Sujets principaux : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et défense contre les attaques par hameçonnage'  
+- 💡 Mes intérêts : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces
 
 ---
 
@@ -49,30 +49,30 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <div class="projects-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;">
 
   <!-- CARTE 1 -->
-  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #1e90ff; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
     <img src="assets/project1.png" alt="Sécurité des PME" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Développement de programmes de cybersécurité pour les PME</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Inventaire actifs, scans (Nmap/Nessus), choix et configuration d'outils défensifs.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Nmap · Nessus · Python</p>
-    <a href="projects/secu-PME/" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/secu-PME/" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 2 -->
-  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #1e90ff; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
     <img src="assets/project2.png" alt="Formations" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Cybersécurité 101'</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameconnage via des activités ludiques et des périodes de discussion.</p>
-    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : support de formation · en présentiel · activités ludiques </p>
-    <a href="projects/formations-101/" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : support de formation </p>
+    <a href="projects/formations-101/" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 3 -->
-  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #1e90ff; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
     <img src="assets/project3.png" alt="A venir" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> A Déterminer</h3>
     <p style="margin:0 0 12px; line-height:1.5;">A Déterminer.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : A Déterminer · A Déterminer · A Déterminer </p>
-    <a href="projects/a-venir/" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/a-venir/" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#1e90ff; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
 </div>
