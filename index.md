@@ -193,13 +193,21 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 ---
 
 <!-- ===== CERTIFICATIONS ===== -->
-<section class="terminal-section" id="certifications" style="text-align:center; margin: 0 auto; max-width: 900px;">
-<h2 id="certifications">🎓 Certifications & formations</h2>
-<p style="text-align:center; line-height:1.6; font-size:1.1em;">
-- Professionnal Certificate in Cybersecurity (Massachussets Institute of Technology, 2022) – [MIT](https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ) 
-- Security+ (CompTIA, 2025) -  [Security+](https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272)
-- Maîtrise en Informatique (Conservatoire National des Arts & Métiers, France, 2004) 
-- Formations notables : TryHackMe (Certificats [Blue Team](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZVVQEKCLAQ.pdf), [Redteaming](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KGKMGGWDIB.pdf) , [Jr Penetration Tester](https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CVEG9XZNC6.pdf))
+<section class="terminal-section" id="certifications" style="text-align:center; margin: 0 auto; max-width: 900px; padding: 40px 20px;">
+  <h2>🎓 Certifications & formations</h2>
+  <p style="text-align:center; line-height:1.6; font-size:1.1em;">
+    - Professionnal Certificate in Cybersecurity (Massachusetts Institute of Technology, 2022) – 
+    <a href="https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ" target="_blank" rel="noopener noreferrer">MIT</a><br>
+    - Security+ (CompTIA, 2025) – 
+    <a href="https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272" target="_blank" rel="noopener noreferrer">Security+</a><br>
+    - Maîtrise en Informatique (Conservatoire National des Arts & Métiers, France, 2004)<br>
+    - Formations notables : TryHackMe (Certificats 
+    <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZVVQEKCLAQ.pdf" target="_blank" rel="noopener noreferrer">Blue Team</a>, 
+    <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KGKMGGWDIB.pdf" target="_blank" rel="noopener noreferrer">Redteaming</a>, 
+    <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CVEG9XZNC6.pdf" target="_blank" rel="noopener noreferrer">Jr Penetration Tester</a>)
+  </p>
+</section>
+
 
 ---
 <section class="terminal-section" id="contact" style="text-align:center; margin: 0 auto; max-width: 900px;">
