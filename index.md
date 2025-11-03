@@ -182,11 +182,11 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <section class="terminal-section" id="competences" style="text-align:left; margin: 0 auto; padding: 40px 20px;">
   <h2>🛠️ Compétences</h2>
   <p style="text-align:left; line-height:1.6; font-size:1.1em;">
-  🔒 Défense / Blue Team : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
-  ⚔️ Offensif / Red Team : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
-  💻 Languages & Scripting : C#, C++, Python, Bash, PowerShell, JavaScript<br>
-  🌐 Systèmes & Réseau : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
-  📜 Normes & Standards : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
+  🔒 <strong>Défense / Blue Team</strong>strong> : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
+  ⚔️ <strong>Offensif / Red Team</strong> : Reconnaissance & Penetration (Nmap, BurpSuite, Metasploit, mimikatz)<br>
+  💻 <strong>Languages & Scripting</strong> : C#, C++, Python, Bash, PowerShell, JavaScript<br>
+  🌐 <strong>Systèmes & Réseau</strong> : Linux, Windows, MacOS, iOS, Android, TCP/IP, DNS, Wireshark<br>
+  📜 <strong>Normes & Standards</strong> : NIST CSF2.0, OSSTMM, ISO27001, IEC62443
   </p>
 </section>
 
@@ -196,12 +196,12 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <section class="terminal-section" id="certifications" style="text-align:left; margin: 0 auto; padding: 40px 20px;">
   <h2>🎓 Certifications & formations</h2>
   <p style="text-align:left; line-height:1.6; font-size:1.1em;">
-    🏛️ Professionnal Certificate in Cybersecurity (Massachusetts Institute of Technology, 2022) – 
+    🏛️ <strong>Professionnal Certificate in Cybersecurity</strong> (Massachusetts Institute of Technology, 2022) – 
     <a href="https://certificates.emeritus.org/551ef89b-003f-456c-b6ae-f3fac29734db#acc.oCvBfZWQ" target="_blank" rel="noopener noreferrer">MIT</a><br>
-    🧩 Security+ (CompTIA, 2025) – 
+    🧩 <strong>Security+</strong> (CompTIA, 2025) – 
     <a href="https://www.credly.com/badges/64372dff-c123-469f-8ef0-38c62923a272" target="_blank" rel="noopener noreferrer">Security+</a><br>
-    🎓 Maîtrise en Informatique (Conservatoire National des Arts & Métiers, France, 2004)<br>
-    💡 Formations notables : TryHackMe (Certificats 
+    🎓 <strong>Maîtrise en Informatique </strong>(Conservatoire National des Arts & Métiers, France, 2004)<br>
+    💡 <strong>Formations notables</strong> : TryHackMe (Certificats 
     <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-ZVVQEKCLAQ.pdf" target="_blank" rel="noopener noreferrer">Blue Team</a>, 
     <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-KGKMGGWDIB.pdf" target="_blank" rel="noopener noreferrer">Redteaming</a>, 
     <a href="https://tryhackme-certificates.s3-eu-west-1.amazonaws.com/THM-CVEG9XZNC6.pdf" target="_blank" rel="noopener noreferrer">Jr Penetration Tester</a>)
@@ -213,9 +213,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <section class="terminal-section" id="contact" style="text-align:left; margin: 0 auto; padding: 40px 20px;">
   <h2>📫 Contact</h2>
   <p style="text-align:left; line-height:1.6; font-size:1.1em;">
-    ✉️ Email : <a href="mailto:contact@sqltemp.com">contact@sqltemp.com</a><br>
-    💼 LinkedIn : <a href="https://www.linkedin.com/in/thierrymatrat/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/thierrymatrat/</a><br>
-    📄 CV : <a href="assets/CV_ThierryMatrat.pdf" target="_blank" rel="noopener noreferrer">Télécharger le CV de Thierry Matrat (PDF)</a>
+    ✉️ <strong>Email</strong> : <a href="mailto:contact@sqltemp.com">contact@sqltemp.com</a><br>
+    💼 <strong>LinkedIn</strong> : <a href="https://www.linkedin.com/in/thierrymatrat/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/thierrymatrat/</a><br>
+    📄 <strong>CV</strong> : <a href="assets/CV_ThierryMatrat.pdf" target="_blank" rel="noopener noreferrer">Télécharger le CV de Thierry Matrat (PDF)</a>
   </p>
 </section>
 
