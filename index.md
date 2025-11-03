@@ -179,7 +179,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 ---
 
 <!-- ===== COMPÉTENCES ===== -->
-<section class="terminal-section" id="competences" style="text-align:left; margin: 0 auto; max-width: 900px;">
+<section class="terminal-section" id="competences" style="text-align:left; margin: 0 auto;>
   <h2>🛠️ Compétences</h2>
   <p style="text-align:left; line-height:1.6; font-size:1.1em;">
   - Défense / Blue Team : SIEM & IPS (Splunk, MS Sentinel, Wazuh, Snort), EDR (Bit Defender Gravity Zone, MS Defender for Endpoints)<br>
