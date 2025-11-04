@@ -6,7 +6,7 @@
   <title>Mémo sur les types de cryptographie et leurs usages</title>
   <meta name="description" content="Synthèse professionnelle sur les différents types de cryptographie : symétrique, asymétrique, hachage et hybrides.">
   <style>
-    /* --- Thème style ScienceDirect --- */
+    /* --- Thème style ScienceDirect (clair, académique) --- */
     :root {
       --bg: #fdfdfd;
       --ink: #111;
@@ -31,6 +31,19 @@
       max-width: 820px;
       margin: 0 auto;
       padding: 40px 25px;
+    }
+
+    nav.breadcrumb {
+      margin: -8px 0 12px;
+    }
+
+    nav.breadcrumb a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    nav.breadcrumb a:hover {
+      text-decoration: underline;
     }
 
     header h1 {
@@ -93,6 +106,7 @@
       color: var(--accent);
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
@@ -104,11 +118,34 @@
       border-top: 1px solid var(--border);
       padding-top: 12px;
     }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid var(--accent);
+      background: #eef3ff;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    .btn:hover {
+      background: #dfeaff;
+    }
+
+    .return-bottom {
+      margin-top: 30px;
+      text-align: left;
+    }
   </style>
 </head>
 
 <body>
   <header>
+    <!-- 🔹 Lien retour en haut -->
+    <nav class="breadcrumb"><a href="./">← Retour aux articles</a></nav>
+
     <h1>Mémo sur les différents types de cryptographie et leurs usages</h1>
     <div class="authors">
       SQ — Solutions SQLTemp / Division Cyberdéfense  
@@ -193,9 +230,14 @@
     <p class="ref">[3] NIST. (2015). <em>FIPS 197 – Advanced Encryption Standard (AES)</em>.</p>
     <p class="ref">[4] Koblitz, N. (1987). Elliptic curve cryptosystems. <em>Mathematics of Computation</em>, 48(177), 203–209.</p>
 
+    <!-- 🔹 Bouton retour en bas -->
+    <div class="return-bottom">
+      <a class="btn" href="./">← Retour à la page des articles</a>
+    </div>
+
     <div class="footer-note">
       Document préparé par <strong>Solutions SQLTemp</strong> — Novembre 2025.  
-      <br>Licence : CC BY-NC 4.0 | <a href="../">Retour à la page des articles</a>
+      <br>Licence : CC BY-NC 4.0
     </div>
   </main>
 </body>
