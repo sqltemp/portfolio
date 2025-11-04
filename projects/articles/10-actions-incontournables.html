@@ -34,11 +34,14 @@
       background:#0b1b39;color:#dbe7ff;text-decoration:none
     }
     .btn:hover{box-shadow:0 10px 20px rgba(42,127,255,.25)}
+    .return-bottom{text-align:left;margin-top:28px}
   </style>
 </head>
 <body>
   <header>
-    <nav class="breadcrumb"><a href="./">← Articles</a></nav>
+    <!-- 🔹 Retour en haut -->
+    <nav class="breadcrumb"><a href="./">← Retour aux articles</a></nav>
+
     <h1>🏠 10 actions incontournables pour sécuriser son domicile numérique</h1>
     <p class="intro">Nos maisons regorgent d’appareils connectés — autant de portes d’entrée potentielles. Voici les gestes
       concrets qui réduisent immédiatement les risques, sans jargon.</p>
@@ -54,48 +57,16 @@
     <section class="panel">
       <h2>🔟 Les 10 actions clés</h2>
       <ol class="actions">
-        <li>
-          <h3>🔐 Changez les mots de passe par défaut</h3>
-          <p>Routeurs, caméras, imprimantes… remplacez immédiatement les identifiants d’usine par des
-            <strong>phrases de passe longues et uniques</strong>.</p>
-        </li>
-        <li>
-          <h3>🔁 Activez les mises à jour automatiques</h3>
-          <p>Correctifs de sécurité pour l’OS, le navigateur, l’antivirus et les applis : laissez faire l’automatique.</p>
-        </li>
-        <li>
-          <h3>💾 Sauvegardez vos données</h3>
-          <p>Appliquez la règle <strong>3-2-1</strong> : 3 copies, 2 supports, 1 hors ligne (disque externe ou cloud).</p>
-        </li>
-        <li>
-          <h3>📶 Sécurisez votre Wi-Fi</h3>
-          <p>Mot de passe robuste, chiffrement <strong>WPA3</strong> (ou WPA2), SSID personnalisé, réseau invités séparé.</p>
-        </li>
-        <li>
-          <h3>🧍 Utilisez des comptes distincts</h3>
-          <p>Un compte par personne, chacun protégé : moins d’accidents et meilleure traçabilité.</p>
-        </li>
-        <li>
-          <h3>📧 Méfiez-vous des courriels suspects</h3>
-          <p>Signaux: fautes, liens bizarres, urgence (“votre compte sera suspendu”). En cas de doute, ne cliquez pas.</p>
-        </li>
-        <li>
-          <h3>🧱 Gardez le pare-feu actif</h3>
-          <p>Intégré à Windows/macOS/routeurs : vérifiez qu’il est activé et évitez de le couper “pour tester”.</p>
-        </li>
-        <li>
-          <h3>📱 Protégez téléphones et tablettes</h3>
-          <p>Installez seulement depuis <em>App Store</em>/<em>Google Play</em>, verrouillage auto et chiffrement activés.</p>
-        </li>
-        <li>
-          <h3>🧠 Sensibilisez votre entourage</h3>
-          <p>Expliquez les bases : ne pas cliquer partout, ne pas partager ses mots de passe, attention aux réseaux sociaux.</p>
-        </li>
-        <li>
-          <h3>🧭 Surveillez vos comptes</h3>
-          <p>Activez la <strong>2FA</strong> pour les comptes clés et vérifiez vos adresses sur
-            <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">haveibeenpwned.com</a>.</p>
-        </li>
+        <li><h3>🔐 Changez les mots de passe par défaut</h3><p>Routeurs, caméras, imprimantes… remplacez les identifiants d’usine par des <strong>phrases de passe longues et uniques</strong>.</p></li>
+        <li><h3>🔁 Activez les mises à jour automatiques</h3><p>Correctifs de sécurité pour l’OS, le navigateur, l’antivirus et les applis : laissez faire l’automatique.</p></li>
+        <li><h3>💾 Sauvegardez vos données</h3><p>Appliquez la règle <strong>3-2-1</strong> : 3 copies, 2 supports, 1 hors ligne (disque externe ou cloud).</p></li>
+        <li><h3>📶 Sécurisez votre Wi-Fi</h3><p>Mot de passe robuste, chiffrement <strong>WPA3</strong> (ou WPA2), SSID personnalisé, réseau invités séparé.</p></li>
+        <li><h3>🧍 Utilisez des comptes distincts</h3><p>Un compte par personne, chacun protégé : moins d’accidents et meilleure traçabilité.</p></li>
+        <li><h3>📧 Méfiez-vous des courriels suspects</h3><p>Signaux: fautes, liens bizarres, urgence (“votre compte sera suspendu”). En cas de doute, ne cliquez pas.</p></li>
+        <li><h3>🧱 Gardez le pare-feu actif</h3><p>Intégré à Windows/macOS/routeurs : vérifiez qu’il est activé et évitez de le couper “pour tester”.</p></li>
+        <li><h3>📱 Protégez téléphones et tablettes</h3><p>Installez seulement depuis <em>App Store</em>/<em>Google Play</em>, verrouillage auto et chiffrement activés.</p></li>
+        <li><h3>🧠 Sensibilisez votre entourage</h3><p>Expliquez les bases : ne pas cliquer partout, ne pas partager ses mots de passe, attention aux réseaux sociaux.</p></li>
+        <li><h3>🧭 Surveillez vos comptes</h3><p>Activez la <strong>2FA</strong> pour les comptes clés et vérifiez vos adresses sur <a href="https://haveibeenpwned.com" target="_blank">haveibeenpwned.com</a>.</p></li>
       </ol>
     </section>
 
@@ -105,8 +76,14 @@
         et régulières. <strong>Protéger sa vie numérique, c’est protéger sa vie tout court.</strong></p>
     </section>
 
+    <!-- 🔹 Retour en bas -->
+    <div class="return-bottom">
+      <a class="btn" href="./">← Retour à la page des articles</a>
+    </div>
+
     <p class="footer-note">
-      <a class="btn" href="./">← Retour aux articles</a>
+      Document préparé par <strong>Solutions SQLTemp</strong> — Novembre 2025.  
+      <br>Licence : CC BY-NC 4.0
     </p>
   </main>
 </body>
