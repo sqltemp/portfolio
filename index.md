@@ -171,7 +171,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   ">
     <!--img src="assets/project3.png" alt="Ressources" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Bibliothèque de ressources.</p>
-    <a href="projects/a-venir/" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ressources</a>
+    <a href="pages/ressources.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ressources</a>
   </div>
 
 </div>
