@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mémo sur les types de cryptographie et leurs usages</title>
+  <meta name="description" content="Synthèse professionnelle sur les différents types de cryptographie : symétrique, asymétrique, hachage et hybrides.">
+  <style>
+    /* --- Thème style ScienceDirect --- */
+    :root {
+      --bg: #fdfdfd;
+      --ink: #111;
+      --muted: #444;
+      --accent: #0b3d91;
+      --border: #d0d0d0;
+      --radius: 4px;
+      --font-serif: 'Georgia', 'Times New Roman', serif;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-serif);
+      font-size: 17px;
+      line-height: 1.65;
+    }
+
+    header, main {
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 40px 25px;
+    }
+
+    header h1 {
+      font-size: 1.9rem;
+      margin: 0 0 6px;
+      font-weight: 600;
+    }
+
+    header .authors {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 24px 0;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 4px;
+      margin-top: 36px;
+      margin-bottom: 14px;
+    }
+
+    h3 {
+      font-size: 1.1rem;
+      margin: 20px 0 8px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 14px;
+      text-align: justify;
+    }
+
+    ul {
+      margin: 0 0 14px 22px;
+    }
+
+    .figure {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .ref {
+      font-size: 0.9rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-left: 1.3rem;
+      text-indent: -1.3rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-note {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-top: 40px;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Mémo sur les différents types de cryptographie et leurs usages</h1>
+    <div class="authors">
+      SQ — Solutions SQLTemp / Division Cyberdéfense  
+    </div>
+    <p><em>Résumé :</em> Ce mémo présente les principaux types de cryptographie utilisés en cybersécurité moderne —
+    symétrique, asymétrique, fonctions de hachage et schémas hybrides — ainsi que leurs cas d’usage typiques dans les
+    systèmes d’information et les communications sécurisées.</p>
+  </header>
+
+  <main>
+    <h2>1. Introduction</h2>
+    <p>La cryptographie est la pierre angulaire de la sécurité numérique. Elle permet de garantir la
+    confidentialité, l’intégrité et l’authenticité des informations échangées.  
+    On distingue trois grandes familles de méthodes cryptographiques : <strong>symétrique</strong>,
+    <strong>asymétrique</strong> et <strong>hachage</strong>, auxquelles s’ajoutent des approches
+    <strong>hybrides</strong> combinant plusieurs techniques.</p>
+
+    <h2>2. Cryptographie symétrique</h2>
+    <p>La cryptographie symétrique repose sur un secret partagé : la même clé sert à la fois au chiffrement et au
+    déchiffrement. Cette approche est rapide et efficace pour le traitement de grands volumes de données, mais pose un
+    défi majeur de distribution sécurisée des clés.</p>
+
+    <h3>Exemples courants :</h3>
+    <ul>
+      <li><strong>AES</strong> (Advanced Encryption Standard) : algorithme de référence pour le chiffrement des données.</li>
+      <li><strong>ChaCha20</strong> : algorithme moderne privilégié sur les plateformes mobiles.</li>
+      <li><strong>DES / 3DES</strong> : anciens standards aujourd’hui considérés comme obsolètes.</li>
+    </ul>
+
+    <div class="figure">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Symmetric_key_encryption.svg/600px-Symmetric_key_encryption.svg.png" width="420" alt="Schéma de chiffrement symétrique"><br>
+      Figure 1 – Schéma de chiffrement symétrique.
+    </div>
+
+    <p><strong>Usages typiques :</strong> chiffrement de disques (BitLocker, FileVault), VPN, sauvegardes chiffrées,
+    messageries sécurisées, etc.</p>
+
+    <h2>3. Cryptographie asymétrique</h2>
+    <p>La cryptographie asymétrique (ou à clé publique) repose sur un couple de clés : une <em>clé publique</em>
+    diffusée librement et une <em>clé privée</em> gardée secrète. Ce modèle permet d’échanger des données sécurisées sans
+    clé partagée préalable et de signer numériquement des messages.</p>
+
+    <h3>Exemples courants :</h3>
+    <ul>
+      <li><strong>RSA</strong> : premier algorithme à grande échelle, encore très utilisé.</li>
+      <li><strong>ECC</strong> (Elliptic Curve Cryptography) : sécurité équivalente à RSA avec des clés beaucoup plus courtes.</li>
+      <li><strong>Diffie–Hellman</strong> : protocole d’échange de clés sécurisé.</li>
+    </ul>
+
+    <p><strong>Usages typiques :</strong> négociation TLS (HTTPS), signatures numériques, infrastructures de clé
+    publique (PKI), authentification SSH, etc.</p>
+
+    <h2>4. Fonctions de hachage cryptographique</h2>
+    <p>Les fonctions de hachage ne chiffrent pas, mais produisent une <em>empreinte unique</em> de longueur fixe à partir
+    d’une donnée d’entrée. Elles sont conçues pour être irréversibles et résistantes aux collisions.</p>
+
+    <h3>Exemples courants :</h3>
+    <ul>
+      <li><strong>SHA-256 / SHA-3</strong> : standards modernes du NIST.</li>
+      <li><strong>BLAKE2</strong> : performant et sécurisé, alternative à SHA-3.</li>
+      <li><strong>MD5</strong> : obsolète et vulnérable.</li>
+    </ul>
+
+    <p><strong>Usages typiques :</strong> vérification d’intégrité, stockage de mots de passe (avec salage),
+    signatures électroniques, chaînes de blocs.</p>
+
+    <h2>5. Schémas hybrides</h2>
+    <p>Dans la plupart des systèmes modernes, les méthodes symétriques et asymétriques sont combinées : la clé
+    symétrique servant au chiffrement rapide est elle-même échangée ou protégée par un mécanisme asymétrique.</p>
+
+    <p><strong>Exemples :</strong> protocole TLS/SSL, chiffrement des courriels (PGP), stockage de secrets dans des modules HSM.</p>
+
+    <h2>6. Conclusion</h2>
+    <p>Chaque type de cryptographie répond à des objectifs spécifiques : vitesse, confidentialité, intégrité,
+    non-répudiation.  
+    L’art de la cybersécurité consiste à combiner ces briques dans des protocoles cohérents et à maintenir leur robustesse
+    face à l’évolution des menaces et des capacités de calcul (notamment quantiques).</p>
+
+    <h2>Références</h2>
+    <p class="ref">[1] Menezes, A. J., van Oorschot, P. C., & Vanstone, S. A. (1996). <em>Handbook of Applied Cryptography</em>. CRC Press.</p>
+    <p class="ref">[2] Stallings, W. (2017). <em>Cryptography and Network Security – Principles and Practice</em>. Pearson.</p>
+    <p class="ref">[3] NIST. (2015). <em>FIPS 197 – Advanced Encryption Standard (AES)</em>.</p>
+    <p class="ref">[4] Koblitz, N. (1987). Elliptic curve cryptosystems. <em>Mathematics of Computation</em>, 48(177), 203–209.</p>
+
+    <div class="footer-note">
+      Document préparé par <strong>Solutions SQLTemp</strong> — Novembre 2025.  
+      <br>Licence : CC BY-NC 4.0 | <a href="../">Retour à la page des articles</a>
+    </div>
+  </main>
+</body>
+</html>
