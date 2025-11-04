@@ -131,7 +131,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   ">
     <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Articles sur divers sujets.</p>
-    <a href="projects/articles/index.md" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Articles</a>
+    <a href="projects/articles/index.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Articles</a>
   </div>
 
   <!-- CARTE 6 -->
