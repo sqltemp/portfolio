@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Articles · Sécurité & bonnes pratiques</title>
+  <meta name="description" content="Articles clairs et actionnables pour particuliers et PME : bonnes pratiques, email sécurisé, rançongiciels, etc.">
+  <style>
+    :root{
+      --bg:#0a0f16;
+      --card:#0e1621;
+      --ink:#e8f0ff;
+      --muted:#b5c7e6;
+      --accent:#2a7fff;
+      --accent-2:#00d1b2;
+      --border:#1b2a3c;
+      --btn-bg:#0b1b39;
+      --shadow:0 8px 22px rgba(0,0,0,.35);
+      --radius:16px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{max-width:1100px;margin:32px auto 16px;padding:0 16px}
+    header h1{margin:0 0 8px;font-size:clamp(1.4rem,3vw,2rem)}
+    header p{margin:0;color:var(--muted)}
+    .wrap{max-width:1100px;margin:0 auto;padding:16px}
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fill,minmax(260px,1fr));
+      gap:18px;
+      margin:18px 0 42px;
+    }
+    .card{
+      background:var(--card);
+      border:1px solid var(--border);
+      border-radius:var(--radius);
+      padding:18px;
+      box-shadow:var(--shadow);
+      display:flex;flex-direction:column;justify-content:space-between;min-height:230px;
+      transition:transform .08s ease, box-shadow .08s ease, border-color .12s ease;
+    }
+    .card:hover{transform:translateY(-2px);box-shadow:0 14px 28px rgba(0,0,0,.4);border-color:#264b78}
+    .card h3{margin:0 0 8px;font-size:1.12rem;line-height:1.3}
+    .card p{margin:0 0 12px;color:var(--muted)}
+    .tags{font-size:.85rem;opacity:.9;margin-bottom:12px}
+    .btn{
+      display:inline-block;text-align:center;width:100%;
+      padding:10px 14px;border-radius:12px;border:1px solid var(--accent);
+      background:var(--btn-bg);color:#dbe7ff;
+      transition:transform .08s ease, box-shadow .08s ease;
+    }
+    .btn:hover{transform:translateY(-1px);box-shadow:0 10px 20px rgba(42,127,255,.25)}
+    /* petit bandeau de catégorie (optionnel) */
+    .pill{display:inline-block;font-size:.75rem;padding:4px 8px;border-radius:999px;border:1px solid var(--border);color:var(--muted);margin-bottom:10px}
+    /* accessibilité */
+    @media (prefers-reduced-motion:reduce){
+      .card,.btn{transition:none}
+    }
+    footer{max-width:1100px;margin:8px auto 40px;padding:0 16px;color:var(--muted);font-size:.95rem}
+    nav.breadcrumb{margin:6px 0 0}
+    nav.breadcrumb a{color:var(--muted)}
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="breadcrumb"><a href="/">← Accueil</a></nav>
+    <h1>📰 Articles</h1>
+    <p>Des contenus <strong>clairs, concrets et actionnables</strong> pour particuliers et PME.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="grid">
+
+      <!-- Carte 1 : Article existant -->
+      <article class="card">
+        <div>
+          <span class="pill">Particuliers · Bonnes pratiques</span>
+          <h3>🏠 10 actions incontournables pour sécuriser son domicile numérique</h3>
+          <p>Les gestes essentiels (Wi-Fi, 2FA, sauvegardes, mises à jour…) pour protéger la maison sans jargon.</p>
+          <div class="tags">Guide pas-à-pas · 8 min</div>
+        </div>
+        <div>
+          <a class="btn" href="./10-actions-incontournables.html">Lire l’article</a>
+        </div>
+      </article>
+
+      <!-- Carte 2 : placeholders (tu pourras remplacer les liens quand prêts) -->
+      <article class="card">
+        <div>
+          <span class="pill">PME · Gouvernance</span>
+          <h3>🛡️ PME : 5 erreurs qui ouvrent la porte aux attaques</h3>
+          <p>Shadow IT, sauvegardes inexistantes, comptes partagés… Comment corriger vite les angles morts.</p>
+          <div class="tags">Priorités · Feuille de route</div>
+        </div>
+        <div>
+          <a class="btn" href="./pme-5-erreurs.html">Bientôt disponible</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div>
+          <span class="pill">Email · Anti-fraude</span>
+          <h3>🔐 SPF, DKIM, DMARC : le trio anti-usurpation</h3>
+          <p>Pourquoi et comment configurer ces protections pour éviter le phishing qui usurpe votre domaine.</p>
+          <div class="tags">Configuration · Tutoriel</div>
+        </div>
+        <div>
+          <a class="btn" href="./spf-dkim-dmarc.html">Bientôt disponible</a>
+        </div>
+      </article>
+
+      <article class="card">
+        <div>
+          <span class="pill">Incident · Réponse</span>
+          <h3>🧯 Rançongiciel : le plan d’action en 60 minutes</h3>
+          <p>Isoler, diagnostiquer, communiquer, restaurer. Un protocole simple et réaliste pour petites structures.</p>
+          <div class="tags">Sauvegardes · Communication</div>
+        </div>
+        <div>
+          <a class="btn" href="./plan-rancongiciel.html">Bientôt disponible</a>
+        </div>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+    Conseil : pour rester cohérent avec ta page “Ressources”, garde cette palette sombre et les boutons plein-largeur.
+  </footer>
+</body>
+</html>
