@@ -54,7 +54,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Développement de programmes de cybersécurité pour les PME</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Protection des actifs.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Protection de base · Renforcement · Robustesse</p>
-    <a href="projects/articles/protection-PME.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/articles/protection-pme.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 2 -->
