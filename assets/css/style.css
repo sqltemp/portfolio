@@ -42,3 +42,13 @@ ul{padding-left:22px}
 /* Light theme */
 body.theme-light{--bg:#f7f9fc;--bg-soft:#ffffff;--text:#0b1220;--muted:#516170;--card:#ffffff;--border:#e3e8ef}
 body.theme-light .nav a:hover{background:#eef2f6}
+/* Liens blancs et soulignés pour lisibilité sur fond sombre */
+a {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+a:hover {
+  color: #e5e5e5 !important;
+  text-decoration: underline !important;
+}
