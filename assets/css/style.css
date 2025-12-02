@@ -52,3 +52,14 @@ a:hover {
   color: #e5e5e5 !important;
   text-decoration: underline !important;
 }
+/* ===== Mise en forme des sections ===== */
+
+/* Titre centré dans les sections */
+.terminal-section h2 {
+  text-align: center;
+}
+
+/* Paragraphes justifiés dans les sections */
+.terminal-section p {
+  text-align: justify;
+}
