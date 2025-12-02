@@ -61,7 +61,10 @@ a:hover {
   text-align: center;
 }
 
-/* Titres des sous-sections encadrées (ex: À retenir, Quelques chiffres) */
+/* Titres des sous-sections encadrées (ex: À retenir, Quelques chiffres) 
+
+*/
+/*
 .terminal-section h3,
 .terminal-section h4,
 .boxed-section h3,
@@ -70,6 +73,7 @@ a:hover {
 .highlight-box h4 {
   text-align: center;
 }
+*/
 
 /* Paragraphes justifiés (gardé de la modification précédente) */
 .terminal-section p,
