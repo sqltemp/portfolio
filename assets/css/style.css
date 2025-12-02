@@ -54,10 +54,30 @@ a:hover {
 }
 /* ===== Mise en forme des sections ===== */
 
-/* Titre centré dans les sections */
+/* ===== Titres centrés ===== */
+
+/* Titres des sections principales */
 .terminal-section h2 {
   text-align: center;
 }
+
+/* Titres des sous-sections encadrées (ex: À retenir, Quelques chiffres) */
+.terminal-section h3,
+.terminal-section h4,
+.boxed-section h3,
+.boxed-section h4,
+.highlight-box h3,
+.highlight-box h4 {
+  text-align: center;
+}
+
+/* Paragraphes justifiés (gardé de la modification précédente) */
+.terminal-section p,
+.boxed-section p,
+.highlight-box p {
+  text-align: justify;
+}
+
 
 /* Paragraphes justifiés dans les sections */
 .terminal-section p {
