@@ -3,19 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Projet phare #1 : Protection des PME</title>
-  <!-- Hypothèse : tes styles globaux existent déjà (btn, terminal-section, etc.)
-       Ce bloc n'ajoute que quelques ajustements non conflictuels. -->
+  <title>Projet phare #1 : Développement de programmes de cybersécurité pour les PME</title>
+
+  <!-- Ajustements responsive légers, compatibles avec ton thème existant -->
   <style>
     @media (max-width: 850px){
-      #arguments-pme .card-container,
-      #conclusion-pareto .card-container {
+      .card-container {
         flex-direction: column;
         align-items: center;
       }
-      #arguments-pme .card,
-      #conclusion-pareto .card {
-        max-width: 100%;
+      .card {
+        max-width: 100% !important;
       }
     }
   </style>
@@ -24,197 +22,466 @@
 
 <main>
 
-  <!-- ===== ENTÊTE ARTICLE : PROJET PHARE #1 ===== -->
-  <section class="terminal-section" id="header-pme" style="text-align:center; background-color:#0d0d0d; color:#e5e7eb; padding:60px 20px 40px; border-bottom:1px solid #1f2937; border-radius:12px 12px 0 0;">
+  <!-- ===== ENTÊTE ARTICLE ===== -->
+  <section class="terminal-section" id="header-pme"
+           style="text-align:center; background-color:#0d0d0d; color:#e5e7eb;
+                  padding:60px 20px 40px; border-bottom:1px solid #1f2937; border-radius:12px 12px 0 0;">
+
     <div style="font-size:3.5em; color:#3fb950; margin-bottom:10px;">🔒</div>
-    <h1 style="font-size:2rem; margin-bottom:10px; color:#3fb950;">Projet phare #1 : Protection des PME</h1>
-    <p style="font-size:1.2em; max-width:700px; margin:0 auto; color:#d1d5db; line-height:1.6;">
-      Dans un monde hyperconnecté, les petites et moyennes entreprises québécoises doivent se protéger
-      aussi efficacement qu’elles innovent. Ce projet met en lumière les leviers essentiels pour bâtir
-      une défense simple, réaliste et durable.
+    <h1 style="font-size:2rem; margin-bottom:10px; color:#3fb950;">
+      Projet phare #1 : Développement de programmes de cybersécurité pour les PME
+    </h1>
+    <p style="font-size:1.2em; max-width:800px; margin:0 auto; color:#d1d5db; line-height:1.6;">
+      Comment aider les petites et moyennes entreprises à bâtir un programme de cybersécurité réaliste,
+      efficace, et adapté à leurs moyens – sans attendre d’être la prochaine victime.
     </p>
+
     <hr style="border:0; border-top:1px solid #1f2937; margin:30px auto; width:60%;">
+
     <div style="margin-top:10px;">
-      <a href="/articles/" class="btn" style="background-color:#3fb950; color:#0d0d0d; padding:10px 18px; border-radius:8px; text-decoration:none; font-weight:600;">
+      <a href="/articles/" class="btn"
+         style="background-color:#3fb950; color:#0d0d0d; padding:10px 18px;
+                border-radius:8px; text-decoration:none; font-weight:600;">
         ← Retour aux articles
       </a>
     </div>
   </section>
   <!-- ===== FIN ENTÊTE ===== -->
 
-  <!-- ===== INTRODUCTION – PROTECTION DES PME ===== -->
-  <section class="terminal-section" id="intro-pme" style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d; color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+  <!-- ===== INTRODUCTION ===== -->
+  <section class="terminal-section" id="intro-pme"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
     <h2 style="color:#3fb950;">Introduction</h2>
 
     <p style="font-size:1.1em; line-height:1.7;">
-      Dans un monde hyperconnecté et globalisé, les petites et moyennes entreprises du Québec font face à un double défi :
-      se démarquer dans un marché de plus en plus concurrentiel, tout en protégeant leurs actifs numériques contre des menaces
-      en constante évolution. Longtemps perçues comme des cibles secondaires, les PME sont aujourd’hui au cœur des stratégies
-      des cybercriminels — leur taille modeste ne les rend pas invisibles, mais souvent plus vulnérables.
+      Dans un monde hyperconnecté et globalisé, les petites et moyennes entreprises font face à un double défi :
+      se démarquer dans un marché souvent très concurrentiel, tout en protégeant leurs actifs numériques contre
+      des menaces en constante évolution. Longtemps perçues comme des cibles secondaires, les PME sont aujourd’hui
+      au cœur des stratégies des cybercriminels — leur taille modeste ne les rend pas invisibles, elle les rend
+      surtout plus vulnérables.
     </p>
 
     <p style="font-size:1.1em; line-height:1.7;">
-      Avec la montée du télétravail, la dépendance accrue aux services infonuagiques et la multiplication des outils numériques,
-      une seule faille de sécurité peut compromettre des années d’efforts, de réputation et de confiance client.
-      Renforcer la cybersécurité des PME n’est donc plus une option, mais un levier essentiel de pérennité et de compétitivité.
+      Avec l’émergence du télétravail, une dépendance toujours plus forte aux services infonuagiques, la
+      multiplication des appareils connectés et l’avènement de l’intelligence artificielle, les possibilités
+      d’exploitation d’une faille de sécurité sont maintenant démultipliées, et peuvent compromettre des années
+      d’efforts, de réputation et de confiance client. Renforcer la cybersécurité des PME n’est par conséquent
+      plus une option, mais constitue au contraire un levier essentiel de pérennité et de compétitivité.
     </p>
 
     <hr style="border:1px solid #1f2937; margin:30px 0;">
 
     <p style="font-size:1.1em; line-height:1.7; color:#d1d5db;">
-      Avant d’agir, il faut souvent commencer par déconstruire certains mythes.
-      Dans cet article, nous passerons donc en revue trois <strong>idées reçues</strong> que l’on entend fréquemment chez les dirigeants de PME —
-      et nous verrons pourquoi elles ne tiennent plus face à la réalité du monde numérique d’aujourd’hui.
+      Avant d’agir, il faut souvent commencer par déconstruire certains mythes. Dans cet article, nous allons
+      examiner plusieurs idées reçues très répandues, comprendre pourquoi elles sont dangereuses pour une PME,
+      et voir comment les remplacer par une démarche de défense concrète et pragmatique.
     </p>
   </section>
   <!-- ===== FIN INTRODUCTION ===== -->
 
-  <!-- ===== SECTION : LES IDÉES REÇUES ===== -->
-  <section class="terminal-section" id="arguments-pme" style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d; color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+  <!-- ===== SECTION 1 – « Je suis trop petit… » ===== -->
+  <section class="terminal-section" id="section-trop-petit"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
 
-    <h2 style="color:#3fb950;">Idées reçues à combattre</h2>
-    <p style="font-size:1.1em; line-height:1.7; color:#d1d5db;">
-      Voici trois affirmations que l’on entend encore trop souvent dans les PME.
-      Elles paraissent parfois pleines de bon sens… mais dans la réalité actuelle, elles exposent directement l’entreprise à un risque majeur.
+    <h2 style="color:#3fb950;">
+      « Je suis trop petit, je ne vois pas pourquoi les criminels me cibleraient »
+    </h2>
+
+    <!-- IMAGE 1 : illustration "trop petit pour intéresser les criminels" -->
+    <figure class="article-image" id="image-trop-petit"
+            style="text-align:center; margin:20px 0;">
+      <!-- TODO : remplacer le src et l’alt par l’image #1 que tu veux utiliser -->
+      <!--
+      <img src="/assets/img/pme-trop-petite.png"
+           alt="Illustration d’un cybercriminel ignorant une grande entreprise mais remarquant une PME vulnérable"
+           style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+      -->
+    </figure>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Il s’agit là d’une idée reçue très répandue et très tenace&nbsp;: beaucoup de dirigeants de PME pensent
+      qu’ils sont trop petits pour intéresser les cybercriminels. La réalité nous apprend pourtant que la fréquence
+      des attaques contre les petites et moyennes structures est plus élevée que celles menées contre les compagnies
+      de grande taille, comme le démontre une étude publiée par Forbes en 2022.
     </p>
 
-    <div class="card-container" style="display:flex; flex-wrap:wrap; justify-content:center; gap:25px; margin-top:25px;">
+    <p style="font-size:1.05em; line-height:1.7;">
+      L’attaquant ne connaît certes pas votre existence, et n’a par conséquent aucune raison de vous attaquer
+      spécifiquement. Mais s’il découvre une opportunité de compromettre vos systèmes informatiques, au hasard d’une
+      campagne d’envoi massif de courriels de hameçonnage ou d’un scan d’appareils connectés à Internet via des
+      outils spécialisés (ex&nbsp;: Censys ou Shodan), il y a peu de doute sur le fait qu’il cherchera à en tirer
+      profit.
+    </p>
 
-      <!-- Argument 1 -->
-      <div class="card" style="background-color:#111; border:1px solid #3fb95033; border-radius:10px; padding:25px; flex:1 1 260px; max-width:280px; min-height:380px;">
-        <h3 style="color:#3fb950; margin-top:0;">#1 – « Je ne vois pas pourquoi les criminels me cibleraient »</h3>
-        <p style="font-size:1em; line-height:1.6;">
-          C’est une idée reçue tenace : beaucoup de dirigeants de PME pensent être trop petits pour intéresser les cybercriminels.
-          Pourtant, la majorité des attaques ne sont <strong>pas ciblées manuellement</strong> mais <strong>automatisées</strong>.
-          Des robots scannent Internet à la recherche d’entreprises vulnérables — sans distinction de taille ou de secteur.
-        </p>
-        <p style="font-size:1em; line-height:1.6;">
-          Les PME sont des cibles idéales : elles détiennent des données précieuses et disposent de moyens de défense plus limités.
-          En cybersécurité, <strong>on ne vous attaque pas parce qu’on vous connaît</strong>, mais parce que <strong>vous laissez une porte ouverte</strong>.
-        </p>
-      </div>
+    <p style="font-size:1.05em; line-height:1.7;">
+      À la manière d’un cambrioleur dont la curiosité est attirée par vos portes et fenêtres laissées grandes
+      ouvertes, le cybercriminel profitera de l’occasion laissée par vos systèmes non protégés pour lancer une
+      attaque potentiellement dévastatrice.
+    </p>
 
-      <!-- Argument 2 -->
-      <div class="card" style="background-color:#111; border:1px solid #3fb95033; border-radius:10px; padding:25px; flex:1 1 260px; max-width:280px; min-height:380px;">
-        <h3 style="color:#3fb950; margin-top:0;">#2 – « La prévention coûtera plus cher qu’une attaque »</h3>
-        <p style="font-size:1em; line-height:1.6;">
-          C’est faux. Les chiffres parlent d’eux-mêmes :
-          selon l’<strong>Insurance Bureau of Canada</strong>, 41 % des petites entreprises canadiennes ayant subi une attaque ont déclaré un coût
-          d’au moins <strong>100&nbsp;000&nbsp;$ CAD</strong>. D’autres études estiment les pertes moyennes d’une PME à plus de <strong>780&nbsp;000&nbsp;$ CAD</strong> sur 5 ans.
-        </p>
-        <p style="font-size:1em; line-height:1.6;">
-          À l’inverse, un programme préventif de base (sauvegardes, MFA, formation, correctifs) coûte souvent <strong>10 à 20 fois moins cher</strong>.
-          En d’autres mots, investir un peu maintenant évite une facture qui pourrait mettre l’entreprise en péril.
-        </p>
-      </div>
-
-      <!-- Argument 3 -->
-      <div class="card" style="background-color:#111; border:1px solid #3fb95033; border-radius:10px; padding:25px; flex:1 1 260px; max-width:280px; min-height:380px;">
-        <h3 style="color:#3fb950; margin-top:0;">#3 – « Aucun expert ne garantit le risque zéro »</h3>
-        <p style="font-size:1em; line-height:1.6;">
-          C’est vrai : le risque zéro n’existe pas — mais c’est aussi vrai dans la vie courante.
-          <strong>Vous bouclez votre ceinture</strong> même si elle ne garantit pas votre survie à 100 %.
-          <strong>Vous installez une alarme</strong> sans garantie absolue contre le cambriolage.
-        </p>
-        <p style="font-size:1em; line-height:1.6;">
-          La cybersécurité suit la même logique : elle ne promet pas l’impossible, elle <strong>réduit les risques</strong> et
-          <strong>limite les conséquences</strong>. Refuser d’agir sous prétexte qu’il n’y a pas de garantie,
-          c’est comme conduire sans ceinture parce qu’elle ne protège pas dans tous les cas.
-        </p>
-      </div>
-
+    <div style="background-color:#111; border:1px dashed #3fb95099; border-radius:10px;
+                padding:18px 16px; margin-top:20px;">
+      <h3 style="margin-top:0; color:#3fb950;">À retenir</h3>
+      <ul style="margin:0; padding-left:20px; line-height:1.7;">
+        <li>Un cybercriminel ne vous «&nbsp;cible&nbsp;» pas, il saisit les opportunités que vous lui offrez.</li>
+        <li>Une PME vulnérable est bien plus intéressante qu’une grande entreprise bien protégée.</li>
+      </ul>
     </div>
   </section>
-  <!-- ===== FIN SECTION IDÉES REÇUES ===== -->
+  <!-- ===== FIN SECTION 1 ===== -->
 
-  <!-- ===== TRANSITION AVANT CONCLUSION ===== -->
-  <section class="terminal-section" id="transition-pareto" style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d; color:#e5e7eb; padding:30px 20px; border-left:4px solid #3fb950; border-radius:8px;">
-    <p style="font-size:1.1em; line-height:1.7; color:#d1d5db; margin:0;">
-      Ces <strong>idées reçues</strong> ont longtemps servi d’excuses pour repousser la mise en place de mesures concrètes.
-      Pourtant, dans la réalité d’aujourd’hui, <strong>ne rien faire revient à accepter le risque</strong>.
-      La bonne nouvelle, c’est qu’un programme de cybersécurité efficace n’a pas besoin d’être complexe ni coûteux.
-      Il suffit de savoir <strong>où concentrer ses efforts</strong>.
+  <!-- ===== SECTION 2 – « Pourquoi se donneraient-ils la peine… » ===== -->
+  <section class="terminal-section" id="section-pourquoi-attaquer"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
+    <h2 style="color:#3fb950;">
+      « Pourquoi se donneraient-ils la peine de m’attaquer, au lieu de se concentrer sur des cibles plus rentables ? »
+    </h2>
+
+    <!-- IMAGE 2 : voleur attiré par un bien précieux -->
+    <figure class="article-image" id="image-voleur-attractif"
+            style="text-align:center; margin:20px 0;">
+      <!-- TODO : remplacer le src et l’alt par l’image #2 que tu veux utiliser -->
+      <!--
+      <img src="/assets/img/voleur-bien-precieux.png"
+           alt="Illustration d’un voleur dont le regard est attiré par un bien précieux visible dans une voiture ou une fenêtre"
+           style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+      -->
+    </figure>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Les petites structures constituent malheureusement une cible de choix pour un cybercriminel. Elles possèdent en effet&nbsp;:
     </p>
-    <p style="font-size:1.1em; line-height:1.7; color:#9ca3af; margin-top:15px;">
-      Voyons maintenant comment appliquer la <strong>loi de Pareto</strong> à la défense d’une PME :
-      20 % d’efforts bien ciblés suffisent souvent à couvrir 80 % des risques les plus critiques.
+
+    <ul style="font-size:1.05em; line-height:1.7; padding-left:20px;">
+      <li>des données souvent précieuses et monnayables (données clients, informations bancaires, données personnelles des salariés, propriété intellectuelle) ;</li>
+      <li>des systèmes informatiques ou industriels dont le fonctionnement optimal doit être garanti en tout temps, au risque de perturber gravement les opérations de l’entreprise.</li>
+    </ul>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      En retour, elles ne disposent bien souvent que de peu de moyens pour se défendre. Pour un cybercriminel, il peut être
+      beaucoup plus facile d’extorquer 50&nbsp;000&nbsp;$ à 20 PME que de collecter 1&nbsp;million&nbsp;$ auprès d’une compagnie de grande taille,
+      qui disposera souvent de moyens bien plus conséquents pour se défendre.
     </p>
-  </section>
-  <!-- ===== FIN TRANSITION ===== -->
 
-  <!-- ===== CONCLUSION (STYLE PROJETS PHARES) ===== -->
-  <section class="terminal-section" id="conclusion-pareto" style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d; color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
-
-    <div style="text-align:right; margin-bottom:15px;">
-      <a href="/articles/" class="btn" style="color:#3fb950; text-decoration:none; font-weight:600;">← Retour aux articles</a>
+    <div style="background-color:#111; border:1px solid #3fb95055; border-radius:10px;
+                padding:18px 16px; margin-top:20px;">
+      <h3 style="margin-top:0; color:#3fb950;">Quelques chiffres</h3>
+      <ul style="margin:0; padding-left:20px; line-height:1.7;">
+        <li>Selon une enquête de la BDC de février 2025, <strong>73&nbsp;% des PME canadiennes</strong> ont déjà vécu un incident de sécurité, allant de tentatives d’hameçonnage à des attaques par déni de service.</li>
+        <li>Une étude de Mastercard de mars 2025 couvrant quatre continents indiquait que <strong>46&nbsp;% des PME</strong> répondantes déclaraient avoir été victimes d’une cyberattaque, et qu’<strong>une sur cinq n’y avait pas survécu</strong>.</li>
+        <li>Le Bureau d’Assurances du Canada nous apprend qu’<strong>environ 41&nbsp;% des petites entreprises canadiennes ayant subi une cyberattaque ont déclaré un coût d’au moins 100&nbsp;000&nbsp;$ CAD</strong>.</li>
+      </ul>
     </div>
 
-    <h2 style="color:#3fb950; margin-bottom:10px;">Conclusion : viser l’efficacité plutôt que la perfection</h2>
-    <p style="font-size:1.1em; line-height:1.6;">
-      En cybersécurité, la <strong>loi de Pareto</strong> s’applique parfaitement : 20 % d’efforts bien ciblés permettent souvent d’obtenir 80 % de la protection nécessaire.
-      Mettre en place quelques mesures clés – sensibilisation, gestion des mots de passe, <abbr title="Authentification Multi-Facteurs">MFA</abbr>, sauvegardes, mises à jour –
-      réduit déjà <strong>l’immense majorité des risques quotidiens</strong>.
-    </p>
-
-    <hr style="border:1px solid #1f2937; margin:30px 0;">
-
-    <h3 style="color:#3fb950;">Comment mettre en œuvre un programme de cybersécurité</h3>
-
-    <div class="card-container" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; margin-top:20px;">
-
-      <!-- Interne -->
-      <div class="card" style="background-color:#111; border:1px solid #3fb95033; border-radius:10px; padding:20px; flex:1 1 260px; max-width:280px; min-height:300px;">
-        <h4 style="color:#3fb950; margin-top:0;">Ressources internes</h4>
-        <p>Confier les bases à un <strong>salarié non spécialiste mais motivé</strong> : politique de mots de passe, MFA, sauvegardes, formation.</p>
-        <ul style="padding-left:18px; margin:0;">
-          <li>✔ Économique pour démarrer.</li>
-          <li>⚠ <strong>Chronophage</strong> et limité face aux incidents complexes.</li>
-        </ul>
-      </div>
-
-      <!-- Externe -->
-      <div class="card" style="background-color:#111; border:1px solid #3fb95033; border-radius:10px; padding:20px; flex:1 1 260px; max-width:280px; min-height:300px;">
-        <h4 style="color:#3fb950; margin-top:0;">Ressources externes</h4>
-        <p>Votre <strong>fournisseur TI</strong> ou une <strong>entreprise spécialisée</strong> en cybersécurité.</p>
-        <ul style="padding-left:18px; margin:0;">
-          <li>✔ Expertise rapide, bonnes pratiques.</li>
-          <li>⚠ <strong>Attention aux faux spécialistes</strong> ; peut devenir <strong>coûteux</strong> à plein temps.</li>
-        </ul>
-      </div>
-
-      <!-- Mixte -->
-      <div class="card" style="background-color:#111; border:1px solid #3fb95033; border-radius:10px; padding:20px; flex:1 1 260px; max-width:280px; min-height:300px;">
-        <h4 style="color:#3fb950; margin-top:0;">Modèle mixte (souvent optimal)</h4>
-        <p><strong>vCISO</strong> à temps partiel (orientation, pilotage, contrôle) + <strong>référent interne</strong> pour l’opérationnel quotidien.</p>
-        <ul style="padding-left:18px; margin:0;">
-          <li>✔ Vision d’expert sans coût permanent.</li>
-          <li>✔ Ancrage interne, priorisation réaliste.</li>
-        </ul>
-      </div>
-
+    <div style="background-color:#0a0a0a; border:1px dashed #3fb95099; border-radius:10px;
+                padding:18px 16px; margin-top:20px;">
+      <h3 style="margin-top:0; color:#3fb950;">À retenir</h3>
+      <ul style="margin:0; padding-left:20px; line-height:1.7;">
+        <li>Les attaques contre les petites et moyennes entreprises sont très majoritairement opportunistes.</li>
+        <li>Pour le criminel, elles représentent des gains substantiels pour un effort relativement réduit.</li>
+        <li>L’impact d’une attaque réussie sur une petite compagnie peut être dramatique (au moins 100&nbsp;000&nbsp;$ de pertes pour 41&nbsp;% des PME canadiennes touchées).</li>
+        <li>Une PME sur cinq victime de cyberattaque dans le monde doit déclarer faillite&nbsp;!</li>
+      </ul>
     </div>
 
-    <hr style="border:1px solid #1f2937; margin:30px 0;">
-
-    <div class="summary" style="background-color:#0a0a0a; border:1px dashed #3fb95055; padding:20px; border-radius:10px;">
-      <p style="line-height:1.6; font-size:1.05em; margin:0;">
-        <strong>À retenir :</strong> viser 80 % de couverture avec 20 % d’effort bien placé.
-        L’objectif n’est pas de tout empêcher, mais de <strong>réduire l’exposition</strong>, <strong>accélérer la détection</strong> et <strong>limiter l’impact</strong>.
-        C’est souvent cette différence qui sépare une entreprise qui se relève d’une attaque… d’une qui disparaît après.
+    <div style="background-color:#111; border:1px solid #1f2937; border-radius:10px;
+                padding:18px 16px; margin-top:20px;">
+      <h3 style="margin-top:0; color:#3fb950;">Activité</h3>
+      <p style="margin:0; font-size:1.02em; line-height:1.7;">
+        Comparez le profil de votre PME à ces victimes d’attaques par rançongiciel.  
+        La plupart des compagnies attaquées avaient-elles la moindre raison de croire qu’elles pourraient intéresser un cybercriminel&nbsp;?
       </p>
     </div>
+  </section>
+  <!-- ===== FIN SECTION 2 ===== -->
 
-    <div style="text-align:center; margin-top:30px;">
-      <a href="/contact/" class="btn" style="background-color:#3fb950; color:#0d0d0d; padding:10px 20px; border-radius:8px; text-decoration:none; font-weight:600;">
-        💬 Discuter d’un plan 20/80
+  <!-- ===== SECTION 3 – « Pourquoi agir si le risque 0 n’existe pas ? » ===== -->
+  <section class="terminal-section" id="section-risque-zero"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
+    <h2 style="color:#3fb950;">
+      « Pourquoi agir, si aucun spécialiste en cybersécurité ne peut me garantir un risque zéro ? »
+    </h2>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      C’est vrai&nbsp;: en cybersécurité, le risque zéro n’existe pas. Mais c’est aussi vrai dans tous les domaines de la vie.
+      Aucune ceinture de sécurité ne garantit que vous sortirez indemne d’un accident.
+      Aucune alarme ne garantit à 100&nbsp;% que votre entreprise ne sera jamais cambriolée.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Et pourtant, vous bouclez votre ceinture et vous installez une alarme, parce que ces actions réduisent
+      considérablement les conséquences si le pire devait arriver. C’est exactement la même logique en cybersécurité.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      L’objectif n’est pas d’éradiquer totalement les risques, mais de réduire la probabilité d’incidents et
+      d’atténuer leur impact dans des proportions suffisantes pour qu’ils soient considérés comme acceptables.
+      Une PME bien préparée sera capable de détecter plus vite, de réagir plus efficacement et de reprendre ses
+      activités plus rapidement.
+    </p>
+  </section>
+  <!-- ===== FIN SECTION 3 ===== -->
+
+  <!-- ===== SECTION 4 – « J’ai d’autres priorités pour l’instant » ===== -->
+  <section class="terminal-section" id="section-autres-priorites"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
+    <h2 style="color:#3fb950;">
+      « Je comprends mieux la nécessité d’un programme, mais j’ai d’autres priorités pour l’instant. »
+    </h2>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Deux éléments conspirent contre la bonne santé de nos systèmes informatiques&nbsp;:
+    </p>
+
+    <ul style="font-size:1.05em; line-height:1.7; padding-left:20px;">
+      <li>
+        L’évaluation du retour sur investissement en cybersécurité est un exercice délicat, dont le résultat peut
+        sembler moins évocateur pour un décideur qu’un revenu de ventes, un nombre de clients, ou le taux de
+        fréquentation d’une boutique ou d’un site web. S’il est relativement simple de calculer un chiffre d’affaires,
+        il sera en revanche bien plus difficile de quantifier un gain réputationnel ou l’absence de pertes financières
+        en raison de la présence d’un programme de cybersécurité efficace.
+      </li>
+      <li>
+        Les sciences sociales démontrent que l’anticipation (gestion du court terme) et la prospective (examen des
+        tendances futures pour anticiper les menaces) ne sont pas des traits forts de l’esprit humain, surtout lorsqu’il
+        est sur-sollicité par les défis opérationnels du quotidien (pression financière, concurrence, perturbations de la
+        chaîne d’approvisionnement, etc.).
+      </li>
+    </ul>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Quelles conséquences à ces constats&nbsp;? L’humain tendra naturellement à réagir en réponse à une catastrophe
+      déjà survenue, plutôt qu’agir à titre préventif avant qu’elle ne se produise.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Ce réflexe naturel a malheureusement une conséquence parfaitement mesurable&nbsp;: le coût nécessaire pour réparer
+      un environnement compromis est souvent très supérieur à ce qu’aurait coûté la mise en place et le maintien d’un
+      programme pour le protéger.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Au coût de réparation des équipements touchés, il conviendra d’ajouter des coûts potentiels supplémentaires&nbsp;:
+    </p>
+
+    <ul style="font-size:1.05em; line-height:1.7; padding-left:20px;">
+      <li>perte de chiffre d’affaires pour chaque minute d’indisponibilité des systèmes ;</li>
+      <li>amendes réglementaires ;</li>
+      <li>dommages causés à l’image de la compagnie ;</li>
+      <li>augmentation des polices d’assurance.</li>
+    </ul>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Nous rappellerons à ce titre l’information mentionnée précédemment&nbsp;: 41&nbsp;% des petites entreprises canadiennes
+      ayant subi une cyberattaque ont déclaré un coût d’au moins 100&nbsp;000&nbsp;$ CAD, en sachant que les moins chanceuses
+      en vivront plusieurs par année.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Le calcul du coût d’un programme de cybersécurité d’une PME dépendra quant à lui de nombreux facteurs, incluant la
+      taille de la compagnie, le type d’industrie, ou encore la nature de l’infrastructure TI à protéger. La description
+      détaillée des nombreux éléments participant à son évaluation dépasse largement le cadre de cet article.
+    </p>
+
+    <div style="background-color:#111; border:1px solid #3fb95055; border-radius:10px;
+                padding:18px 16px; margin-top:20px;">
+      <p style="margin:0; font-size:1.05em; line-height:1.7;">
+        Retenons toutefois ces chiffres, proposés par le réseau de décideurs en cybersécurité Execweb&nbsp;:
+      </p>
+      <ul style="margin-top:10px; padding-left:20px; line-height:1.7;">
+        <li>le coût d’un programme de protection, pour une petite ou moyenne entreprise de moins de 50 employés, varie en moyenne de <strong>5&nbsp;000&nbsp;$ USD à 50&nbsp;000&nbsp;$ USD par année</strong> ;</li>
+        <li>une recommandation courante suggère de consacrer entre <strong>7&nbsp;% et 12&nbsp;%</strong> de votre budget TI à la cybersécurité.</li>
+      </ul>
+      <p style="margin-top:10px; font-size:0.96em; color:#9ca3af;">
+        Ces éléments s’inscrivent dans une réflexion plus large sur le Retour sur Investissement en Sécurité
+        (<em>Return Of Security Investment</em> – ROSI).
+      </p>
+    </div>
+  </section>
+  <!-- ===== FIN SECTION 4 ===== -->
+
+  <!-- ===== SECTION 5 – Bénéfices d’un programme de défense ===== -->
+  <section class="terminal-section" id="section-benefices"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
+    <h2 style="color:#3fb950;">
+      Quels bénéfices puis-je attendre de la mise en place d’un programme de défense ?
+    </h2>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Une compagnie qui se dote d’un programme de défense sera&nbsp;:
+    </p>
+
+    <ul style="font-size:1.05em; line-height:1.7; padding-left:20px;">
+      <li>
+        <strong>Moins vulnérable aux attaques</strong>&nbsp;: la surface d’attaque étant réduite, l’attaquant devra produire plus
+        d’efforts pour un résultat incertain. Plus l’effort à fournir sera important, moins la cible sera rentable.
+        S’il constate que les lignes de défense de la victime sont robustes, il se tournera vers des cibles plus
+        simples à compromettre.
+      </li>
+      <li>
+        <strong>Moins impactée financièrement</strong>&nbsp;:
+        <ul style="padding-left:20px; margin-top:8px;">
+          <li>les ressources les plus monnayables pour un attaquant (bases de données corporatives, propriété intellectuelle, données financières, informations personnelles) lui seront très difficilement accessibles ;</li>
+          <li>les risques de propagation d’une attaque à l’ensemble de l’infrastructure informatique seront réduits, diminuant d’autant les coûts liés au nombre de systèmes à réparer et les pertes de revenus liées à l’indisponibilité des systèmes ;</li>
+          <li>le montant des primes d’assurance couvrant vos risques de cybersécurité diminuera en présence d’un programme de défense ;</li>
+          <li>les risques de devoir payer des amendes réglementaires en cas de brèches seront réduits.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <p style="font-size:1.05em; line-height:1.7; margin-top:12px;">
+      Elle améliorera par ailleurs son image de marque et le niveau de confiance de ses clients et partenaires, en
+      montrant son engagement concret pour la sécurité et la confidentialité des données.
+    </p>
+  </section>
+  <!-- ===== FIN SECTION 5 ===== -->
+
+  <!-- ===== SECTION 6 – Par où commencer ? ===== -->
+  <section class="terminal-section" id="section-par-ou-commencer"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
+    <h2 style="color:#3fb950;">
+      Vous m’avez convaincu. Par où dois-je commencer ?
+    </h2>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Treize contrôles de base sont proposés par le <strong>Centre Canadien de la Cybersécurité</strong> en vue de renforcer
+      la cybersécurité des petites et moyennes organisations.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Ces contrôles vous permettront de réduire considérablement votre surface d’attaque, et de rendre votre
+      infrastructure aussi peu attrayante que possible pour un cybercriminel.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Un programme de cybersécurité efficace, répondant à votre contexte spécifique, n’a pas besoin d’être
+      excessivement complexe ni coûteux. Dans la grande majorité des cas, il conviendra de concentrer vos efforts
+      sur les applications et systèmes dont la compromission serait catastrophique pour la pérennité de l’entreprise,
+      et de corriger d’autre part toute faille représentant un «&nbsp;low hanging fruit&nbsp;», c’est-à-dire toute faille
+      aisément accessible et exploitable par un attaquant.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Ceci fait, les éléments résiduels pourront être corrigés au fil du temps. La loi de Pareto s’applique aussi en
+      cybersécurité&nbsp;: <strong>20&nbsp;% d’efforts peuvent permettre de couvrir 80&nbsp;% des objectifs</strong>.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Le programme débutera nécessairement par un inventaire matériel et logiciel exhaustif de vos technologies
+      informatiques (TI), opérationnelles (TO), Internet des Objets (IdO/IoT), Internet des Objets Industriels
+      (IDOI/IIoT), toutes susceptibles d’être compromises par un criminel.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      L’inventaire sera le point de départ incontournable de votre programme de cybersécurité, puisqu’il ne vous sera
+      possible de bien défendre que ce que vous connaissez !
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7; margin-top:18px;">
+      Nous n’oublierons bien évidemment pas l’humain&nbsp;: une étude de la société Proofpoint, citée dans un article d’IBM
+      en 2024, rappelle que la dimension humaine est prédominante dans l’évaluation des risques de cybersécurité.
+      Selon 74&nbsp;% des CISO (<em>Chief Information Security Officers</em>) interrogés dans cette enquête, l’erreur
+      humaine représente le risque de cybersécurité le plus important pour une compagnie.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      La formation des employés sera un élément central de votre programme de cyberdéfense, qu’il conviendra de
+      réactualiser régulièrement pour tenir compte des dernières techniques utilisées par les criminels.
+    </p>
+  </section>
+  <!-- ===== FIN SECTION 6 ===== -->
+
+  <!-- ===== SECTION 7 – Appel à l’action / Présentation vCISO ===== -->
+  <section class="terminal-section" id="section-pret-a-franchir-le-pas"
+           style="text-align:left; margin:24px auto 40px; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
+    <h2 style="color:#3fb950;">Vous êtes prêt à franchir le pas ?</h2>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Actif en technologies de l’information depuis plus de 25 ans, spécialisé en cybersécurité depuis 2022, diplômé
+      du programme de cybersécurité du MIT et titulaire de la certification CompTIA Security+, je conseille les PME de
+      la région du grand Montréal en tant que vCiso (<em>virtual Chief Information Security Officer</em>).
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      <strong>Mon approche&nbsp;: à votre écoute, à votre rythme, selon votre budget.</strong>
+    </p>
+
+    <ul style="font-size:1.05em; line-height:1.7; padding-left:20px;">
+      <li>
+        <strong>Écoute</strong> : je prends avec vous le temps nécessaire pour dresser un portrait précis de votre
+        environnement et de vos réalités, afin d’en bien comprendre les enjeux.
+      </li>
+      <li>
+        <strong>Rigueur et méthode</strong> : j’établis avec vous une liste de priorités et d’actions concrètes en vue
+        d’améliorer votre posture cyberdéfensive aussi tôt que possible. Nous évaluons les contraintes techniques, les
+        moyens à mettre en œuvre, et suivons l’avancement des tâches via un tableau de bord détaillé et des rapports
+        d’activité à fréquence déterminée.
+      </li>
+      <li>
+        <strong>Implication et exigence</strong> : toujours à l’affût des derniers développements de l’actualité en
+        cybersécurité, je recherche en permanence les meilleures solutions pour mes clients. Chaque proposition est
+        personnalisée afin de convenir au mieux à votre contexte, et non une recette appliquée indistinctement à chaque
+        client quelles que soient ses réalités.
+      </li>
+      <li>
+        <strong>Transparence</strong> : je prends le temps de clarifier les points que vous souhaiterez mieux
+        comprendre, et de m’assurer de notre compréhension commune des problèmes à résoudre et des solutions proposées.
+        Mon objectif est de créer avec vous un lien de confiance mutuel propice à une collaboration fructueuse.
+      </li>
+      <li>
+        <strong>Accompagnement technique</strong> (installation, configuration, suivi) : je vous accompagne dans la mise
+        en œuvre technique des solutions proposées, en tant que conseiller ou maître d’œuvre, selon vos besoins.
+      </li>
+      <li>
+        <strong>Accompagnement humain</strong> : j’offre une formation «&nbsp;Cybersécurité 101, hameçonnage et ingénierie
+        sociale&nbsp;», pour initier vos collaborateurs aux grands enjeux de la cybersécurité en 2025. Cette formation
+        inclut une présentation, des activités ludiques, et un espace de discussion où partager interrogations et
+        connaissances sur les thèmes abordés. Elle aidera vos collaborateurs à développer une culture de cybersécurité
+        et à acquérir des réflexes de défense applicables au travail comme à la maison (durée&nbsp;: environ 1&nbsp;h).
+      </li>
+      <li>
+        <strong>Adaptation à votre budget</strong> : après évaluation initiale, je vous proposerai la solution qui
+        convient le mieux à vos capacités budgétaires (forfait, livrable, consultations ponctuelles).
+      </li>
+    </ul>
+
+    <p style="font-size:1.05em; line-height:1.7; margin-top:16px;">
+      Par une approche transparente et adaptée à vos contraintes, je m’engage à vous aider à sécuriser votre PME,
+      un pas à la fois.
+    </p>
+
+    <div style="text-align:center; margin-top:24px;">
+      <a href="mailto:contact@sqltemp.com"
+         class="btn"
+         style="background-color:#3fb950; color:#0d0d0d; padding:10px 20px; border-radius:8px;
+                text-decoration:none; font-weight:600;">
+        ✉️ Me contacter : contact@sqltemp.com
       </a>
     </div>
 
     <div style="text-align:right; margin-top:20px;">
-      <a href="/articles/" class="btn" style="color:#3fb950; text-decoration:none; font-weight:600;">← Retour aux articles</a>
+      <a href="/articles/" class="btn"
+         style="color:#3fb950; text-decoration:none; font-weight:600;">
+        ← Retour aux articles
+      </a>
     </div>
   </section>
-  <!-- ===== FIN CONCLUSION ===== -->
+  <!-- ===== FIN SECTION 7 ===== -->
 
 </main>
 
