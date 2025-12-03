@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projet phare #2 : Formation 101 en cybersécurité</title>
+
+  <!-- Feuille de style globale du site -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+
+  <!-- Ajustements légers, cohérents avec la page protection-pme.html -->
+  <style>
+    @media (max-width: 850px){
+      .card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .card {
+        max-width: 100% !important;
+      }
+    }
+
+    /* Liens en blanc et soulignés dans cette page */
+    .terminal-section a,
+    .terminal-section p a,
+    .terminal-section li a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    .terminal-section a:hover,
+    .terminal-section p a:hover,
+    .terminal-section li a:hover {
+      color: #e5e5e5;
+      text-decoration: underline;
+    }
+
+    /* Petits encadrés type "À retenir" réutilisables */
+    .encadre {
+      border: 1px solid #3fb95055;
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin: 25px 0;
+      background: radial-gradient(circle at top left, #1f2933 0, #020617 55%);
+    }
+
+    .encadre h3 {
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 12px;
+      color: #3fb950;
+      font-size: 1.1em;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+    }
+
+    .terminal-section h1,
+    .terminal-section h2 {
+      text-align: center;
+    }
+
+    .terminal-section h1 {
+      font-size: 2em;
+      margin-bottom: 0.2em;
+      color: #e5e7eb;
+    }
+
+    .terminal-section h2 {
+      font-size: 1.3em;
+      font-weight: 400;
+      color: #9ca3af;
+      margin-top: 0;
+      margin-bottom: 1.8em;
+    }
+
+    .terminal-section h3 {
+      color: #3fb950;
+      margin-top: 2em;
+      margin-bottom: 0.6em;
+    }
+
+    .module-titre {
+      font-size: 1.2em;
+      margin-bottom: 0.2em;
+    }
+
+    .module-soustitre {
+      font-style: italic;
+      color: #9ca3af;
+      margin-top: 0;
+      margin-bottom: 1em;
+    }
+
+    .tag-projet {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid #3fb95055;
+      font-size: 0.8em;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #9ca3af;
+      margin-bottom: 14px;
+      background: linear-gradient(90deg, #020617, #111827);
+    }
+
+    ul {
+      padding-left: 1.2em;
+    }
+
+    ul li {
+      margin-bottom: 0.3em;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- ===== SECTION FORMATION 101 – STYLE TERMINAL ===== -->
+  <section class="terminal-section" id="formation-101"
+           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
+                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+
+    <!-- En-tête projet phare -->
+    <div style="text-align:center; margin-bottom:18px;">
+      <span class="tag-projet">Projet phare #2 · Formation</span>
+    </div>
+
+    <h1>Formation 101&nbsp;: Comprendre les grands enjeux de la cybersécurité</h1>
+    <h2>Renforcer sa culture numérique, adopter des réflexes de prudence et développer une saine paranoïa</h2>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      La cybersécurité n’est plus un sujet réservé aux experts. En 2025, les menaces se sont professionnalisées,
+      automatisées et industrialisées. Les PME, les particuliers et même les organisations publiques sont ciblés
+      par des attaques de plus en plus sophistiquées, souvent amplifiées par l’intelligence artificielle et par
+      l’ingénierie sociale.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      C’est pour répondre à ces nouveaux enjeux que je propose une formation complète, immersive et accessible,
+      construite autour d’un objectif simple&nbsp;: développer chez chacun une culture de cybersécurité solide,
+      pratique et durable.
+    </p>
+
+    <p style="font-size:1.05em; line-height:1.7;">
+      Et comme j’aime le dire en formation&nbsp;: l’objectif n’est pas d’avoir peur… mais d’adopter une saine paranoïa.
+    </p>
+
+    <!-- Encadré : Objectifs de la formation -->
+    <div class="encadre">
+      <h3>🎯 Objectifs de la formation</h3>
+      <ul>
+        <li>Comprendre les grandes menaces cyber en 2025</li>
+        <li>Détecter les signes de hameçonnage et les arnaques courantes</li>
+        <li>Reconnaître les manipulations psychologiques utilisées par les cybercriminels</li>
+        <li>Adopter des pratiques simples et efficaces pour se protéger</li>
+        <li>Développer des réflexes de vigilance adaptés à la vie personnelle et professionnelle</li>
+        <li>Favoriser le partage d’expérience et la conscience collective au sein d’une équipe</li>
+      </ul>
+    </div>
+
+    <h3>🧩 Structure de la formation</h3>
+    <p>
+      La formation est divisée en trois grands modules, pensés pour un public non technique et adaptés à un
+      format interactif&nbsp;: présentations courtes, discussions libres, mises en situation et mini-jeux.
+    </p>
+
+    <!-- MODULE 1 -->
+    <h3 class="module-titre">MODULE 1 — Comprendre les enjeux de la cybersécurité en 2025</h3>
+    <p class="module-soustitre">Panorama clair, concret et sans jargon inutile</p>
+
+    <p>Dans cette première partie, nous dressons un portrait simple et accessible des menaces actuelles&nbsp;:</p>
+    <ul>
+      <li>Professionnalisation des groupes cybercriminels</li>
+      <li>Utilisation de l’IA pour automatiser les attaques</li>
+      <li>Exploitation des failles humaines plutôt que techniques</li>
+      <li>Attaques ciblant les PME, municipalités et organisations locales</li>
+      <li>Escroqueries financières ultra-personnalisées (fraude au président, faux techniciens, etc.)</li>
+      <li>Importance grandissante de la gestion des mots de passe, MFA et mises à jour</li>
+      <li>Risques liés aux appareils personnels (BYOD), aux réseaux domestiques et au télétravail</li>
+    </ul>
+
+    <p>
+      <strong>But du module&nbsp;:</strong> donner aux participants une vision claire de ce qui les menace réellement,
+      pour qu’ils comprennent que la cybersécurité n’est pas un problème technique, mais un enjeu humain.
+    </p>
+
+    <!-- MODULE 2 -->
+    <h3 class="module-titre">MODULE 2 — Initiation au hameçonnage (phishing) et comment s’en défendre</h3>
+    <p class="module-soustitre">Apprendre à reconnaître les signaux faibles</p>
+
+    <p>
+      Le hameçonnage reste la première porte d’entrée des cyberattaques. Mais la bonne nouvelle&nbsp;: c’est aussi
+      l’une des menaces les plus faciles à prévenir… à condition d’être bien formé.
+    </p>
+
+    <p>Dans ce module interactif&nbsp;:</p>
+    <ul>
+      <li>
+        Présentation des différents types de phishing&nbsp;:
+        <ul>
+          <li>Email trompeur</li>
+          <li>SMS/messagerie (smishing)</li>
+          <li>Appels téléphoniques (vishing)</li>
+          <li>Arnaques via réseaux sociaux</li>
+        </ul>
+      </li>
+      <li>Décryptage d’exemples réels</li>
+      <li>Exercices ludiques pour repérer les indices suspects</li>
+      <li>Jeu&nbsp;: «&nbsp;Phish ou Pas Phish&nbsp;?&nbsp;»</li>
+      <li>Discussion ouverte&nbsp;: les participants racontent leurs expériences</li>
+      <li>Bonnes pratiques simples et efficaces</li>
+    </ul>
+
+    <p><strong>Objectif pédagogique&nbsp;:</strong> apprendre à détecter un piège avant qu’il ne fonctionne.</p>
+
+    <!-- MODULE 3 -->
+    <h3 class="module-titre">MODULE 3 — Ingénierie sociale : comprendre les manipulations psychologiques</h3>
+    <p class="module-soustitre">Quand l’attaque vise nos émotions, pas nos ordinateurs</p>
+
+    <p>
+      L’ingénierie sociale regroupe toutes les techniques de manipulation utilisées par un attaquant pour obtenir
+      ce qu’il veut&nbsp;: informations, accès, actions impulsives, transferts d’argent…
+    </p>
+
+    <p>Dans ce module, les participants découvrent&nbsp;:</p>
+    <ul>
+      <li>Les biais psychologiques exploités en cybercriminalité</li>
+      <li>Les techniques classiques&nbsp;: urgence, autorité, confiance, curiosité, peur</li>
+      <li>Les conversations manipulatrices et scénarios typiques</li>
+      <li>Faux techniciens, faux support Microsoft, fraude au président</li>
+      <li>L’importance de la double vérification</li>
+      <li>Comment dire «&nbsp;non&nbsp;» sans gêne ni culpabilité</li>
+      <li>Jeu de rôle simplifié&nbsp;: reconnaître une tentative de manipulation</li>
+    </ul>
+
+    <p><strong>Objectif&nbsp;:</strong> développer des réflexes mentaux qui permettent d’interrompre la manipulation.</p>
+
+    <!-- Encadré : Approche pédagogique -->
+    <div class="encadre">
+      <h3>💬 Une formation axée sur l’échange et la participation</h3>
+      <p>Au-delà des contenus, cette formation repose sur trois piliers pédagogiques&nbsp;:</p>
+      <ol>
+        <li><strong>Une présentation claire et accessible</strong><br>Sans jargon. Sans surcharge technique. Juste ce qu’il faut pour comprendre.</li>
+        <li><strong>Des mises en situation et des jeux</strong><br>Parce qu’on retient mieux ce que l’on vit que ce que l’on lit.</li>
+        <li><strong>Un espace de discussion</strong><br>Les participants partagent leurs expériences, leurs peurs, leurs questions. C’est ce qui crée une véritable culture de cybersécurité dans une équipe.</li>
+      </ol>
+    </div>
+
+    <!-- Public cible -->
+    <h3>🎓 Public cible</h3>
+    <ul>
+      <li>PME</li>
+      <li>Organismes communautaires</li>
+      <li>Employés non techniques</li>
+      <li>Étudiants</li>
+      <li>Seniors et particuliers</li>
+      <li>Toute organisation souhaitant renforcer sa vigilance collective</li>
+    </ul>
+
+    <!-- Durée & format -->
+    <h3>📏 Durée &amp; format</h3>
+    <ul>
+      <li>Format flexible de 60 à 120 minutes</li>
+      <li>En présentiel ou en visioconférence</li>
+      <li>Adapté aux groupes de toutes tailles</li>
+    </ul>
+
+    <!-- Résultats attendus -->
+    <div class="encadre">
+      <h3>📦 Résultats attendus</h3>
+      <p>À la fin de la formation, les participants&nbsp;:</p>
+      <ul>
+        <li>Identifient plus facilement les tentatives de hameçonnage</li>
+        <li>Comprennent comment les attaquants manipulent les émotions</li>
+        <li>Savent protéger leurs comptes et leurs appareils</li>
+        <li>Développent une vigilance naturelle, rationnelle et durable</li>
+        <li>Participent à la sécurité numérique de leur organisation</li>
+      </ul>
+      <p><strong>En un mot&nbsp;:</strong> ils deviennent la première ligne de défense.</p>
+    </div>
+
+  </section>
+</body>
+</html>
