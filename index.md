@@ -61,7 +61,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
     <img src="assets/project2.png" alt="Formations" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Cybersécurité 101'</h3>
-    <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameconnage via des activités ludiques et des périodes de discussion.</p>
+    <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameçonnage via des activités ludiques et des périodes de discussion.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : support de formation </p>
     <a href="projects/phares/formation.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
@@ -70,7 +70,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 
 <!-- ===== AUTRES PROJETS (cartes) ===== -->
-<h3 id="Autres projets">➕ Autres projets (write-ups CTF, articles, cheatsheets et ressources diverses par thème…)</h3>
+<h3 id="Autres projets">➕ Autres projets </h3>
 
 <div class="projects-row" style="
   display:flex; 
@@ -101,7 +101,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     flex-direction:column;
   ">
     <!--img src="assets/project1.png" alt="CTFs" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Write-ups de divers CTFs.</p>
+    <p style="margin:0 0 10px; line-height:1.45;">Compte rendus défis CTF (Capture The Flag)</p>
     <a href="projects/ctf/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">CTF</a>
   </div>
 
@@ -121,7 +121,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     flex-direction:column;
   ">
     <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Articles sur divers sujets.</p>
+    <p style="margin:0 0 10px; line-height:1.45;">Articles techniques.</p>
     <a href="projects/articles/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Articles</a>
   </div>
 
