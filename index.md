@@ -31,14 +31,14 @@ Mode d’emploi :
 ---
 
 <!-- ===== À PROPOS ===== -->
-<h2 id="a-propos">👋 À propos</h2>
+<h2 id="a-propos">À propos</h2>
 
 Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité par des actions concrètes.
 
 
-- 👉 Objectif du portfolio : mettre à disposition l'ensemble de mes notes de projets et de cours, via des cheatsheets claires et concises.
-- 🔭 Sujets principaux : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et défense contre les attaques par hameçonnage'  
-- 💡 Mes intérêts : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces
+- <strong> Objectif du portfolio </strong> : mettre à disposition l'ensemble de mes notes de projets et de cours, via des cheatsheets claires et concises.
+- Sujets principaux : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et défense contre les attaques par hameçonnage'  
+- Mes intérêts : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, formation
 
 ---
 
