@@ -36,14 +36,14 @@ Mode d’emploi :
 Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité par des actions concrètes.
 
 
-- <strong> Objectif du portfolio </strong> : mettre à disposition l'ensemble de mes notes de projets et de cours, via des cheatsheets claires et concises.
-- Sujets principaux : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et défense contre les attaques par hameçonnage'  
-- Mes intérêts : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, formation
+- <strong> Objectif du portfolio </strong> : vulgariser la cybersécurité, sans jargon technique, via des cheatsheets simples et concises.
+- <strong>Sujets principaux</strong> : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et défense contre les attaques par hameçonnage'  
+- <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, radio hacking, formation
 
 ---
 
 <!-- ===== PROJETS (cartes) ===== -->
-<h2 id="projets">🧩 Projets phares</h2>
+<h2 id="projets">Projets phares</h2>
 
 <!-- SECTION PROJETS PHARES – ALIGNEMENT 3 CARTES & TEXTE BLANC -->
 <!--div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;"> -->
