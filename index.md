@@ -36,8 +36,8 @@ Mode d’emploi :
 Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité par des actions concrètes.
 
 
-- <strong> Objectif du portfolio </strong> : vulgariser la cybersécurité, sans jargon technique, via des cheatsheets simples et concises.
-- <strong>Sujets principaux</strong> : renforcement de la posture cyberdéfensive de PME, formations 'Cybersécurité 101 et défense contre les attaques par hameçonnage'  
+- <strong> Objectif du portfolio </strong> : vulgariser la cybersécurité, sans jargon technique, via des aide-mémoire simples et concis.
+- <strong>Sujets principaux</strong> : renforcement de la posture cyberdéfensive de PME, formation 'Introduction à la cybersécurité & défense contre les attaques par hameçonnage'  
 - <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, radio hacking, formation
 
 ---
@@ -54,14 +54,14 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <img src="assets/project1.png" alt="Sécurité des PME" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Développement de programmes de cybersécurité pour les PME</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Protection des actifs.</p>
-    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Protection de base · Renforcement · Robustesse</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : Protection de base · Renforcement · Formation</p>
     <a href="projects/phares/protection-pme.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 2 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
     <img src="assets/project2.png" alt="Formations" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Cybersécurité 101'</h3>
+    <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Introduction à la Cybersécurité'</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameçonnage via des activités ludiques et des périodes de discussion.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : support de formation </p>
     <a href="projects/phares/formation.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
@@ -142,8 +142,8 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     flex-direction:column;
   ">
     <!--img src="assets/project3.png" alt="Cheatsheets" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques.</p>
-    <a href="projects/cheatsheets/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Cheatsheets</a>
+    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques sur divers thèmes.</p>
+    <a href="projects/cheatsheets/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Aide-memoire</a>
   </div>
 
   <!-- CARTE 7 -->
