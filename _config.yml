@@ -2,7 +2,7 @@ title: "Portfolio SQLTemp Cybersécurité"
 description: "Projets, analyses, CTFs et notes de cours"
 url: "https://sqltemp.github.io/portfolio"  # set to https://<username>.github.io/<repo> when ready
 baseurl: "/portfolio"  # set if using a project site, e.g., /portfolio
-author: SQLTemp Cybersécurité
+author: Solutions SQLTemp Cybersécurité
 markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
