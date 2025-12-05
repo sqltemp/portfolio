@@ -14,8 +14,8 @@ Mode d’emploi :
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
   <img src="assets/Profil.png" alt="Photo de [VOTRE NOM]" width="150" style="border-radius:50%; border:4px solid #3fb950;">
   <h1 style="margin:18px 0 6px;">Thierry Matrat</h1>
-  <p style="margin:0; font-size:18px; opacity:.9;">Solutions SQLTemp - Cybersécurité</p>
-  <p style="margin:0; font-size:18px; opacity:.9;">Analyste en cybersécurité • Blue/Red Team • Support techique et formation</p>
+  <p style="margin:0; font-size:18px; opacity:.9;">Solutions SQLTemp</p>
+  <p style="margin:0; font-size:18px; opacity:.9;">Analyste en cybersécurité • Blue/Red Team • Support technique et formation</p>
   <p style="margin:8px 0 0; font-size:14px; opacity:.85;">Projets, articles et ressources pour votre cybersécurité.</p>
   
   <!-- mini navigation -->
