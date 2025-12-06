@@ -28,6 +28,8 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+include:
+  - ".well-known"
 
 # === OPTIONS SEO / MISE EN PAGE ===
 social_links:
