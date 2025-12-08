@@ -91,7 +91,7 @@
   <div class="wrap">
     <header>
       <h1>📚 Bibliothèque de ressources</h1>
-      <p>Une sélection de liens utiles (guides, normes, outils, veille). Filtre par rubrique, ou cherche par mot-clé.</p>
+      <p>Sélection de liens utiles pour sécuriser vos environnements (guides, normes, outils, veille). Filtre par rubrique, ou recherche par mot-clé.</p>
        <p>   
           <a class="return-link" href="/">
             ← Retour à l'accueil
@@ -107,11 +107,11 @@
           <input id="q" type="search" placeholder="Rechercher (ex: OWASP, DMARC, Linux, phishing…)" />
         </label>
         <button class="chip" data-chip data-target="all" data-active="true">Tout</button>
-        <button class="chip" data-chip data-target="formation">PME & particuliers</button>
+        <button class="chip" data-chip data-target="PME">PME & particuliers</button>
         <button class="chip" data-chip data-target="outils">Outils</button>
-        <button class="chip" data-chip data-target="formation">Formation</button>
         <button class="chip" data-chip data-target="normes">Normes</button>
         <button class="chip" data-chip data-target="veille">Veille</button>
+        <button class="chip" data-chip data-target="formation">Formation</button>
       </div>
     </div>
 
@@ -160,22 +160,27 @@
         <div class="links">
           <article class="linkcard" data-tags="shodan iot scan cartographie exposition">
             <h4><a href="https://www.shodan.io/" target="_blank" rel="noopener">Shodan</a></h4>
-            <p>Moteur de recherche d’actifs exposés (IoT/OT/IT). Utile pour l’inventaire externe.</p>
+            <p>Moteur de recherche d’actifs connectés (IoT/OT/IT). Utile pour identifier vos ressources accessibles par Internet.</p>
+            <div class="meta"><span class="tag">Découverte</span><span class="tag">Exposition</span></div>
+          </article>
+          <article class="linkcard" data-tags="censys iot scan cartographie exposition">
+            <h4><a href="https://censys.com/" target="_blank" rel="noopener">Shodan</a></h4>
+            <p>Moteur de recherche d’actifs connectés (IoT/OT/IT). Utile pour identifier vos ressources accessibles par Internet.</p>
             <div class="meta"><span class="tag">Découverte</span><span class="tag">Exposition</span></div>
           </article>
           <article class="linkcard" data-tags="metasploit pentest exploitation framework">
             <h4><a href="https://www.metasploit.com/" target="_blank" rel="noopener">Metasploit Framework</a></h4>
-            <p>Cadre d’exploitation/pentest modulaire. Bon pour lab, démos de vulnérabilités.</p>
+            <p>Framework de pentest modulaire, incontournable pour identifier et exploiter les vulnérabilités dans vos systèmes informatiques.</p>
             <div class="meta"><span class="tag">Red Team</span><span class="tag">Exploit</span></div>
           </article>
           <article class="linkcard" data-tags="virustotal malware url hash threat-intel">
             <h4><a href="https://www.virustotal.com/" target="_blank" rel="noopener">VirusTotal</a></h4>
-            <p>Analyse multi‑antivirus de fichiers/URLs ; indicateurs, détections, partage.</p>
+            <p>Analyse multi‑antivirus de fichiers/URLs ; indicateurs de compromission, détections</p>
             <div class="meta"><span class="tag">Malware</span><span class="tag">IOC</span></div>
           </article>
           <article class="linkcard" data-tags="mitre att&ck ttp matrice menaces">
             <h4><a href="https://attack.mitre.org/" target="_blank" rel="noopener">MITRE ATT&CK</a></h4>
-            <p>Base de connaissances des TTP des attaquants ; aligne détection et use‑cases SOC.</p>
+            <p>Base de connaissances des tactiques, techniques et procédures utilisées par les attaquants.</p>
             <div class="meta"><span class="tag">Framework</span><span class="tag">TTP</span></div>
           </article>
         </div>
@@ -190,17 +195,22 @@
         <div class="links">
           <article class="linkcard" data-tags="iso 27001 sms i sms risk">
             <h4><a href="https://www.iso.org/isoiec-27001-information-security.html" target="_blank" rel="noopener">ISO/IEC 27001</a></h4>
-            <p>Référentiel de management de la sécurité (SMSI). Gouvernance, risques, contrôles.</p>
+            <p>Standard mondial des systèmes de gestion de la sécurité de l'information. Aide à la gouvernance, gestion des risques, mise en place de contrôles.</p>
             <div class="meta"><span class="tag">Gouvernance</span><span class="tag">SMSI</span></div>
           </article>
+          <article class="linkcard" data-tags="isa iec 62443">
+            <h4><a href="https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards" target="_blank" rel="noopener">ISO/IEC 27001</a></h4>
+            <p>Standard des systèmes de gestion de la sécurité des appareils industriels.</p>
+            <div class="meta"><span class="tag">Gouvernance</span><span class="tag">SMSI</span></div>
+          </article>          
           <article class="linkcard" data-tags="cis benchmarks hardening linux windows cloud">
             <h4><a href="https://www.cisecurity.org/cis-benchmarks" target="_blank" rel="noopener">CIS Benchmarks</a></h4>
-            <p>Guides de durcissement OS/Cloud/appareils. Checklists et niveaux de sécurité.</p>
+            <p>Guides de sécurisation de plus de 25 familles de produits.</p>
             <div class="meta"><span class="tag">Hardening</span><span class="tag">Checklists</span></div>
           </article>
           <article class="linkcard" data-tags="owasp top 10 web api asvs cheatsheet">
             <h4><a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">OWASP Top 10</a></h4>
-            <p>Principales catégories de vulnérabilités Web ; ressources ASVS, Cheat Sheets.</p>
+            <p>Top 10 des vulnérabilités des applications Web.</p>
             <div class="meta"><span class="tag">AppSec</span><span class="tag">Web</span></div>
           </article>
           </div>
@@ -220,17 +230,17 @@
           </article>
           <article class="linkcard" data-tags="krebsonsecurity enquete incident vulns">
             <h4><a href="https://krebsonsecurity.com/" target="_blank" rel="noopener">Krebs on Security</a></h4>
-            <p>Enquêtes et analyses fouillées sur incidents, fraudes et vulnérabilités majeures.</p>
+            <p>Enquêtes et analyses fouillées sur divers thèmes: incidents, fraudes, vulnérabilités majeures.</p>
             <div class="meta"><span class="tag">Analyses</span></div>
           </article>
           <article class="linkcard" data-tags="dark reading magazine news pro">
             <h4><a href="https://www.darkreading.com/" target="_blank" rel="noopener">Dark Reading</a></h4>
-            <p>Articles pros : menaces, détection, vulnérabilités, cloud, IAM, OT/IoT.</p>
+            <p>Nouvelles: menaces, détection, vulnérabilités, cloud, IAM, OT/IoT.</p>
             <div class="meta"><span class="tag">News</span><span class="tag">Pro</span></div>
           </article>
           <article class="linkcard" data-tags="schneier policy crypto privacy">
             <h4><a href="https://www.schneier.com/" target="_blank" rel="noopener">Schneier on Security</a></h4>
-            <p>Commentaires stratégiques : politiques publiques, chiffrement, sécurité du quotidien.</p>
+            <p>Articles de fond sur des sujets d'actualité.</p>
             <div class="meta"><span class="tag">Stratégie</span></div>
           </article>
          
@@ -251,7 +261,7 @@
           </article>
 
           <article class="linkcard" data-tags="tryhackme pratique lab blue-team red-team">
-            <h4><a href="https://www.hackthebox.com/" target="_blank" rel="noopener">TryHackMe</a></h4>
+            <h4><a href="https://www.hackthebox.com/" target="_blank" rel="noopener">Hack The Box</a></h4>
             <p>Parcours progressifs et interactifs (attaque/défense), labs.</p>
             <div class="meta"><span class="tag">Pratique</span><span class="tag">Lab</span></div>
           </article>
@@ -260,7 +270,7 @@
 
     </div>
 
-    <p class="footnote">Astuce : appuie sur <span class="kbd">/</span> pour placer le curseur dans la recherche.</p>
+    <p class="footnote">Astuce : appuyez sur <span class="kbd">/</span> pour placer le curseur dans la recherche.</p>
     <p style="text-align:center; line-height:1.6; font-size:1.1em;">
       <a href="#top" class="back-to-top">↑ Retour en haut</a>
     </p>
