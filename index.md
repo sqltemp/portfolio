@@ -172,7 +172,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </div>
 
 ---
-
 <!-- ===== COMPÉTENCES ===== -->
 <section class="terminal-section" id="competences" style="text-align:left; margin: 0 auto; padding: 40px 20px;">
   <h2 style="text-align:left;">🛠️ Compétences</h2>
@@ -186,7 +185,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </section>
 
 ---
-
 <!-- ===== CERTIFICATIONS ===== -->
 <section class="terminal-section" id="certifications" style="text-align:left; margin: 0 auto; padding: 40px 20px;">
   <h2 style="text-align:left;">🎓 Certifications & formations</h2>
@@ -203,7 +201,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </p>
 </section>
 
-
 ---
 <section class="terminal-section" id="contact" style="text-align:left; margin: 0 auto; padding: 40px 20px;">
   <h2 style="text-align:left;">📫 Contact</h2>
@@ -213,7 +210,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <strong>CV</strong> : <a href="assets/CV_ThierryMatrat.pdf" target="_blank" rel="noopener noreferrer">Télécharger le CV de Thierry Matrat (PDF)</a>
   </p>
 </section> 
-
 
 ---
 
