@@ -1,3 +1,8 @@
+---
+layout: default
+title: "SQLTemp Cybersécurité"
+---
+
 <!--
 README.md – Portfolio cybersécurité (style visuel à la Malachi Gamblin)
 Mode d’emploi :
@@ -6,10 +11,7 @@ Mode d’emploi :
 3) Placez vos images dans /assets/ (profilepic.jpg, project*.png, logos…).
 4) Si certains styles HTML sont trop “stricts” pour GitHub Mobile, utilisez la SECTION DE SECOURS (pur Markdown) plus bas.
 -->
----
-layout: default
-title: "SQLTemp Cybersécurité"
----
+
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
