@@ -91,7 +91,7 @@
   <div class="wrap">
     <header>
       <h1>📚 Bibliothèque de ressources</h1>
-      <p>Une sélection de liens fiables (guides, normes, outils, veille). Filtre par rubrique, ou cherche par mot-clé.</p>
+      <p>Une sélection de liens utiles (guides, normes, outils, veille). Filtre par rubrique, ou cherche par mot-clé.</p>
        <p>   
           <a class="return-link" href="/">
             ← Retour à l'accueil
@@ -107,51 +107,46 @@
           <input id="q" type="search" placeholder="Rechercher (ex: OWASP, DMARC, Linux, phishing…)" />
         </label>
         <button class="chip" data-chip data-target="all" data-active="true">Tout</button>
-        <button class="chip" data-chip data-target="formation">Formation</button>
+        <button class="chip" data-chip data-target="formation">PME & particuliers</button>
         <button class="chip" data-chip data-target="outils">Outils</button>
+        <button class="chip" data-chip data-target="formation">Formation</button>
         <button class="chip" data-chip data-target="normes">Normes</button>
         <button class="chip" data-chip data-target="veille">Veille</button>
-        <button class="chip" data-chip data-target="fr">FR/Canada</button>
       </div>
     </div>
 
     <!-- Table des matières rapide -->
     <nav class="toc" aria-label="Table des matières">
-      <a href="#formation">🎓 Formation</a>
-      <a href="#outils">🧰 Outils</a>
-      <a href="#normes">📏 Normes</a>
-      <a href="#veille">📰 Veille</a>
-      <a href="#fr">🍁 Ressources FR/Canada</a>
+      <a href="#PME">PME & Particuliers</a>
+      <a href="#outils">Outils</a>
+      <a href="#normes">Normes</a>
+      <a href="#veille">Veille</a>
+      <a href="#formation">Formation</a>
     </nav>
 
     <div class="grid" id="grid">
-
-      <!-- ===== Formation ===== -->
-      <section id="formation" class="section-card accent" data-color="green" data-section="formation">
+      
+      <!-- ===== Pour les PME & les particuliers ===== -->
+      <section id="PME" class="section-card accent" data-color="green" data-section="formation">
         <div class="section-head">
-          <div class="section-title"><span class="badge">🎓</span> <strong>Formation & apprentissage</strong></div>
-          <div class="section-actions mini">Ressources pratiques et cours</div>
+          <div class="section-title"><span class="badge">🎓</span> <strong>Pour les PME et les particuliers</strong></div>
+          <div class="section-actions mini">Ressources pratiques</div>
         </div>
         <div class="links">
           <article class="linkcard" data-tags="guide debutant bonnes-pratiques canada officiel">
-            <h4><a href="https://www.getcybersafe.gc.ca/" target="_blank" rel="noopener">GetCyberSafe / PensezCyberSécurité</a></h4>
+            <h4><a href="https://www.getcybersafe.gc.ca/fr/" target="_blank" rel="noopener">GetCyberSafe / PensezCyberSécurité</a></h4>
             <p>Guides officiels grand public (Canada) : mots de passe, MFA, fraudes, Wi‑Fi, sauvegardes.</p>
             <div class="meta"><span class="tag">Débutant</span><span class="tag">Guides</span><span class="tag">CA</span></div>
           </article>
-          <article class="linkcard" data-tags="tryhackme pratique lab blue-team red-team">
-            <h4><a href="https://tryhackme.com/" target="_blank" rel="noopener">TryHackMe</a></h4>
-            <p>Parcours interactifs (bleu/rouge), labs guidés, bases Linux, réseau, web, cloud.</p>
-            <div class="meta"><span class="tag">Pratique</span><span class="tag">Lab</span></div>
+          <article class="linkcard" data-tags="canada guides centre cyber officiel">
+            <h4><a href="https://www.cyber.gc.ca/fr" target="_blank" rel="noopener">Centre canadien pour la cybersécurité — Ressources</a></h4>
+            <p>Nouvelles, guides techniques et fiches pratiques pour PME & particuliers</p>
+            <div class="meta"><span class="tag">CA</span><span class="tag">Guides</span></div>
           </article>
-          <article class="linkcard" data-tags="overthewire linux wargame ssh debutant">
-            <h4><a href="https://overthewire.org/wargames/" target="_blank" rel="noopener">OverTheWire wargames</a></h4>
-            <p>Exercices progressifs pour maîtriser le shell, les permissions, l’analyse de services.</p>
-            <div class="meta"><span class="tag">Linux</span><span class="tag">Wargame</span></div>
-          </article>
-          <article class="linkcard" data-tags="coursera certificate google parcours carriere">
-            <h4><a href="https://www.coursera.org/professional-certificates/google-cybersecurity" target="_blank" rel="noopener">Google Cybersecurity Certificate</a></h4>
-            <p>Parcours orienté employabilité : fondamentaux, SOC, tickets, SIEM, playbooks.</p>
-            <div class="meta"><span class="tag">Certificat</span><span class="tag">SOC</span></div>
+          <article class="linkcard" data-tags="guide debutant bonnes-pratiques canada officiel">
+            <h4><a href="https://dmarc.org/overview/" target="_blank" rel="noopener">Sécurité des courriels: SPF / DKIM /DMARC</a></h4>
+            <p>Que représentent les acronymes SPF/DKIM/DMARC et en quoi sont-ils primordiaux pour la sécurité de vos serveurs de courriels.</p>
+            <div class="meta"><span class="tag">Débutant</span><span class="tag">Guides</span><span class="tag">CA</span></div>
           </article>
         </div>
       </section>
@@ -208,12 +203,7 @@
             <p>Principales catégories de vulnérabilités Web ; ressources ASVS, Cheat Sheets.</p>
             <div class="meta"><span class="tag">AppSec</span><span class="tag">Web</span></div>
           </article>
-          <article class="linkcard" data-tags="email spf dkim dmarc deliverabilite phishing">
-            <h4><a href="https://dmarc.org/overview/" target="_blank" rel="noopener">DMARC / SPF / DKIM</a></h4>
-            <p>Concepts et implémentation de l’authentification e‑mail pour réduire l’usurpation.</p>
-            <div class="meta"><span class="tag">Email</span><span class="tag">Anti‑phishing</span></div>
-          </article>
-        </div>
+          </div>
       </section>
 
       <!-- ===== Veille ===== -->
@@ -223,6 +213,11 @@
           <div class="section-actions mini">Blogs, magazines, analyses</div>
         </div>
         <div class="links">
+          <article class="linkcard" data-tags="zdnet fr securite actualites">
+            <h4><a href="https://www.zataz.com/" target="_blank" rel="noopener">Zataz (FR)</a></h4>
+            <p>Vulnérabilités, ransomwares, fuites de données: toute l'actualité infosec en français.</p>
+            <div class="meta"><span class="tag">FR</span><span class="tag">News</span></div>
+          </article>
           <article class="linkcard" data-tags="krebsonsecurity enquete incident vulns">
             <h4><a href="https://krebsonsecurity.com/" target="_blank" rel="noopener">Krebs on Security</a></h4>
             <p>Enquêtes et analyses fouillées sur incidents, fraudes et vulnérabilités majeures.</p>
@@ -238,35 +233,27 @@
             <p>Commentaires stratégiques : politiques publiques, chiffrement, sécurité du quotidien.</p>
             <div class="meta"><span class="tag">Stratégie</span></div>
           </article>
-          <article class="linkcard" data-tags="zdnet fr securite actualites">
-            <h4><a href="https://www.zdnet.fr/actualites/securite/" target="_blank" rel="noopener">ZDNet — Sécurité (FR)</a></h4>
-            <p>Actualités en français : vulnérabilités, ransomwares, fuites, patch tuesday.</p>
-            <div class="meta"><span class="tag">FR</span><span class="tag">News</span></div>
-          </article>
+         
         </div>
       </section>
 
-      <!-- ===== FR/Canada ===== -->
-      <section id="fr" class="section-card accent" data-color="purple" data-section="fr">
+      <!-- ===== Formation ===== -->
+      <section id="formation" class="section-card accent" data-color="green" data-section="formation">
         <div class="section-head">
-          <div class="section-title"><span class="badge">🍁</span> <strong>Ressources francophones & canadiennes</strong></div>
-          <div class="section-actions mini">Guides institutionnels & sensibilisation</div>
+          <div class="section-title"><span class="badge">🎓</span> <strong>Formation & apprentissage</strong></div>
+          <div class="section-actions mini">Ressources pratiques et cours</div>
         </div>
         <div class="links">
-          <article class="linkcard" data-tags="canada guides centre cyber officiel">
-            <h4><a href="https://www.cyber.gc.ca/fr/ressources" target="_blank" rel="noopener">Centre canadien pour la cybersécurité — Ressources</a></h4>
-            <p>Guides techniques et fiches pratico‑pratiques pour PME, citoyens et administrations.</p>
-            <div class="meta"><span class="tag">CA</span><span class="tag">Guides</span></div>
+          <article class="linkcard" data-tags="tryhackme pratique lab blue-team red-team">
+            <h4><a href="https://tryhackme.com/" target="_blank" rel="noopener">TryHackMe</a></h4>
+            <p>Parcours progressifs et interactifs (attaque/défense), labs.</p>
+            <div class="meta"><span class="tag">Pratique</span><span class="tag">Lab</span></div>
           </article>
-          <article class="linkcard" data-tags="quebec portail sensibilisation">
-            <h4><a href="https://cybersecurite.quebec/" target="_blank" rel="noopener">Portail CyberSécurité Québec</a></h4>
-            <p>Portail d’information et de conseils (FR) : bonnes pratiques, alertes et prévention.</p>
-            <div class="meta"><span class="tag">QC</span><span class="tag">Sensibilisation</span></div>
-          </article>
-          <article class="linkcard" data-tags="grc rcmp cybercriminalite signalement">
-            <h4><a href="https://www.rcmp-grc.gc.ca/fr/cybercriminalite" target="_blank" rel="noopener">GRC — Cybercriminalité</a></h4>
-            <p>Ressources officielles et conseils ; liens utiles pour signaler certains délits.</p>
-            <div class="meta"><span class="tag">Officiel</span></div>
+
+          <article class="linkcard" data-tags="tryhackme pratique lab blue-team red-team">
+            <h4><a href="https://www.hackthebox.com/" target="_blank" rel="noopener">TryHackMe</a></h4>
+            <p>Parcours progressifs et interactifs (attaque/défense), labs.</p>
+            <div class="meta"><span class="tag">Pratique</span><span class="tag">Lab</span></div>
           </article>
         </div>
       </section>
