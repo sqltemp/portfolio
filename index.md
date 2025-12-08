@@ -1,8 +1,3 @@
----
-layout: default
-title: "SQLTemp Cybersécurité"
----
-
 <!--
 README.md – Portfolio cybersécurité (style visuel à la Malachi Gamblin)
 Mode d’emploi :
