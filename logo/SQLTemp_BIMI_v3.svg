@@ -1,0 +1,12 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+
+  <rect width="256" height="256" fill="#000000"></rect>
+
+  <text x="70" y="160" font-family="Arial Rounded MT Bold, sans-serif" font-size="90" text-anchor="middle" fill="#ea4335">S</text>
+
+  <text x="128" y="160" font-family="Arial Rounded MT Bold, sans-serif" font-size="90" text-anchor="middle" fill="#4285f4">T</text>
+
+  <text x="186" y="160" font-family="Arial Rounded MT Bold, sans-serif" font-size="90" text-anchor="middle" fill="#fbbc04">C</text>
+
+</svg>
