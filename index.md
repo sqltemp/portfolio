@@ -65,7 +65,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Protection des citoyens face aux menaces en ligne</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques utilisées par les escrocs et les moyens de s'en défendre.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : articles de vulgarisation · Aide personnalisée </p>
-    <a href="projects/phares/citoyens.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+    <a href="projects/ctf/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">CTF</a>
   </div>
 
   <!-- CARTE 3 -->
