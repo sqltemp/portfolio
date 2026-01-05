@@ -13,16 +13,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
   </head>
   <body class="theme-dark">
-    <header class="site-header container">
-      <div class="site-title">
-        <a href="{{ '/' | relative_url }}" class="logo-link">
-          <img src="{{ '/assets/logo/SQLTemp_BIMI_v3.svg' | relative_url }}"
-               alt="SQLTemp Cybersécurité"
-               class="site-logo">
-        </a>
-      </div>
 
+    <header class="site-header container">
+      <a href="{{ '/' | relative_url }}" class="logo-link" aria-label="Accueil SQLTemp">
+      <img
+        src="{{ '/assets/logo/SQLTemp_BIMI_v3.svg' | relative_url }}"
+        alt="SQLTemp Cybersécurité"
+        class="site-logo"
+        loading="eager"
+        decoding="async"
+        >
+      </a>
     </header>
+
 
     <main class="container">
       {{ content }}
