@@ -72,7 +72,21 @@
     font-weight: 700;
   }
 }
+/* ====== Ajout du bandeau SQLTemp en haut de l'ecran ====== */
+.site-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
+.logo-link {
+  display: inline-block;
+}
+
+.site-logo {
+  max-width: 320px;     /* ajuste si besoin */
+  width: 100%;
+  height: auto;
+}
 /* ====== ÉCRANS TRÈS ÉTROITS (≤ 360px) ====== */
 @media (max-width: 360px) {
   .projects-row {
@@ -87,5 +101,11 @@
   .project-card p {
     font-size: 0.9rem;
   }
+  .site-logo {
+    max-width: 220px;
+  }
 }
+
+
+
 
