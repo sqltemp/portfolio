@@ -14,11 +14,14 @@
   </head>
   <body class="theme-dark">
     <header class="site-header container">
-      <a class="logo" href="{{ '/' | relative_url }}">
-        <span class="logo-mark">⛨</span>
-        <span class="logo-text">SQLTemp Cybersécurité</span>
-      </a>
-      <button id="themeToggle" class="btn-ghost" aria-label="Toggle theme">🌓</button>
+      <div class="site-title">
+        <a href="{{ '/' | relative_url }}" class="logo-link">
+          <img src="{{ '/assets/logo/SQLTemp_BIMI_v3.svg' | relative_url }}"
+               alt="SQLTemp Cybersécurité"
+               class="site-logo">
+        </a>
+      </div>
+
     </header>
 
     <main class="container">
