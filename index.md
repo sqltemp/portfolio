@@ -38,7 +38,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 
 - <strong> Objectif du portfolio </strong> : vulgariser la cybersécurité via des aide-mémoire simples et concis.
-- <strong>Sujets principaux</strong> : renforcement de la posture cyberdéfensive de PME, formation 'Introduction à la cybersécurité & défense contre les attaques par hameçonnage'  
+- <strong>Sujets principaux</strong> : renforcement de la posture cyberdéfensive des PME et des citoyens, formation 'Introduction à la cybersécurité & défense contre les attaques par hameçonnage'  
 - <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, radio hacking, formation
 
 ---
