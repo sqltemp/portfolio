@@ -17,9 +17,7 @@ Mode d’emploi :
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
   <img src="logo/SQLTemp_BIMI_v3.svg" alt="Photo de [VOTRE NOM]" width="150" style="border-radius:50%; border:4px solid #3fb950;">
   <h1 style="margin:18px 0 6px;">Thierry Matrat</h1>
-  <p style="margin:0; font-size:18px; opacity:.9;">Solutions SQLTemp</p>
   <p style="margin:0; font-size:18px; opacity:.9;">Services de consultation en cybersécurité • Blue/Red Team • Support technique et formation</p>
-  <p style="margin:8px 0 0; font-size:14px; opacity:.85;">Projets, articles et ressources pour votre cybersécurité.</p>
   
   <!-- mini navigation -->
   <p style="margin-top:22px;">
@@ -39,7 +37,7 @@ Mode d’emploi :
 Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessible à tous par des formations adaptées, et à aider mes clients à renforcer leur posture de sécurité par des actions concrètes.
 
 
-- <strong> Objectif du portfolio </strong> : vulgariser la cybersécurité, sans jargon technique, via des aide-mémoire simples et concis.
+- <strong> Objectif du portfolio </strong> : vulgariser la cybersécurité via des aide-mémoire simples et concis.
 - <strong>Sujets principaux</strong> : renforcement de la posture cyberdéfensive de PME, formation 'Introduction à la cybersécurité & défense contre les attaques par hameçonnage'  
 - <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, radio hacking, formation
 
@@ -67,6 +65,15 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Introduction à la Cybersécurité'</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameçonnage via des activités ludiques et des périodes de discussion.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : support de formation </p>
+    <a href="projects/phares/formation.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  </div>
+
+  <!-- CARTE 3 -->
+  <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
+    <img src="assets/project3.png" alt="Sécurité des citoyens" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
+    <h3 style="margin:6px 0 10px; color:#ffffff;">> Protection des citoyens face aux menaces en ligne</h3>
+    <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques utilisées par les escrocs et les moyens de s'en défendre.</p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Stack : articles de vulgarisation · Aide personnalisée </p>
     <a href="projects/phares/formation.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
