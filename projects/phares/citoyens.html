@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Protection des citoyens — Services cybersécurité | SQLTemp</title>
+  <meta name="description" content="Services de cybersécurité pour les citoyens : prévention des escroqueries, accompagnement, sensibilisation, sécurisation téléphone/ordinateur/comptes." />
+
+  <!-- Feuille de style globale du site (même logique que tes pages /projects/...) -->
+  <link rel="stylesheet" href="../../assets/css/style.css">
+
+  <!-- Ajustements légers pour coller au rendu 'formation.html' + blocs utiles -->
+  <style>
+    .terminal-section a,
+    .terminal-section p a,
+    .terminal-section li a {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+    .terminal-section a:hover { opacity: .9; }
+
+    .page-wrap{
+      max-width: 980px;
+      margin: 24px auto;
+      padding: 0 18px;
+    }
+
+    .hero{
+      background-color:#0d0d0d;
+      border:1px solid #1f2937;
+      border-radius:12px;
+      padding: 34px 22px;
+      color:#e5e7eb;
+    }
+
+    .hero h1{ margin-top:0; }
+    .sub{ margin-top:6px; opacity:.95; }
+
+    .note{
+      margin-top:18px;
+      padding:14px 16px;
+      border-radius:12px;
+      border:1px solid #1f2937;
+      background: rgba(255,255,255,0.03);
+    }
+
+    .badge{
+      display:inline-block;
+      padding:4px 10px;
+      border-radius:999px;
+      border:1px solid rgba(63,185,80,.35);
+      color:#e5e7eb;
+      font-size:.95em;
+      margin: 6px 8px 0 0;
+    }
+
+    .cta-row{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      margin-top:18px;
+      align-items:center;
+    }
+
+    .cta{
+      display:inline-block;
+      text-decoration:none !important;
+      border-radius:10px;
+      padding:10px 14px;
+      border:1px solid rgba(63,185,80,.45);
+      background: rgba(63,185,80,.08);
+      color:#ffffff;
+    }
+    .cta:hover{ background: rgba(63,185,80,.12); }
+
+    /* Cartes (si déjà supporté dans ton style.css, ça s’intégrera naturellement) */
+    .card-container{
+      display:flex;
+      gap:16px;
+      flex-wrap:wrap;
+      margin-top:18px;
+    }
+    .card{
+      flex: 1 1 280px;
+      background-color:#0d0d0d;
+      border:1px solid #1f2937;
+      border-radius:12px;
+      padding:18px 16px;
+      color:#e5e7eb;
+    }
+    .card h3{ margin: 0 0 10px 0; }
+    .muted{ opacity:.92; }
+
+    @media (max-width: 850px){
+      .hero{ padding: 28px 18px; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="terminal-section page-wrap">
+
+    <!-- HERO -->
+    <section class="hero">
+      <h1>Protection des citoyens face aux escroqueries</h1>
+      <h2 class="sub">Comprendre, prévenir, reprendre le contrôle — sans jargon, sans culpabilisation.</h2>
+
+      <p style="margin-top:14px;">
+        Les escroqueries ne sont plus de simples “courriels bizarres”. Aujourd’hui, elles passent par
+        <strong>le téléphone</strong>, <strong>les SMS</strong>, <strong>les réseaux sociaux</strong>, mais aussi par des
+        approches <strong>physiques</strong> (faux techniciens, faux représentants, fausses livraisons).
+      </p>
+
+      <p class="muted">
+        Mon objectif : vous aider à développer des réflexes simples, réalistes, et efficaces —
+        pour vous protéger vous-même, et protéger vos proches.
+      </p>
+
+      <p>
+        <a href="../../index.html">← Retour à l’accueil</a>
+      </p>
+
+      <div>
+        <span class="badge">Particuliers</span>
+        <span class="badge">Seniors</span>
+        <span class="badge">Familles</span>
+        <span class="badge">Proches aidants</span>
+      </div>
+
+      <div class="note">
+        <strong>Important :</strong> se faire piéger (ou presque) n’est pas un manque d’intelligence.
+        Les fraudeurs sont organisés, persuasifs, et spécialisés dans la manipulation.
+        Ici, on apprend — et on renforce votre confiance.
+      </div>
+
+      <div class="cta-row">
+        <!-- Remplace ces liens par tes pages / email réels -->
+        <a class="cta" href="../../contact.html">Me contacter</a>
+        <a class="cta" href="formation.html">Voir aussi : formation cybersécurité</a>
+      </div>
+    </section>
+
+    <!-- À QUI -->
+    <section style="margin-top:22px;" class="hero">
+      <h2>À qui s’adressent mes services ?</h2>
+      <ul>
+        <li><strong>Seniors</strong> : appels frauduleux, fausses banques, pressions psychologiques.</li>
+        <li><strong>Citoyens non techniques</strong> : comprendre l’essentiel, sans devenir expert.</li>
+        <li><strong>Familles</strong> : protéger les comptes, les appareils et les habitudes.</li>
+        <li><strong>Proches aidants</strong> : accompagner un parent ou un proche plus vulnérable.</li>
+      </ul>
+    </section>
+
+    <!-- TYPES D’ARNAQUES -->
+    <section style="margin-top:22px;" class="hero">
+      <h2>Les escroqueries les plus fréquentes</h2>
+      <div class="card-container">
+        <div class="card">
+          <h3>Hameçonnage (phishing / smishing)</h3>
+          <p class="muted">
+            Faux courriels ou SMS imitant banques, services publics, livreurs, plateformes connues.
+            Objectif : vous faire cliquer, payer, ou transmettre des informations.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Appels frauduleux (vishing)</h3>
+          <p class="muted">
+            Faux conseillers bancaires, faux techniciens, fausses urgences.
+            Le scénario est conçu pour créer l’urgence et empêcher la réflexion.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Manipulation sociale</h3>
+          <p class="muted">
+            Fraudes sentimentales, usurpation d’identité, faux profils, messages “d’un proche en détresse”.
+            Les émotions sont la porte d’entrée.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Escroqueries “physiques”</h3>
+          <p class="muted">
+            Faux représentants, faux réparateurs, fausses livraisons, demandes “de routine”.
+            Même logique : confiance + pression + demande inhabituelle.
+          </p>
+        </div>
+      </div>
+
+      <p style="margin-top:16px;">
+        La plupart des attaques ne reposent pas sur une prouesse technique, mais sur
+        <strong>l’ingénierie sociale</strong> : la manipulation du comportement humain.
+      </p>
+    </section>
+
+    <!-- SERVICES -->
+    <section style="margin-top:22px;" class="hero">
+      <h2>Mes services (concrets et personnalisés)</h2>
+
+      <div class="card-container">
+        <div class="card">
+          <h3>1) Sensibilisation & accompagnement</h3>
+          <ul>
+            <li>Explications claires des arnaques actuelles</li>
+            <li>Analyse de messages / appels / situations suspectes</li>
+            <li>Réflexes simples : quoi vérifier, quoi refuser, quoi noter</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>2) Vérification de votre sécurité numérique</h3>
+          <ul>
+            <li>Réglages essentiels (courriel, téléphone, ordinateur)</li>
+            <li>Mots de passe + gestionnaire (si pertinent)</li>
+            <li>Authentification à deux facteurs (2FA) : quand et comment</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>3) Ateliers grand public</h3>
+          <ul>
+            <li>Format simple, interactif, orienté exemples</li>
+            <li>Quizz et mini-mises en situation</li>
+            <li>Adapté aux bibliothèques, organismes, groupes</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>4) Soutien après une fraude</h3>
+          <ul>
+            <li>Comprendre ce qui s’est passé</li>
+            <li>Réduire les conséquences et reprendre la main</li>
+            <li>Mettre en place une protection durable</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="note" style="margin-top:18px;">
+        <strong>Approche :</strong> humaine, bienveillante, confidentielle.  
+        Pas de jugement. Pas de “solutions magiques”. On construit des réflexes solides.
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section style="margin-top:22px;" class="hero">
+      <h2>Un doute ? Une inquiétude ?</h2>
+      <p>
+        Si vous hésitez sur un message, un appel, ou une situation, c’est souvent le bon moment pour demander un avis.
+        Mieux vaut une vérification rapide que des semaines de démarches après coup.
+      </p>
+
+      <div class="cta-row">
+        <!-- Remplace par ton email / formulaire -->
+        <a class="cta" href="../../contact.html">Me contacter</a>
+        <a class="cta" href="#top" onclick="window.scrollTo({top:0, behavior:'smooth'}); return false;">↑ Retour en haut</a>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
