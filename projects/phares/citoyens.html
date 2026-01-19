@@ -3,84 +3,123 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Projet phare — Page en cours | SQLTemp</title>
+  <title>Projet phare — Protection des citoyens (brouillon) | SQLTemp</title>
+  <meta name="description" content="Page en cours de rédaction. Le contenu sera enrichi progressivement.">
 
-  <!-- CSS global -->
+  <!-- CSS global + custom (custom après, impératif) -->
   <link rel="stylesheet" href="/assets/css/style.css">
-  <!-- CSS personnalisé (IMPORTANT : chargé après) -->
   <link rel="stylesheet" href="/assets/css/custom.css">
 </head>
 
 <body class="theme-dark">
+  <a id="top"></a>
 
-<a id="top"></a>
+  <main class="container">
 
-<div class="container">
+    <!-- ===== EN-TÊTE TYPE "protection-pme.html" ===== -->
+    <header style="margin-bottom:18px;">
+      <h1 style="margin:0 0 8px 0;">Projet phare — Protection des citoyens</h1>
+      <p style="margin:0 0 12px 0; opacity:.9;">
+        Ajouter ici une phrase courte qui résume l’objectif de la page (à la manière de l’intro sous le titre).
+      </p>
+      <p style="margin:0;">
+        <a href="/index.html">← Retour à l’accueil</a>
+      </p>
+    </header>
 
-  <!-- ===== HEADER ===== -->
-  <header class="site-header">
-    <a href="/" class="logo-link">
-      <img src="/assets/logo/logo.svg"
-           alt="SQLTemp Cybersécurité"
-           class="site-logo">
-    </a>
-  </header>
+    <!-- ===== SECTION : INTRODUCTION ===== -->
+    <section class="terminal-section" id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        [Texte à venir — tu peux reprendre le même ton que “protection-pme.html” : contexte, enjeux, pourquoi c’est utile.]
+      </p>
+    </section>
 
-  <!-- ===== HERO ===== -->
-  <section class="terminal-section">
-    <h2>Projet phare</h2>
-    <p>
-      Cette page est en cours de construction.  
-      Le contenu sera enrichi progressivement.
-    </p>
-  </section>
+    <!-- ===== SECTION : QUI ÊTES-VOUS ? (photo gauche / texte droite) ===== -->
+    <section class="terminal-section" id="profil">
+      <h2>Qui êtes-vous&nbsp;?</h2>
 
-  <!-- ===== PROFIL ===== -->
-  <section class="terminal-section" id="profil">
-    <h2>Qui êtes-vous&nbsp;?</h2>
+      <div class="profil-wrapper">
+        <div class="profil-image">
+          <!-- Chemin relatif si la page est dans /projects/phares/ -->
+          <img src="img/huguette.jpeg">
+        </div>
 
-    <div class="profil-wrapper">
-
-      <!-- Image -->
-      <div class="profil-image">
-        <img src="img/huguette.jpeg"
-             alt="Huguette, 74 ans, retraitée">
+        <div class="profil-texte">
+          <p>
+            <strong>Huguette, 74&nbsp;ans, retraitée.</strong><br><br>
+            Totalement autonome dans l’utilisation d’appareils informatiques, elle utilise sa tablette pour jouer en ligne,
+            préparer son prochain voyage dans le sud, relever ses courriels et accéder à ses comptes bancaires.
+            Elle entend souvent parler d’escroqueries en ligne dans les médias, mais ne sait pas quelles mesures concrètes
+            elle pourrait prendre pour s’en protéger.
+          </p>
+        </div>
       </div>
 
-      <!-- Texte -->
-      <div class="profil-texte">
-        <p>
-          <strong>Huguette, 74&nbsp;ans, retraitée.</strong><br><br>
-          Totalement autonome dans l’utilisation d’appareils informatiques,
-          elle utilise sa tablette pour jouer en ligne, préparer son prochain
-          voyage dans le sud, relever ses courriels et accéder à ses comptes
-          bancaires.
-        </p>
+      <!-- Encadré façon “À retenir” -->
+      <h3>À retenir</h3>
+      <p>
+        [Une phrase courte, mémorable, qui résume le point clé de ce profil.]
+      </p>
+    </section>
 
-        <p>
-          Elle entend souvent parler d’escroqueries en ligne dans les médias,
-          mais ne sait pas quelles mesures concrètes elle pourrait prendre
-          pour s’en protéger.
-        </p>
-      </div>
+    <!-- ===== SECTION TYPE : THÈME / MYTHE ===== -->
+    <section class="terminal-section" id="mythe-1">
+      <h2>« Exemple de question / mythe / idée reçue »</h2>
 
-    </div>
-  </section>
+      <!-- Image centrée (comme sur protection-pme.html) -->
+      <figure class="article-image">
+        <img src="img/placeholder.png" alt="Description de l’illustration">
+        <!-- <figcaption>Légende optionnelle.</figcaption> -->
+      </figure>
 
-  <!-- ===== SECTION SUIVANTE (placeholder) ===== -->
-  <section class="terminal-section">
-    <h2>Section suivante</h2>
-    <p>
-      Contenu à venir…
-    </p>
-  </section>
+      <p>
+        [Texte à venir…]
+      </p>
 
-  <!-- ===== FOOTER ===== -->
-    <p style="text-align:center; line-height:1.6; font-size:1.1em;">
-      <a href="#top" class="back-to-top">↑ Retour en haut</a>
-    </p>
+      <h3>À retenir</h3>
+      <p>
+        [Encadré “à retenir” : sur ta page source, c’est un intertitre + une phrase concise.]
+      </p>
 
-</div>
+      <h3>Quelques chiffres</h3>
+      <ul>
+        <li>[Chiffre 1 + source éventuelle]</li>
+        <li>[Chiffre 2 + source éventuelle]</li>
+        <li>[Chiffre 3 + source éventuelle]</li>
+      </ul>
 
+      <h3>Activité</h3>
+      <p>
+        [Une question simple / mini-exercice / action concrète à faire.]
+      </p>
+    </section>
+
+    <!-- ===== SECTION SUIVANTE (placeholder) ===== -->
+    <section class="terminal-section" id="suite">
+      <h2>Section suivante</h2>
+      <p>[Contenu à venir…]</p>
+
+      <h3>À retenir</h3>
+      <p>[Point clé…]</p>
+    </section>
+
+    <!-- ===== CONCLUSION / CONTACT ===== -->
+    <section class="terminal-section" id="contact">
+      <h2>Vous êtes prêt à franchir le pas&nbsp;?</h2>
+      <p>
+        [Texte de conclusion, promesse d’accompagnement, prochaine étape…]
+      </p>
+
+      <p style="margin-top:14px;">
+        ✉️ Me contacter : <a href="mailto:contact@sqltemp.com">contact@sqltemp.com</a>
+      </p>
+
+      <p style="margin-top:18px;">
+        <a class="btn" href="#top">↑ Retour en haut</a>
+      </p>
+    </section>
+
+  </main>
 </body>
 </html>
