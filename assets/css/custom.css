@@ -105,8 +105,8 @@
     max-width: 220px;
   }
 }
-/* ====== PROFIL CITOYEN (Qui êtes-vous ?) ====== */
-.terminal-section#profil .profil-wrapper{
+/* ====== PROFIL CITOYEN (photo gauche / texte droite) ====== */
+.profil-wrapper{
   display: flex;
   flex-direction: row;
   gap: 24px;
@@ -114,12 +114,12 @@
   margin-top: 18px;
 }
 
-.terminal-section#profil .profil-image{
+.profil-image{
   flex: 0 0 140px;
   max-width: 140px;
 }
 
-.terminal-section#profil .profil-image img{
+.profil-image img{
   width: 100%;
   height: auto;
   display: block;
@@ -129,27 +129,28 @@
   filter: saturate(0.9) contrast(1.05);
 }
 
-.terminal-section#profil .profil-texte{
+.profil-texte{
   flex: 1;
 }
 
-.terminal-section#profil .profil-texte p{
+.profil-texte p{
   margin-top: 0;
   font-size: 16px;
 }
 
-/* Responsive : mobile */
+/* Mobile */
 @media (max-width: 700px){
-  .terminal-section#profil .profil-wrapper{
+  .profil-wrapper{
     flex-direction: column;
     align-items: center;
   }
 
-  .terminal-section#profil .profil-image{
+  .profil-image{
     max-width: 220px;
     flex-basis: 220px;
   }
 }
+
 
 /* ====== Sections encadrées dans citoyens.html (comme protection-pme.html) ====== */
 .article-section{
