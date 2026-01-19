@@ -1,17 +1,326 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Protection des citoyens — Services cybersécurité | SQLTemp</title>
-  <meta name="description" content="Services de cybersécurité pour les citoyens : prévention des escroqueries, accompagnement, sensibilisation, sécurisation téléphone/ordinateur/comptes." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projet phare — Titre à définir | SQLTemp</title>
+  <meta name="description" content="Page en cours de rédaction. Ajoutez votre description ici." />
 
-  <!-- Feuille de style globale du site (même logique que tes pages /projects/...) -->
-  <link rel="stylesheet" href="../../assets/css/style.css">
+  <!-- Police (même vibe que tes pages) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-SECTION A VENIR
+  <style>
+    :root{
+      --bg: #0d1117;
+      --panel: #0d0d0d;
+      --text: #e5e7eb;
+      --muted: #a1a1aa;
+      --border: #1f2937;
+      --green: #3fb950;
+      --greenSoft: rgba(63,185,80,.20);
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --radius: 12px;
+      --maxw: 900px;
+    }
 
-  
-</head>head>
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
 
+    a{ color: var(--green); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+
+    .container{
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 24px 18px 60px;
+    }
+
+    /* ===== Header ===== */
+    .site-header{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      padding: 18px 0 10px;
+      border-bottom: 1px solid rgba(255,255,255,.06);
+      margin-bottom: 18px;
+    }
+
+    .brand{
+      display:flex;
+      flex-direction:column;
+      gap:4px;
+    }
+
+    .brand .logo{
+      font-weight: 800;
+      letter-spacing: .2px;
+      font-size: 18px;
+      color: var(--text);
+    }
+    .brand .logo span{ color: var(--green); }
+    .brand .tagline{
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .top-links{
+      display:flex;
+      align-items:center;
+      gap:12px;
+      flex-wrap: wrap;
+      justify-content:flex-end;
+    }
+
+    .btn{
+      display:inline-block;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(63,185,80,.35);
+      background: rgba(63,185,80,.08);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 14px;
+      box-shadow: none;
+    }
+    .btn:hover{
+      background: rgba(63,185,80,.12);
+      text-decoration:none;
+    }
+
+    /* ===== Hero ===== */
+    .hero{
+      margin: 18px 0 18px;
+      padding: 22px 20px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, rgba(63,185,80,.08), rgba(0,0,0,0));
+      box-shadow: var(--shadow);
+    }
+    .hero h1{
+      margin: 0 0 10px;
+      font-size: 28px;
+      line-height: 1.25;
+      color: var(--text);
+    }
+    .hero p{
+      margin: 0;
+      color: var(--muted);
+      font-size: 15.5px;
+    }
+
+    /* ===== Sections (style "terminal-section") ===== */
+    .terminal-section{
+      margin: 24px auto;
+      background-color: var(--panel);
+      color: var(--text);
+      padding: 36px 20px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+    }
+
+    .terminal-section h2{
+      margin: 0 0 12px;
+      font-size: 22px;
+      color: var(--green);
+      text-align: left;
+    }
+
+    .terminal-section h3{
+      margin: 22px 0 10px;
+      font-size: 18px;
+      color: var(--text);
+    }
+
+    .terminal-section p{
+      margin: 10px 0;
+      font-size: 16px;
+      color: var(--text);
+    }
+
+    .terminal-section ul{
+      margin: 10px 0 0 22px;
+      padding: 0;
+    }
+    .terminal-section li{ margin: 6px 0; }
+
+    /* ===== Images ===== */
+    figure.article-image{
+      margin: 18px 0;
+      text-align:center;
+    }
+    figure.article-image img{
+      max-width: 100%;
+      border-radius: 10px;
+      border: 1px solid rgba(63,185,80,.20);
+      display:block;
+      margin: 0 auto;
+    }
+    figure.article-image figcaption{
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* ===== Callouts ===== */
+    .callout{
+      margin: 18px 0;
+      padding: 14px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(63,185,80,.22);
+      background: rgba(63,185,80,.06);
+    }
+    .callout h4{
+      margin: 0 0 6px;
+      color: var(--text);
+      font-size: 15px;
+      text-align: center; /* comme tes petits encadrés titrés */
+      letter-spacing: .2px;
+    }
+    .callout p{
+      margin: 0;
+      color: var(--text);
+      font-size: 15px;
+    }
+
+    .divider{
+      height:1px;
+      background: rgba(255,255,255,.07);
+      margin: 26px 0;
+    }
+
+    /* ===== Footer ===== */
+    footer{
+      margin-top: 26px;
+      padding-top: 14px;
+      border-top: 1px solid rgba(255,255,255,.06);
+      color: var(--muted);
+      font-size: 13px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .backtotop{
+      display:inline-block;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,.10);
+      color: var(--text);
+      background: rgba(255,255,255,.04);
+      font-weight: 600;
+      font-size: 13px;
+    }
+    .backtotop:hover{ text-decoration:none; background: rgba(255,255,255,.06); }
+
+    /* Petite responsivité */
+    @media (max-width: 520px){
+      .hero h1{ font-size: 24px; }
+      .terminal-section{ padding: 28px 16px; }
+      .top-links{ justify-content:flex-start; }
+    }
+  </style>
+</head>
+
+<body>
+  <a id="top"></a>
+
+  <div class="container">
+    <!-- ===== HEADER ===== -->
+    <header class="site-header">
+      <div class="brand">
+        <div class="logo">SQLTemp <span>Cybersécurité</span></div>
+        <div class="tagline">Projets • Vulgarisation • Conseil</div>
+      </div>
+
+      <nav class="top-links" aria-label="Navigation">
+        <!-- Adapte les liens selon l’endroit où tu poses cette page -->
+        <a class="btn" href="/index.html">← Retour à l’accueil</a>
+        <a class="btn" href="https://www.sqltemp.com">sqltemp.com</a>
+      </nav>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <h1>Projet phare — Titre à définir</h1>
+      <p>Résumé en 1–2 phrases. (Tu remplaceras ce texte au fur et à mesure.)</p>
+    </section>
+
+    <!-- ===== CONTENU ===== -->
+    <section class="terminal-section" id="introduction">
+      <h2>Introduction</h2>
+      <p>
+        [Texte à insérer ici]
+      </p>
+
+      <!-- Optionnel : image -->
+      <!--
+      <figure class="article-image">
+        <img src="img/ton-image.png" alt="Description de l'image">
+        <figcaption>Optionnel — légende courte.</figcaption>
+      </figure>
+      -->
+    </section>
+
+    <section class="terminal-section" id="section-1">
+      <h2>Section 1 — Titre à définir</h2>
+      <p>[Texte à insérer ici]</p>
+
+      <div class="callout">
+        <h4>À retenir</h4>
+        <p>[Point clé — en une phrase]</p>
+      </div>
+
+      <div class="divider"></div>
+
+      <h3>Sous-section (optionnel)</h3>
+      <p>[Texte à insérer]</p>
+
+      <div class="callout">
+        <h4>Quelques chiffres</h4>
+        <p>[Chiffre / donnée / source — tu pourras ajouter une liste si tu veux]</p>
+      </div>
+    </section>
+
+    <section class="terminal-section" id="section-2">
+      <h2>Section 2 — Titre à définir</h2>
+      <p>[Texte à insérer ici]</p>
+
+      <ul>
+        <li>[Élément 1]</li>
+        <li>[Élément 2]</li>
+        <li>[Élément 3]</li>
+      </ul>
+    </section>
+
+    <section class="terminal-section" id="conclusion">
+      <h2>Conclusion / Prochaine étape</h2>
+      <p>[Texte à insérer ici]</p>
+
+      <div class="callout">
+        <h4>Contact</h4>
+        <p>✉️ Me contacter : <a href="mailto:contact@sqltemp.com">contact@sqltemp.com</a></p>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+      <div>© SQLTemp — Page en cours de rédaction.</div>
+      <a class="backtotop" href="#top">↑ Retour en haut</a>
+    </footer>
+  </div>
+</body>
 </html>
+
