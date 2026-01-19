@@ -150,3 +150,34 @@
     flex-basis: 220px;
   }
 }
+
+/* ====== Sections encadrées dans citoyens.html (comme protection-pme.html) ====== */
+.article-section{
+  border: 1px solid rgba(63,185,80,.35);
+  border-radius: 12px;
+  padding: 32px 22px;
+  margin: 28px auto;
+  background-color: rgba(13,13,13,.95);
+}
+
+/* Titres dans sections encadrées */
+.article-section > h2{
+  margin-top: 0;
+  color: #3fb950;
+}
+
+/* Séparation visuelle légère entre blocs internes */
+.article-section h3{
+  margin-top: 22px;
+}
+
+/* ====== Encadrés internes : À retenir (dans citoyens.html) ====== */
+.callout-retain{
+  border-left: 3px solid #3fb950;
+  padding: 12px 14px;
+  margin: 16px 0;
+  background: rgba(63,185,80,.08);
+  border-radius: 8px;
+}
+
+
