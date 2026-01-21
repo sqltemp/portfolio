@@ -42,115 +42,30 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 - <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, cartographie de menaces, radio hacking, formation
 
 ---
-<!-- ===== DEBUT NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
+<!-- ===== DEBUT NOUVEAU VISUEL CARTES PROJET index.md: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
+<!-- A NOTER QUE J'AI DEPOSE LA PARTIE CUSTOM.CSS DANS UNE SECTION 'NOUVEAU VISUEL CARTES PROJET index.md -->
 
-<div class="projects-row"
-     style="display:flex;
-            flex-wrap:wrap;
-            justify-content:center;
-            gap:24px;
-            background-color:#000;
-            padding:30px;
-            border-radius:12px;">
+<div class="projects-row">
 
-  <!-- CARTE SOBRE COLORÉE SANS IMAGE -->
-  <div style="
-      position:relative;
-      flex:1 1 300px;
-      min-width:220px;
-      max-width:280px;
-      background-color:#0f0f0f;
-      border:1px solid #1f1f1f;
-      border-radius:12px;
-      padding:18px;
-      color:#eaeaea;
-      font-family:'Courier New', monospace;
-      display:flex;
-      flex-direction:column;
-      text-align:center;
-      transition:transform .25s ease, border-color .25s ease;
-  "
-  onmouseover="
-    this.style.transform='translateY(-4px)';
-    this.style.borderColor='#8b7cff';
-  "
-  onmouseout="
-    this.style.transform='none';
-    this.style.borderColor='#1f1f1f';
-  "
-  >
+  <div class="project-card">
+    <div class="project-card__accent"></div>
 
-    <!-- Liseré haut discret -->
-    <div style="
-      position:absolute;
-      top:0;
-      left:0;
-      right:0;
-      height:3px;
-      background:linear-gradient(90deg,#4aa3ff,#8b7cff,#ff6b6b);
-      border-top-left-radius:12px;
-      border-top-right-radius:12px;
-      opacity:0.85;
-    "></div>
+    <h3 class="project-card__title">&gt; Sécurité des PME</h3>
 
-    <!-- TITRE ENCADRÉ & CENTRÉ -->
-    <h3 style="
-        margin:16px 0 18px;
-        padding:10px;
-        font-size:18px;
-        font-weight:bold;
-        color:#ffffff;
-        border:1px solid #8b7cff;
-        border-radius:6px;
-        line-height:1.4;
-    ">
-      &gt; Sécurité des PME
-    </h3>
-
-    <p style="
-        margin:0 0 16px;
-        font-size:15px;
-        line-height:1.6;
-        color:#d6d6d6;">
+    <p class="project-card__desc">
       Développement de programmes de cybersécurité pour les PME.
     </p>
 
-    <p style="
-        margin:0 0 22px;
-        font-size:14px;
-        color:#a0a0a0;">
+    <p class="project-card__stack">
       Protection de base · Renforcement · Formation
     </p>
 
-    <!-- LIEN ENCADRÉ & CENTRÉ -->
-    <a href="projects/phares/protection-pme.html"
-       style="
-         margin:0 auto;
-         padding:8px 16px;
-         font-size:15px;
-         font-weight:bold;
-         text-decoration:none;
-         color:#ffffff;
-         border:1px solid #4aa3ff;
-         border-radius:6px;
-         background:linear-gradient(90deg,#4aa3ff,#8b7cff);
-         transition:background .2s ease, border-color .2s ease;
-       "
-       onmouseover="
-         this.style.background='#ff6b6b';
-         this.style.borderColor='#ff6b6b';
-       "
-       onmouseout="
-         this.style.background='linear-gradient(90deg,#4aa3ff,#8b7cff)';
-         this.style.borderColor='#4aa3ff';
-       "
-    >
+    <a class="project-card__link" href="projects/phares/protection-pme.html">
       Consulter le projet
     </a>
-
   </div>
-</div>
 
+</div>
 
 
 <!-- ===== FIN NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
