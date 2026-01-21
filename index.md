@@ -139,8 +139,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
-    <h3 class="project-card__title">CTF</h3>
-  
+ 
     <p class="project-card__desc">
       Compte rendus de défis CTF (Capture The Flag).
     </p>
@@ -153,7 +152,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
-    <h3 class="project-card__title">Articles</h3>
   
     <p class="project-card__desc">
       Articles techniques.
@@ -168,15 +166,14 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
-    <h3 class="project-card__title">Fiches pratiques</h3>
-  
+      
     <p class="project-card__desc">
-      Fiches pratiques
+      Fiches pratiques sur divers thèmes
     </p>
   
 
     <a class="project-card__link" href="projects/ctf/a-venir.html">
-      Aide-mémoire
+      Fiches
     </a>
   </div>
   
@@ -184,7 +181,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
-    <h3 class="project-card__title">ressources</h3>
+    <h3 class="project-card__title">Ressources</h3>
   
     <p class="project-card__desc">
       Bibliothèque de ressources.
