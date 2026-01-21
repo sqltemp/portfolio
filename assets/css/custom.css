@@ -180,5 +180,8 @@
   background: rgba(63,185,80,.08);
   border-radius: 8px;
 }
+.titre-centre {
+  text-align: center;
+}
 
 
