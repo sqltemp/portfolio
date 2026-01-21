@@ -158,21 +158,8 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       CTF
     </a>
   </div>
-  <!-- CARTE 5 – Articles techniques -->
-  <div class="project-card project-card--compact">
-    <div class="project-card__accent"></div>
   
-  
-    <p class="project-card__desc">
-      Articles techniques.
-    </p>
-  
-    <a class="project-card__link" href="projects/ctf/a-venir.html">
-      Articles
-    </a>
-  </div>
-  
-  <!-- CARTE 6 – Fiches pratiques -->
+  <!-- CARTE 5 – Fiches pratiques -->
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
@@ -187,7 +174,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </a>
   </div>
   
-  <!-- CARTE 7 – Bibliotheque de ressources -->
+  <!-- CARTE 6 – Bibliotheque de ressources -->
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
@@ -196,7 +183,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </p>
   
     <a class="project-card__link" href="projects/ressources/ressources.html">
-      <i>Ressources</i>
+      Ressources
     </a>
   </div>
 </div>
