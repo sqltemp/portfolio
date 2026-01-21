@@ -129,6 +129,25 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 
 <!-- ===== FIN NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
+<!-- CARTE 4 – Autres projets : CTF -->
+<!-- ===== DEBUT NOUVEAU VISUEL CARTES 'AUTRES PROJETS'===== -->
+<div class="project-card project-card--compact">
+  <div class="project-card__accent"></div>
+
+  <h3 class="project-card__title">CTF</h3>
+
+  <p class="project-card__desc">
+    Compte rendus de défis CTF (Capture The Flag).
+  </p>
+
+  <p class="project-card__stack">
+    Entraînement · Analyse · Write-ups
+  </p>
+
+  <a class="project-card__link" href="projects/ctf/a-venir.html">
+    Accéder
+  </a>
+</div>
 
 
 
