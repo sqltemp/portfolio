@@ -110,7 +110,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </p>
 
     <p class="project-card__stack">
-      Support de formation
+      Activités ludiques · Support de formation
     </p>
 
     <a class="project-card__link" href="projects/phares/formation.html">
