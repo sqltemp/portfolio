@@ -48,7 +48,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <div class="projects-row">
 
   <div class="project-card">
-    <div class="project-card__accent"></div>
+    <div class="project-card__accent">
 
     <h3 class="project-card__title"&gt; Sécurité des PME</h3>
 
@@ -66,7 +66,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </a>
   </div>
   <div class="project-card">
-    <div class="project-card__accent"></div>
+    <div class="project-card__accent">
 
     <h3 class="project-card__title"&gt; Sécurité des citoyens</h3>
 
@@ -85,7 +85,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </a>
   </div>
   <div class="project-card">
-    <div class="project-card__accent"></div>
+    <div class="project-card__accent">
 
     <h3 class="project-card__title"&gt;  Formations</h3>
 
