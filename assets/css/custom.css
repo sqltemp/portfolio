@@ -261,8 +261,8 @@
 }
 /* === Variante compacte pour "Autres projets" -> Nouvelle version, suite au style terminal que j'avais adopte initialement === */
 .project-card--compact {
-  flex: 0 0 20%;
-  max-width: 20%;
+  flex: 0 0 23%;
+  max-width: 23%;
   padding: 14px;
   font-size: 14px;
 }
