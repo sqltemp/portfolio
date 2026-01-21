@@ -285,4 +285,19 @@
   align-self: center;      /* centre horizontalement */
 }
 
+/* === Mobile: "Autres projets" en colonne === */
+@media (max-width: 700px) {
+  /* cible uniquement la rangée "Autres projets" */
+  .projects-row.projects-row--other {
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow-x: visible;
+  }
+
+  .projects-row.projects-row--other .project-card--compact {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: 100%;
+  }
+}
 
