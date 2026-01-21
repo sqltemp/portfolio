@@ -42,6 +42,84 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 - <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, radio hacking, formation
 
 ---
+<!-- ===== DEBUT NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
+<div class="projects-row"
+     style="display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap:24px;
+            background-color:#000;
+            padding:30px;
+            border-radius:12px;">
+
+  <!-- CARTE SOBRE -->
+  <div style="
+      flex:1 1 300px;
+      min-width:220px;
+      max-width:280px;
+      background-color:#0f0f0f;
+      border:1px solid #1f1f1f;
+      border-radius:12px;
+      padding:18px;
+      color:#eaeaea;
+      font-family:Inter, system-ui, sans-serif;
+      display:flex;
+      flex-direction:column;
+      text-align:left;
+      transition:transform .2s ease, border-color .2s ease;
+  "
+  onmouseover="this.style.transform='translateY(-4px)'; this.style.borderColor='#3fb950';"
+  onmouseout="this.style.transform='none'; this.style.borderColor='#1f1f1f';"
+  >
+
+    <img src="assets/project1.png"
+         alt="Sécurité des PME"
+         style="width:100%;
+                border-radius:8px;
+                margin-bottom:14px;
+                opacity:0.9;">
+
+    <h3 style="
+        margin:0 0 8px;
+        font-size:16px;
+        font-weight:600;
+        color:#ffffff;
+        line-height:1.4;">
+      Développement de programmes de cybersécurité pour les PME
+    </h3>
+
+    <p style="
+        margin:0 0 10px;
+        font-size:14px;
+        line-height:1.5;
+        color:#cfcfcf;">
+      Protection progressive des actifs numériques essentiels.
+    </p>
+
+    <p style="
+        margin:0 0 16px;
+        font-size:13px;
+        color:#9aa0a6;">
+      Protection de base · Renforcement · Formation
+    </p>
+
+    <a href="projects/phares/protection-pme.html"
+       style="
+         margin-top:auto;
+         font-size:13px;
+         color:#3fb950;
+         text-decoration:none;
+         font-weight:500;
+         align-self:flex-start;
+       ">
+      → Consulter le projet
+    </a>
+
+  </div>
+</div>
+
+
+<!-- ===== FIN NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
 
 <!-- ===== PROJETS (cartes) ===== -->
 <h2 id="projets">Projets phares</h2>
