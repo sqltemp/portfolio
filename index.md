@@ -174,22 +174,8 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </a>
   </div>
 
-  <!-- CARTE 6 – Radio Hacking -->
-  <div class="project-card project-card--compact">
-    <div class="project-card__accent"></div>
   
-      
-    <p class="project-card__desc">
-      Radio Hacking
-    </p>
-  
-
-    <a class="project-card__link" href="projects/ctf/a-venir.html">
-      Ouvrir le projet
-    </a>
-  </div>
-  
-  <!-- CARTE 7 – Bibliotheque de ressources -->
+  <!-- CARTE 6 – Bibliotheque de ressources -->
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
@@ -270,7 +256,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   ">
     <!--img src="assets/project1.png" alt="CTFs" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Compte rendus défis CTF (Capture The Flag)</p>
-    <a href="projects/ctf/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">CTF</a>
+    <a href="projects/ctf/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 5 -->
@@ -289,8 +275,8 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     flex-direction:column;
   ">
     <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Articles techniques.</p>
-    <a href="projects/articles/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Articles</a>
+    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques sur divers thèmes</p>
+    <a href="projects/articles/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 6 -->
@@ -308,29 +294,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     display:flex; 
     flex-direction:column;
   ">
-    <!--img src="assets/project3.png" alt="Cheatsheets" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques sur divers thèmes.</p>
-    <a href="projects/cheatsheets/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Aide-memoire</a>
-  </div>
-
-  <!-- CARTE 7 -->
-  <div style="
-    flex:0 0 20%; 
-    max-width:20%; 
-    background-color:#0a0f16; 
-    border:1px solid #3fb950; 
-    border-radius:10px; 
-    padding:14px; 
-    color:#e9f1ff; 
-    font-family:'Courier New', monospace; 
-    box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:center;
-    display:flex; 
-    flex-direction:column;
-  ">
     <!--img src="assets/project3.png" alt="Ressources" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
     <p style="margin:0 0 10px; line-height:1.45;">Bibliothèque de ressources.</p>
-    <a href="projects/ressources/ressources.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ressources</a>
+    <a href="projects/ressources/ressources.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
 </div>
