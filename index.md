@@ -103,7 +103,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
         border-radius:6px;
         line-height:1.4;
     "
-      &gt; Sécurité des PME
+      Sécurité des PME
     </h3>
 
     <p style="
