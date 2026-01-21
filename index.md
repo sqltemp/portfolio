@@ -52,8 +52,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
             padding:30px;
             border-radius:12px;">
 
-  <!-- CARTE SOBRE -->
+  <!-- CARTE SOBRE COLORÉE -->
   <div style="
+      position:relative;
       flex:1 1 300px;
       min-width:220px;
       max-width:280px;
@@ -66,26 +67,49 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       display:flex;
       flex-direction:column;
       text-align:left;
-      transition:transform .2s ease, border-color .2s ease;
+      transition:transform .25s ease, border-color .25s ease;
   "
-  onmouseover="this.style.transform='translateY(-4px)'; this.style.borderColor='#3fb950';"
-  onmouseout="this.style.transform='none'; this.style.borderColor='#1f1f1f';"
+  onmouseover="
+    this.style.transform='translateY(-4px)';
+    this.style.borderColor='#8b7cff';
+  "
+  onmouseout="
+    this.style.transform='none';
+    this.style.borderColor='#1f1f1f';
+  "
   >
+
+    <!-- Liseré haut discret -->
+    <div style="
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      height:3px;
+      background:linear-gradient(90deg,#4aa3ff,#8b7cff,#ff6b6b);
+      border-top-left-radius:12px;
+      border-top-right-radius:12px;
+      opacity:0.8;
+    "></div>
 
     <img src="assets/project1.png"
          alt="Sécurité des PME"
          style="width:100%;
                 border-radius:8px;
                 margin-bottom:14px;
-                opacity:0.9;">
+                opacity:0.92;">
 
     <h3 style="
         margin:0 0 8px;
         font-size:16px;
         font-weight:600;
-        color:#ffffff;
-        line-height:1.4;">
-      Développement de programmes de cybersécurité pour les PME
+        line-height:1.4;
+        background:linear-gradient(90deg,#4aa3ff,#8b7cff);
+        -webkit-background-clip:text;
+        background-clip:text;
+        color:transparent;
+    ">
+      Programmes de cybersécurité pour les PME
     </h3>
 
     <p style="
@@ -107,16 +131,23 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
        style="
          margin-top:auto;
          font-size:13px;
-         color:#3fb950;
          text-decoration:none;
          font-weight:500;
-         align-self:flex-start;
-       ">
+         background:linear-gradient(90deg,#4aa3ff,#8b7cff);
+         -webkit-background-clip:text;
+         background-clip:text;
+         color:transparent;
+         transition:color .2s ease;
+       "
+       onmouseover="this.style.color='#ff6b6b';"
+       onmouseout="this.style.color='transparent';"
+    >
       → Consulter le projet
     </a>
 
   </div>
 </div>
+
 
 
 <!-- ===== FIN NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
