@@ -131,6 +131,10 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 <!-- ===== FIN NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
 
 <!-- ===== DEBUT NOUVEAU VISUEL CARTES 'AUTRES PROJETS'===== -->
+
+<!-- ===== AUTRES PROJETS (cartes) ===== -->
+<h3 id="Autres projets">➕ Autres projets </h3>
+
 <!-- CARTE 4 – Autres projets : CTF -->
 <div class="project-card project-card--compact">
   <div class="project-card__accent"></div>
@@ -242,8 +246,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </div>
 
 
-<!-- ===== AUTRES PROJETS (cartes) ===== -->
-<h3 id="Autres projets">➕ Autres projets </h3>
+
 
 <div class="projects-row" style="
   display:flex; 
