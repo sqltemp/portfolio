@@ -134,7 +134,17 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 <!-- ===== AUTRES PROJETS (cartes) ===== -->
 <h3 id="Autres projets">➕ Autres projets </h3>
-<div class="projects-row">
+<div class="projects-row" style="
+  display:flex; 
+  flex-wrap:nowrap; 
+  justify-content:space-between; 
+  gap:14px; 
+  background-color:#000; 
+  padding:24px; 
+  border-radius:12px;
+  overflow-x:auto; 
+  -webkit-overflow-scrolling:touch;
+">
   <!-- CARTE 4 – Autres projets : CTF -->
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
@@ -180,8 +190,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <!-- CARTE 7 – Bibliotheque de ressources -->
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
-  
-    <h3 class="project-card__title">Ressources</h3>
   
     <p class="project-card__desc">
       Bibliothèque de ressources.
