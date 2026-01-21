@@ -62,7 +62,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </p>
 
     <p class="project-card__desc">
-      Protection des actifs.
+      Assurer une sécurité robuste de vos actifs via 13 contrôles de base.
     </p>
 
     <p class="project-card__stack">
