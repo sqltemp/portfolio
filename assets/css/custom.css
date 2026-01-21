@@ -1,29 +1,104 @@
-/* ====== BASE ====== */
+/* === Nouveau visuel cartes Index.md === */
 .projects-row {
-  /* rien ici pour desktop, ton inline fait déjà le job */
-}
-
-/* Cartes : règles génériques au cas où */
-.project-card {
   display: flex;
-  flex-direction: column;      /* empile le contenu verticalement */
-  justify-content: space-between; /* répartit espace entre le haut (texte) et le bas (bouton) */
-  box-sizing: border-box;
-}
-.project-card img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-.project-card .btn {
-  align-self: center;          /* centre le bouton horizontalement */
-  margin-top: auto;            /* pousse le bouton en bas de la carte */
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  background-color: #000;
+  padding: 30px;
+  border-radius: 12px;
 }
 
-/* ====== ACCESSIBILITÉ / TAP ====== */
-.project-card a {
-  min-height: 44px;              /* cible tactile confortable */
-  line-height: 1.2;
+/* === Card === */
+.project-card {
+  position: relative;
+  flex: 1 1 300px;
+  min-width: 220px;
+  max-width: 280px;
+
+  background-color: #0f0f0f;
+  border: 1px solid #1f1f1f;
+  border-radius: 12px;
+  padding: 18px;
+
+  color: #eaeaea;
+  font-family: "Courier New", monospace;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #8b7cff;
+}
+
+/* Top accent line */
+.project-card__accent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  height: 3px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+
+  opacity: 0.85;
+  background: linear-gradient(90deg, #4aa3ff, #8b7cff, #ff6b6b);
+}
+
+/* Title (centered + framed like original) */
+.project-card__title {
+  margin: 16px 0 18px;
+  padding: 10px;
+
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.4;
+
+  color: #ffffff;
+  border: 1px solid #8b7cff;
+  border-radius: 6px;
+}
+
+/* Text */
+.project-card__desc {
+  margin: 0 0 16px;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #d6d6d6;
+}
+
+.project-card__stack {
+  margin: 0 0 22px;
+  font-size: 14px;
+  color: #a0a0a0;
+}
+
+/* Button / Link (framed + centered) */
+.project-card__link {
+  margin: 0 auto;
+  padding: 8px 16px;
+
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+
+  color: #ffffff;
+  border: 1px solid #4aa3ff;
+  border-radius: 6px;
+
+  background: linear-gradient(90deg, #4aa3ff, #8b7cff);
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card__link:hover {
+  background: #ff6b6b;
+  border-color: #ff6b6b;
 }
 
 /* ====== TABLETTES (≤ 1024px) ====== */
