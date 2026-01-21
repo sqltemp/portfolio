@@ -15,7 +15,7 @@ Mode d’emploi :
 
 <!-- ===== HERO / BANNIÈRE ===== -->
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
-  <img src="logo/SQLTemp_BIMI_v3.svg" alt="Photo de [VOTRE NOM]" width="250" style="border-radius:50%; border:4px solid ##ef4444;">
+  <img src="logo/SQLTemp_BIMI_v3.svg" alt="Photo de [VOTRE NOM]" width="250" style="border-radius:50%; border:4px solid #ef4444;">
   <h2 style="margin:18px 0 6px;">Thierry Matrat</h2>
   <p style="margin:0; font-size:18px; opacity:.9;">Services de consultation en cybersécurité • Support technique et formation</p>
   
@@ -134,82 +134,82 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 <!-- ===== AUTRES PROJETS (cartes) ===== -->
 <h3 id="Autres projets">➕ Autres projets </h3>
-
-<!-- CARTE 4 – Autres projets : CTF -->
-<div class="project-card project-card--compact">
-  <div class="project-card__accent"></div>
-
-  <h3 class="project-card__title">CTF</h3>
-
-  <p class="project-card__desc">
-    Compte rendus de défis CTF (Capture The Flag).
-  </p>
-
-  <p class="project-card__stack">
-    Entraînement · Analyse · Write-ups
-  </p>
-
-  <a class="project-card__link" href="projects/ctf/a-venir.html">
-    CTF
-  </a>
+<div class="projects-row">
+  <!-- CARTE 4 – Autres projets : CTF -->
+  <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
+  
+    <h3 class="project-card__title">CTF</h3>
+  
+    <p class="project-card__desc">
+      Compte rendus de défis CTF (Capture The Flag).
+    </p>
+  
+    <p class="project-card__stack">
+      Entraînement · Analyse · Write-ups
+    </p>
+  
+    <a class="project-card__link" href="projects/ctf/a-venir.html">
+      CTF
+    </a>
+  </div>
+  <!-- CARTE 5 – Articles techniques -->
+  <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
+  
+    <h3 class="project-card__title">Articles</h3>
+  
+    <p class="project-card__desc">
+      Articles techniques.
+    </p>
+  
+    <p class="project-card__stack">
+      Thèmes divers · Offensif · Défensif
+    </p>
+  
+    <a class="project-card__link" href="projects/ctf/a-venir.html">
+      Articles
+    </a>
+  </div>
+  
+  <!-- CARTE 6 – Fiches pratiques -->
+  <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
+  
+    <h3 class="project-card__title">Fiches pratiques</h3>
+  
+    <p class="project-card__desc">
+      Fiches pratiques
+    </p>
+  
+    <p class="project-card__stack">
+      Thèmes divers · Pour débuter
+    </p>
+  
+    <a class="project-card__link" href="projects/ctf/a-venir.html">
+      Aide-mémoire
+    </a>
+  </div>
+  
+  <!-- CARTE 7 – Bibliotheque de ressources -->
+  <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
+  
+    <h3 class="project-card__title">ressources</h3>
+  
+    <p class="project-card__desc">
+      Bibliothèque de ressources.
+    </p>
+  
+    <p class="project-card__stack">
+      Ressources de référence
+    </p>
+  
+    <a class="project-card__link" href="projects/ressources/ressources.html">
+      <i>Ressources</i>
+    </a>
+  </div>
 </div>
-<!-- CARTE 5 – Articles techniques -->
-<div class="project-card project-card--compact">
-  <div class="project-card__accent"></div>
-
-  <h3 class="project-card__title">Articles</h3>
-
-  <p class="project-card__desc">
-    Articles techniques.
-  </p>
-
-  <p class="project-card__stack">
-    Thèmes divers · Offensif · Défensif
-  </p>
-
-  <a class="project-card__link" href="projects/ctf/a-venir.html">
-    Articles
-  </a>
-</div>
-
-<!-- CARTE 6 – Fiches pratiques -->
-<div class="project-card project-card--compact">
-  <div class="project-card__accent"></div>
-
-  <h3 class="project-card__title">Fiches pratiques</h3>
-
-  <p class="project-card__desc">
-    Fiches pratiques
-  </p>
-
-  <p class="project-card__stack">
-    Thèmes divers · Pour débuter
-  </p>
-
-  <a class="project-card__link" href="projects/ctf/a-venir.html">
-    Aide-mémoire
-  </a>
-</div>
-
-<!-- CARTE 7 – Bibliotheque de ressources -->
-<div class="project-card project-card--compact">
-  <div class="project-card__accent"></div>
-
-  <h3 class="project-card__title">ressources</h3>
-
-  <p class="project-card__desc">
-    Bibliothèque de ressources.
-  </p>
-
-  <p class="project-card__stack">
-    Ressources de référence
-  </p>
-
-  <a class="project-card__link" href="projects/ressources/ressources.html">
-    <i>Ressources</i>
-  </a>
-</div>
-
 <!-- SECTION PROJETS PHARES – ALIGNEMENT 3 CARTES & TEXTE BLANC -->
 <!--div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;"> -->
 <div class="projects-row" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;">
