@@ -259,5 +259,28 @@
 .titre-centre {
   text-align: center;
 }
+/* === Variante compacte pour "Autres projets" -> Nouvelle version, suite au style terminal que j'avais adopte initialement === */
+.project-card--compact {
+  flex: 0 0 20%;
+  max-width: 20%;
+  padding: 14px;
+  font-size: 14px;
+}
+
+.project-card--compact .project-card__title {
+  font-size: 16px;
+  margin: 10px 0 12px;
+  padding: 8px;
+}
+
+.project-card--compact .project-card__desc {
+  font-size: 14px;
+  line-height: 1.45;
+}
+
+.project-card--compact .project-card__link {
+  font-size: 14px;
+  padding: 6px 12px;
+}
 
 
