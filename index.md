@@ -134,7 +134,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 <!-- ===== AUTRES PROJETS (cartes) ===== -->
 <h3 id="Autres projets">➕ Autres projets </h3>
-<div class="projects-row" style="
+<div class="projects-row projects-row--other" style="
   display:flex; 
   flex-wrap:nowrap; 
   justify-content:space-between; 
