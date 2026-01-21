@@ -63,10 +63,10 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       border-radius:12px;
       padding:18px;
       color:#eaeaea;
-      font-family:Inter, system-ui, sans-serif;
+      font-family:'Courier New', monospace;
       display:flex;
       flex-direction:column;
-      text-align:left;
+      text-align:center;
       transition:transform .25s ease, border-color .25s ease;
   "
   onmouseover="
@@ -79,7 +79,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   "
   >
 
-    <!-- Liseré haut discret -->
+    <!-- Liseré haut -->
     <div style="
       position:absolute;
       top:0;
@@ -89,7 +89,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       background:linear-gradient(90deg,#4aa3ff,#8b7cff,#ff6b6b);
       border-top-left-radius:12px;
       border-top-right-radius:12px;
-      opacity:0.8;
+      opacity:0.85;
     "></div>
 
     <img src="assets/project1.png"
@@ -99,54 +99,64 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
                 margin-bottom:14px;
                 opacity:0.92;">
 
+    <!-- TITRE ENCADRÉ & CENTRÉ -->
     <h3 style="
-        margin:0 0 8px;
-        font-size:16px;
-        font-weight:600;
+        margin:8px 0 14px;
+        padding:10px;
+        font-size:18px;
+        font-weight:bold;
+        color:#ffffff;
+        border:1px solid #8b7cff;
+        border-radius:6px;
         line-height:1.4;
-        background:linear-gradient(90deg,#4aa3ff,#8b7cff);
-        -webkit-background-clip:text;
-        background-clip:text;
-        color:transparent;
     ">
-      Programmes de cybersécurité pour les PME
+      &gt; Sécurité des PME
     </h3>
 
     <p style="
-        margin:0 0 10px;
-        font-size:14px;
-        line-height:1.5;
-        color:#cfcfcf;">
+        margin:0 0 14px;
+        font-size:15px;
+        line-height:1.6;
+        color:#d6d6d6;">
       Protection progressive des actifs numériques essentiels.
     </p>
 
     <p style="
-        margin:0 0 16px;
-        font-size:13px;
-        color:#9aa0a6;">
-      Protection de base · Renforcement · Formation
+        margin:0 0 18px;
+        font-size:14px;
+        color:#a0a0a0;">
+      Stack : Protection de base · Renforcement · Formation
     </p>
 
+    <!-- LIEN ENCADRÉ & CENTRÉ -->
     <a href="projects/phares/protection-pme.html"
        style="
-         margin-top:auto;
-         font-size:13px;
+         margin:0 auto;
+         padding:8px 14px;
+         font-size:15px;
+         font-weight:bold;
          text-decoration:none;
-         font-weight:500;
+         color:#ffffff;
+         border:1px solid #4aa3ff;
+         border-radius:6px;
          background:linear-gradient(90deg,#4aa3ff,#8b7cff);
-         -webkit-background-clip:text;
-         background-clip:text;
-         color:transparent;
-         transition:color .2s ease;
+         transition:background .2s ease, border-color .2s ease;
        "
-       onmouseover="this.style.color='#ff6b6b';"
-       onmouseout="this.style.color='transparent';"
+       onmouseover="
+         this.style.background='#ff6b6b';
+         this.style.borderColor='#ff6b6b';
+       "
+       onmouseout="
+         this.style.background='linear-gradient(90deg,#4aa3ff,#8b7cff)';
+         this.style.borderColor='#4aa3ff';
+       "
     >
-      → Consulter le projet
+      Consulter le projet
     </a>
 
   </div>
 </div>
+
 
 
 
