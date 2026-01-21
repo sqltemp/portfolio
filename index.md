@@ -43,6 +43,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 ---
 <!-- ===== DEBUT NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
+
 <div class="projects-row"
      style="display:flex;
             flex-wrap:wrap;
@@ -52,7 +53,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
             padding:30px;
             border-radius:12px;">
 
-  <!-- CARTE SOBRE COLORÉE -->
+  <!-- CARTE SOBRE COLORÉE SANS IMAGE -->
   <div style="
       position:relative;
       flex:1 1 300px;
@@ -79,7 +80,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   "
   >
 
-    <!-- Liseré haut -->
+    <!-- Liseré haut discret -->
     <div style="
       position:absolute;
       top:0;
@@ -94,7 +95,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
     <!-- TITRE ENCADRÉ & CENTRÉ -->
     <h3 style="
-        margin:8px 0 14px;
+        margin:16px 0 18px;
         padding:10px;
         font-size:18px;
         font-weight:bold;
@@ -102,20 +103,20 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
         border:1px solid #8b7cff;
         border-radius:6px;
         line-height:1.4;
-    "
-      Sécurité des PME
+    ">
+      &gt; Sécurité des PME
     </h3>
 
     <p style="
-        margin:0 0 14px;
+        margin:0 0 16px;
         font-size:15px;
         line-height:1.6;
         color:#d6d6d6;">
-      Développement de programmes de cybersécurité pour les PME
+      Développement de programmes de cybersécurité pour les PME.
     </p>
 
     <p style="
-        margin:0 0 18px;
+        margin:0 0 22px;
         font-size:14px;
         color:#a0a0a0;">
       Protection de base · Renforcement · Formation
@@ -125,7 +126,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <a href="projects/phares/protection-pme.html"
        style="
          margin:0 auto;
-         padding:8px 14px;
+         padding:8px 16px;
          font-size:15px;
          font-weight:bold;
          text-decoration:none;
@@ -149,7 +150,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
   </div>
 </div>
-
 
 
 
