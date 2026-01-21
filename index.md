@@ -145,10 +145,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       Compte rendus de défis CTF (Capture The Flag).
     </p>
   
-    <p class="project-card__stack">
-      Entraînement · Analyse · Write-ups
-    </p>
-  
     <a class="project-card__link" href="projects/ctf/a-venir.html">
       CTF
     </a>
@@ -161,10 +157,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   
     <p class="project-card__desc">
       Articles techniques.
-    </p>
-  
-    <p class="project-card__stack">
-      Thèmes divers · Offensif · Défensif
     </p>
   
     <a class="project-card__link" href="projects/ctf/a-venir.html">
@@ -182,10 +174,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       Fiches pratiques
     </p>
   
-    <p class="project-card__stack">
-      Thèmes divers · Pour débuter
-    </p>
-  
+
     <a class="project-card__link" href="projects/ctf/a-venir.html">
       Aide-mémoire
     </a>
@@ -199,10 +188,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   
     <p class="project-card__desc">
       Bibliothèque de ressources.
-    </p>
-  
-    <p class="project-card__stack">
-      Ressources de référence
     </p>
   
     <a class="project-card__link" href="projects/ressources/ressources.html">
