@@ -54,7 +54,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <h3 class="project-card__title">Sécurité des PME</h3>
 
     <p class="project-card__desc">
-      Développement de programmes de cybersécurité pour les PME.
+      <b>Développement de programmes de cybersécurité pour les PME.</b>
     </p>
 
     <p class="project-card__desc">
@@ -78,7 +78,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <h3 class="project-card__title">Sécurité des citoyens</h3>
 
     <p class="project-card__desc">
-      Protection des citoyens face aux menaces en ligne.
+      <b>Protection des citoyens face aux menaces en ligne.</b>
     </p>
 
     <p class="project-card__desc">
@@ -102,7 +102,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <h3 class="project-card__title">Formations</h3>
 
     <p class="project-card__desc">
-      Formation « Introduction à la Cybersécurité »
+      <b>Formation « Introduction à la Cybersécurité »</b>
     </p>
 
     <p class="project-card__desc">
