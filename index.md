@@ -42,6 +42,10 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 - <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, cartographie de menaces, radio hacking, formation
 
 ---
+
+<!-- ===== PROJETS (cartes) ===== -->
+<h2 id="projets">Projets phares</h2>
+
 <!-- ===== DEBUT NOUVEAU VISUEL CARTES PROJET index.md: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
 <!-- A NOTER QUE J'AI DEPOSE LA PARTIE CUSTOM.CSS DANS UNE SECTION 'NOUVEAU VISUEL CARTES PROJET index.md -->
 
@@ -126,8 +130,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 <!-- ===== FIN NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
 
-<!-- ===== PROJETS (cartes) ===== -->
-<h2 id="projets">Projets phares</h2>
+
 
 <!-- SECTION PROJETS PHARES – ALIGNEMENT 3 CARTES & TEXTE BLANC -->
 <!--div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;"> -->
