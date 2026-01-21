@@ -155,7 +155,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </p>
   
     <a class="project-card__link" href="projects/ctf/a-venir.html">
-      CTF
+      Ouvrir le projet
     </a>
   </div>
   
@@ -170,11 +170,26 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   
 
     <a class="project-card__link" href="projects/ctf/a-venir.html">
-      Fiches
+      Ouvrir le projet
+    </a>
+  </div>
+
+  <!-- CARTE 6 – Radio Hacking -->
+  <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
+  
+      
+    <p class="project-card__desc">
+      Radio Hacking
+    </p>
+  
+
+    <a class="project-card__link" href="projects/ctf/a-venir.html">
+      Ouvrir le projet
     </a>
   </div>
   
-  <!-- CARTE 6 – Bibliotheque de ressources -->
+  <!-- CARTE 7 – Bibliotheque de ressources -->
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
@@ -183,7 +198,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </p>
   
     <a class="project-card__link" href="projects/ressources/ressources.html">
-      Ressources
+      Ouvrir le projet
     </a>
   </div>
 </div>
