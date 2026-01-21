@@ -281,6 +281,8 @@
 .project-card--compact .project-card__link {
   font-size: 14px;
   padding: 6px 12px;
+  margin-top: auto;        /* 🔑 clé de l’alignement */
+  align-self: center;      /* centre horizontalement */
 }
 
 
