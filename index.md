@@ -50,17 +50,56 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <div class="project-card">
     <div class="project-card__accent"></div>
 
-    <h3 class="project-card__title">&gt; Sécurité des PME</h3>
+    <h3 class="project-card__title"&gt; Sécurité des PME</h3>
 
     <p class="project-card__desc">
       Développement de programmes de cybersécurité pour les PME.
     </p>
+    <p style="margin:0 0 12px; line-height:1.5;"Protection des actifs.</p>
 
     <p class="project-card__stack">
       Protection de base · Renforcement · Formation
     </p>
 
     <a class="project-card__link" href="projects/phares/protection-pme.html">
+      Consulter le projet
+    </a>
+  </div>
+  <div class="project-card">
+    <div class="project-card__accent"></div>
+
+    <h3 class="project-card__title"&gt; Sécurité des citoyens</h3>
+
+    <p class="project-card__desc">
+      Protection des citoyens face aux menaces en ligne.
+    </p>
+
+    <p style="margin:0 0 12px; line-height:1.5;"Sensibilisation aux techniques utilisées par les escrocs et les moyens de s'en défendre.</p>
+
+    <p class="project-card__stack">
+      Articles de sensibilisation · Aide personnalisée
+    </p>
+
+    <a class="project-card__link" href="projects/phares/citoyens.html">
+      Consulter le projet
+    </a>
+  </div>
+  <div class="project-card">
+    <div class="project-card__accent"></div>
+
+    <h3 class="project-card__title"&gt;  Formations</h3>
+
+    <p class="project-card__desc">
+      Formation 'Introduction à la Cybersécurité'
+    </p>
+
+    <p style="margin:0 0 12px; line-height:1.5;"Sensibilisation aux techniques de hameçonnage via des activités ludiques et des périodes de discussion.</p>
+
+    <p class="project-card__stack">
+      Support de formation
+    </p>
+
+    <a class="project-card__link" href="projects/phares/formation.html">
       Consulter le projet
     </a>
   </div>
