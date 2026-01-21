@@ -47,16 +47,17 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 <div class="projects-row">
 
+  <!-- CARTE 1 -->
   <div class="project-card">
     <div class="project-card__accent"></div>
 
-    <h3 class="project-card__title">&gt; Sécurité des PME</h3>
+    <h3 class="project-card__title">Sécurité des PME</h3>
 
     <p class="project-card__desc">
       Développement de programmes de cybersécurité pour les PME.
     </p>
 
-    <p style="margin:0 0 12px; line-height:1.5;">
+    <p class="project-card__desc">
       Protection des actifs.
     </p>
 
@@ -70,17 +71,18 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
 
+  <!-- CARTE 2 -->
   <div class="project-card">
     <div class="project-card__accent"></div>
 
-    <h3 class="project-card__title">&gt; Sécurité des citoyens</h3>
+    <h3 class="project-card__title">Sécurité des citoyens</h3>
 
     <p class="project-card__desc">
       Protection des citoyens face aux menaces en ligne.
     </p>
 
-    <p style="margin:0 0 12px; line-height:1.5;">
-      Sensibilisation aux techniques utilisées par les escrocs et les moyens de s'en défendre.
+    <p class="project-card__desc">
+      Sensibilisation aux techniques utilisées par les escrocs et aux moyens de s’en défendre.
     </p>
 
     <p class="project-card__stack">
@@ -93,16 +95,17 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
 
+  <!-- CARTE 3 -->
   <div class="project-card">
     <div class="project-card__accent"></div>
 
-    <h3 class="project-card__title">&gt; Formations</h3>
+    <h3 class="project-card__title">Formations</h3>
 
     <p class="project-card__desc">
       Formation « Introduction à la Cybersécurité »
     </p>
 
-    <p style="margin:0 0 12px; line-height:1.5;">
+    <p class="project-card__desc">
       Sensibilisation aux techniques de hameçonnage via des activités ludiques et des périodes de discussion.
     </p>
 
@@ -116,6 +119,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
 </div>
+
 
 
 
