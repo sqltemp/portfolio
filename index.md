@@ -216,7 +216,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   <p style="text-align:left; line-height:1.6; font-size:1.1em;">
     <strong>Email</strong> : <a href="mailto:contact@sqltemp.com">contact@sqltemp.com</a><br>
     <strong>LinkedIn</strong> : <a href="https://www.linkedin.com/in/thierrymatrat/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/thierrymatrat/</a><br>
-    <strong>CV</strong> : <a href="assets/CV_ThierryMatrat.pdf" target="_blank" rel="noopener noreferrer">Télécharger le CV de Thierry Matrat (PDF)</a>
   </p>
 </section> 
 
