@@ -129,8 +129,9 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 
 <!-- ===== FIN NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
-<!-- CARTE 4 – Autres projets : CTF -->
+
 <!-- ===== DEBUT NOUVEAU VISUEL CARTES 'AUTRES PROJETS'===== -->
+<!-- CARTE 4 – Autres projets : CTF -->
 <div class="project-card project-card--compact">
   <div class="project-card__accent"></div>
 
@@ -145,11 +146,65 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </p>
 
   <a class="project-card__link" href="projects/ctf/a-venir.html">
-    Accéder
+    CTF
+  </a>
+</div>
+<!-- CARTE 5 – Articles techniques -->
+<div class="project-card project-card--compact">
+  <div class="project-card__accent"></div>
+
+  <h3 class="project-card__title">Articles</h3>
+
+  <p class="project-card__desc">
+    Articles techniques.
+  </p>
+
+  <p class="project-card__stack">
+    Thèmes divers · Offensif · Défensif
+  </p>
+
+  <a class="project-card__link" href="projects/ctf/a-venir.html">
+    Articles
   </a>
 </div>
 
+<!-- CARTE 6 – Fiches pratiques -->
+<div class="project-card project-card--compact">
+  <div class="project-card__accent"></div>
 
+  <h3 class="project-card__title">Fiches pratiques</h3>
+
+  <p class="project-card__desc">
+    Fiches pratiques
+  </p>
+
+  <p class="project-card__stack">
+    Thèmes divers · Pour débuter
+  </p>
+
+  <a class="project-card__link" href="projects/ctf/a-venir.html">
+    Aide-mémoire
+  </a>
+</div>
+
+<!-- CARTE 7 – Bibliotheque de ressources -->
+<div class="project-card project-card--compact">
+  <div class="project-card__accent"></div>
+
+  <h3 class="project-card__title">ressources</h3>
+
+  <p class="project-card__desc">
+    Bibliothèque de ressources.
+  </p>
+
+  <p class="project-card__stack">
+    Ressources de référence
+  </p>
+
+  <a class="project-card__link" href="projects/ressources/ressources.html">
+    <i>Ressources</i>
+  </a>
+</div>
 
 <!-- SECTION PROJETS PHARES – ALIGNEMENT 3 CARTES & TEXTE BLANC -->
 <!--div style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px; background-color:#000; padding:30px; border-radius:12px;"> -->
