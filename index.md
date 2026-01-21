@@ -17,7 +17,7 @@ Mode d’emploi :
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
   <img src="logo/SQLTemp_BIMI_v3.svg" alt="Photo de [VOTRE NOM]" width="250" style="border-radius:50%; border:4px solid #3fb950;">
   <h2 style="margin:18px 0 6px;">Thierry Matrat</h2>
-  <p style="margin:0; font-size:18px; opacity:.9;">Services de consultation en cybersécurité • Blue/Red Team • Support technique et formation</p>
+  <p style="margin:0; font-size:18px; opacity:.9;">Services de consultation en cybersécurité • Support technique et formation</p>
   
   <!-- mini navigation -->
   <p style="margin-top:22px;">
@@ -39,7 +39,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 - <strong> Objectif du portfolio </strong> : vulgariser la cybersécurité via des aide-mémoire simples et concis.
 - <strong>Sujets principaux</strong> : renforcement de la posture cyberdéfensive des PME et des citoyens, formation 'Introduction à la cybersécurité & défense contre les attaques par hameçonnage'  
-- <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, Sécurité infonuagique, cartographie de menaces, radio hacking, formation
+- <strong>Mes intérêts</strong> : Blue/Red Team, Forensique, SIEM, EDR, cartographie de menaces, radio hacking, formation
 
 ---
 <!-- ===== DEBUT NOUVEAU VISUEL CARTES PROJET: mettre ici la nouvelle version visuelle des PROJETS (cartes) ===== -->
@@ -92,13 +92,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
       opacity:0.85;
     "></div>
 
-    <img src="assets/project1.png"
-         alt="Sécurité des PME"
-         style="width:100%;
-                border-radius:8px;
-                margin-bottom:14px;
-                opacity:0.92;">
-
     <!-- TITRE ENCADRÉ & CENTRÉ -->
     <h3 style="
         margin:8px 0 14px;
@@ -109,7 +102,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
         border:1px solid #8b7cff;
         border-radius:6px;
         line-height:1.4;
-    ">
+    "
       &gt; Sécurité des PME
     </h3>
 
@@ -118,14 +111,14 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
         font-size:15px;
         line-height:1.6;
         color:#d6d6d6;">
-      Protection progressive des actifs numériques essentiels.
+      Développement de programmes de cybersécurité pour les PME
     </p>
 
     <p style="
         margin:0 0 18px;
         font-size:14px;
         color:#a0a0a0;">
-      Stack : Protection de base · Renforcement · Formation
+      Protection de base · Renforcement · Formation
     </p>
 
     <!-- LIEN ENCADRÉ & CENTRÉ -->
