@@ -82,38 +82,40 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </div>
 
 
-<h2 id="Autres projets">Autres projets </h2>
+<h2 id="autres-projets">Autres projets</h2>
 
 <div class="projects-row projects-row--other">
 
-
-  <!-- STYLE BLEU / CYBER -->
   <!-- CARTE 4 -->
   <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
     <p class="project-card__desc">Compte rendus défis CTF (Capture The Flag)</p>
     <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
-  
-  
-    <!-- CARTE 5 -->
+
+  <!-- CARTE 5 -->
   <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
     <p class="project-card__desc">Fiches pratiques pour citoyens et PME</p>
     <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
-  
+
   <!-- CARTE 6 -->
   <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
     <p class="project-card__desc">Notes de cours (réseau, cybersécurité, programmation)</p>
     <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 7 -->
   <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
     <p class="project-card__desc">Bibliothèque de ressources</p>
     <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
 
 </div>
+
 
 ---
 <!-- ===== COMPÉTENCES ===== -->
