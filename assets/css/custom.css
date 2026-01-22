@@ -1,11 +1,12 @@
 /* === Nouveau visuel cartes Index.md === */
-.projects-row.projects-row--other {
+/* Desktop/tablette : autres projets en ligne */
+.projects-row.projects-row--other{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;              /* autorise le retour à la ligne */
   justify-content: center;
-  gap: 24px;
+  gap: 14px;
   background-color: #000;
-  padding: 30px;
+  padding: 24px;
   border-radius: 12px;
 }
 
@@ -118,13 +119,12 @@
 
   /* IMPORTANT : on ne casse pas tout le layout,
      on force l’empilement surtout pour "other" */
-  .projects-row.projects-row--other {
-    display: flex;               /* on garde flex */
-    flex-direction: column;      /* empilement vertical */
-    flex-wrap: nowrap;           /* évite les comportements bizarres */
-    align-items: center;         /* cartes centrées */
-    padding: 18px 14px;
-    border-radius: 10px;
+@media (max-width: 640px){
+  .projects-row.projects-row--other{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: visible;        /* on supprime le scroll horizontal */
   }
 
   /* (optionnel) si tu veux conserver aussi le comportement actuel
