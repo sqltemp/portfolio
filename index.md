@@ -64,7 +64,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <img src="assets/project2.png" alt="Sécurité des citoyens" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Protection des citoyens face aux menaces en ligne</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques utilisées par les escrocs et les moyens de s'en défendre.</p>
-    <p style="margin:0 0 12px; font-size:14px; opacity:.9;"> Articles de vulgarisation · Aide personnalisée </p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;"> Articles de sensibilisation · Aide personnalisée </p>
     <a href="projects/phares/citoyens.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
@@ -73,7 +73,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     <img src="assets/project3.png" alt="Formations" style="width:100%; border-radius:6px; margin-bottom:12px; border:1px solid #3fb950;">
     <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Introduction à la Cybersécurité'</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameçonnage via des activités ludiques et des périodes de discussion.</p>
-    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Support de formation </p>
+    <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Activités ludiques · Support de formation </p>
     <a href="projects/phares/formation.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
