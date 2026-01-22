@@ -1,9 +1,9 @@
 /* === Nouveau visuel cartes Index.md === */
-.projects-row {
+.projects-row.projects-row--other {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
   background-color: #000;
   padding: 30px;
   border-radius: 12px;
