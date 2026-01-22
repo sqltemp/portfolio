@@ -115,24 +115,38 @@
 
 /* ====== TÉLÉPHONES (≤ 640px) ====== */
 @media (max-width: 640px) {
-  .projects-row {
-    display: block;               /* empilement simple */
+
+  /* IMPORTANT : on ne casse pas tout le layout,
+     on force l’empilement surtout pour "other" */
+  .projects-row.projects-row--other {
+    display: flex;               /* on garde flex */
+    flex-direction: column;      /* empilement vertical */
+    flex-wrap: nowrap;           /* évite les comportements bizarres */
+    align-items: center;         /* cartes centrées */
+    padding: 18px 14px;
+    border-radius: 10px;
+  }
+
+  /* (optionnel) si tu veux conserver aussi le comportement actuel
+     pour d'autres rows, tu peux garder ceci */
+  .projects-row:not(.projects-row--other) {
+    display: block;              /* ton empilement simple actuel */
     padding: 18px 14px;
     border-radius: 10px;
   }
 
   /* chaque carte prend toute la largeur, centrée */
-  .project-card {
+  .projects-row.projects-row--other .project-card {
     width: 100%;
-    max-width: 560px;             /* limite esthétique sur grands mobiles */
+    max-width: 560px;            /* limite esthétique sur grands mobiles */
     margin: 0 auto 16px auto;
     padding: 16px;
     border-radius: 10px;
-    /* conserve ton thème terminal : fond noir et bordure verte viennent déjà de l’existant */
   }
 
+  /* garde aussi ton style mobile global (au cas où) */
   .project-card h3 {
-    font-size: 1.05rem;           /* légère baisse pour éviter les retours à la ligne trop rapides */
+    font-size: 1.05rem;
     margin-top: 4px;
     margin-bottom: 8px;
   }
@@ -141,13 +155,14 @@
     margin-bottom: 10px;
   }
   .project-card a {
-    width: 100%;                  /* bouton pleine largeur sur mobile : plus simple à cliquer */
+    width: 100%;
     text-align: center;
     padding: 10px 12px;
     border-radius: 6px;
     font-weight: 700;
   }
 }
+
 /* ====== Ajout du bandeau SQLTemp en haut de l'ecran ====== */
 .site-title {
   text-align: center;
@@ -163,6 +178,7 @@
   width: 100%;
   height: auto;
 }
+
 /* ====== ÉCRANS TRÈS ÉTROITS (≤ 360px) ====== */
 @media (max-width: 360px) {
   .projects-row {
@@ -181,6 +197,7 @@
     max-width: 220px;
   }
 }
+
 /* ====== PROFIL CITOYEN (photo gauche / texte droite) ====== */
 .profil-wrapper{
   display: flex;
@@ -227,7 +244,6 @@
   }
 }
 
-
 /* ====== Sections encadrées dans citoyens.html (comme protection-pme.html) ====== */
 .article-section{
   border: 1px solid rgba(63,185,80,.35);
@@ -256,7 +272,7 @@
   background: rgba(63,185,80,.08);
   border-radius: 8px;
 }
+
 .titre-centre {
   text-align: center;
 }
-
