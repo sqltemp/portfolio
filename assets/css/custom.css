@@ -3,7 +3,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 18px;
+  gap: 24px;
   background-color: #000;
   padding: 30px;
   border-radius: 12px;
@@ -258,46 +258,5 @@
 }
 .titre-centre {
   text-align: center;
-}
-/* === Variante compacte pour "Autres projets" -> Nouvelle version, suite au style terminal que j'avais adopte initialement === */
-.project-card--compact {
-  flex: 0 0 20%;
-  max-width: 20%;
-  padding: 14px;
-  font-size: 14px;
-}
-
-.project-card--compact .project-card__title {
-  font-size: 16px;
-  margin: 10px 0 12px;
-  padding: 8px;
-}
-
-.project-card--compact .project-card__desc {
-  font-size: 14px;
-  line-height: 1.45;
-}
-
-.project-card--compact .project-card__link {
-  font-size: 14px;
-  padding: 6px 12px;
-  margin-top: auto;        /* 🔑 clé de l’alignement */
-  align-self: center;      /* centre horizontalement */
-}
-
-/* === Mobile: "Autres projets" en colonne === */
-@media (max-width: 700px) {
-  /* cible uniquement la rangée "Autres projets" */
-  .projects-row.projects-row--other {
-    flex-wrap: wrap;
-    flex-direction: column;
-    overflow-x: visible;
-  }
-
-  .projects-row.projects-row--other .project-card--compact {
-    flex: 0 0 auto;
-    max-width: 100%;
-    width: 100%;
-  }
 }
 
