@@ -52,7 +52,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
   <!-- CARTE 1 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> Développement de programmes de cybersécurité pour les PME</h3>
+    <h3 style="margin:6px 0 10px; color:#ffffff;"> Développement de programmes de cybersécurité pour les PME</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Assurer une sécurité robuste de vos actifs via 13 contrôles de base.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;"> Protection de base · Renforcement · Formation</p>
     <a href="projects/phares/protection-pme.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
@@ -60,7 +60,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   
   <!-- CARTE 2 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> Protection des citoyens face aux menaces en ligne</h3>
+    <h3 style="margin:6px 0 10px; color:#ffffff;"> Protection des citoyens face aux menaces en ligne</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques utilisées par les escrocs et les moyens de s'en défendre.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;"> Articles de sensibilisation · Aide personnalisée </p>
     <a href="projects/phares/citoyens.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
@@ -68,7 +68,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
   <!-- CARTE 3 -->
   <div style="flex:1 1 300px; min-width:220px; max-width:280px; background-color:#0d0d0d; border:1px solid #3fb950; border-radius:10px; padding:18px; color:#ffffff; font-family:'Courier New', monospace; box-shadow:0 0 10px rgba(63,185,80,0.2); text-align:center;display:flex;flex-direction:column;">
-    <h3 style="margin:6px 0 10px; color:#ffffff;">> Formation 'Introduction à la Cybersécurité'</h3>
+    <h3 style="margin:6px 0 10px; color:#ffffff;"> Formation 'Introduction à la Cybersécurité'</h3>
     <p style="margin:0 0 12px; line-height:1.5;">Sensibilisation aux techniques de hameçonnage via des activités ludiques et des périodes de discussion.</p>
     <p style="margin:0 0 12px; font-size:14px; opacity:.9;">Activités ludiques · Support de formation </p>
     <a href="projects/phares/formation.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
@@ -104,41 +104,6 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
 </div>
-
-
-
-<div class="projects-row projects-row--other">
-
-  <!-- CARTE 4 -->
-  <div class="project-card project-card--compact">
-    <div class="project-card__accent"></div>
-    <p class="project-card__desc">Compte rendus défis CTF (Capture The Flag)</p>
-    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
-  </div>
-
-  <!-- CARTE 5 -->
-  <div class="project-card project-card--compact">
-    <div class="project-card__accent"></div>
-    <p class="project-card__desc">Fiches pratiques pour citoyens et PME</p>
-    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
-  </div>
-
-  <!-- CARTE 6 -->
-  <div class="project-card project-card--compact">
-    <div class="project-card__accent"></div>
-    <p class="project-card__desc">Notes de cours (réseau, cybersécurité, programmation)</p>
-    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
-  </div>
-
-  <!-- CARTE 7 -->
-  <div class="project-card project-card--compact">
-    <div class="project-card__accent"></div>
-    <p class="project-card__desc">Bibliothèque de ressources</p>
-    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
-  </div>
-
-</div>
-
 
 ---
 <!-- ===== COMPÉTENCES ===== -->
