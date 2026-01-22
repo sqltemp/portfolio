@@ -15,7 +15,7 @@ Mode d’emploi :
 
 <!-- ===== HERO / BANNIÈRE ===== -->
 <div align="center" style="background:#1f1f1f; padding:56px 20px; color:#fff; border-radius:14px;">
-  <img src="logo/SQLTemp_BIMI_v3.svg" alt="Photo de [VOTRE NOM]" width="250" style="border-radius:50%; border:4px solid #7A6CF0;">
+  <img src="logo/SQLTemp_BIMI_v3.svg" alt="Photo de [VOTRE NOM]" width="250" style="border-radius:50%; border:4px solid #3fb950;">
   <h2 style="margin:18px 0 6px;">Thierry Matrat</h2>
   <p style="margin:0; font-size:18px; opacity:.9;">Services de consultation en cybersécurité • Support technique et formation</p>
   
@@ -82,7 +82,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </div>
 
 
-<h3 id="Autres projets"Autres projets </h3>
+<h3 id="Autres projets">Autres projets </h3>
 
 <div class="projects-row" style="
   display:flex; 
@@ -133,7 +133,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     flex-direction:column;
   ">
     <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques sur divers thèmes</p>
+    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques pour citoyens et PME</p>
     <a href="projects/articles/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
   </div>
 
