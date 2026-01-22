@@ -84,97 +84,33 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 
 <h2 id="Autres projets">Autres projets </h2>
 
-<div class="projects-row" style="
-  display:flex; 
-  flex-wrap:nowrap; 
-  justify-content:space-between; 
-  gap:14px; 
-  background-color:#000; 
-  padding:24px; 
-  border-radius:12px;
-  overflow-x:auto; 
-  -webkit-overflow-scrolling:touch;
-">
+<div class="projects-row projects-row--other">
+
 
   <!-- STYLE BLEU / CYBER -->
   <!-- CARTE 4 -->
-  <div style="
-    flex:0 0 20%; 
-    max-width:20%; 
-    background-color:#0a0f16; 
-    border:1px solid #3fb950; 
-    border-radius:10px; 
-    padding:14px; 
-    color:#e9f1ff; 
-    font-family:'Courier New', monospace; 
-    box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:center;
-    display:flex; 
-    flex-direction:column;
-  ">
-    <!--img src="assets/project1.png" alt="CTFs" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Compte rendus défis CTF (Capture The Flag)</p>
-    <a href="projects/ctf/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  <div class="project-card project-card--compact">
+    <p class="project-card__desc">Compte rendus défis CTF (Capture The Flag)</p>
+    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
-
-  <!-- CARTE 5 -->
-  <div style="
-    flex:0 0 20%; 
-    max-width:20%; 
-    background-color:#0a0f16; 
-    border:1px solid #3fb950; 
-    border-radius:10px; 
-    padding:14px; 
-    color:#e9f1ff; 
-    font-family:'Courier New', monospace; 
-    box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:center;
-    display:flex; 
-    flex-direction:column;
-  ">
-    <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Fiches pratiques pour citoyens et PME</p>
-    <a href="projects/articles/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  
+  
+    <!-- CARTE 5 -->
+  <div class="project-card project-card--compact">
+    <p class="project-card__desc">Fiches pratiques pour citoyens et PME</p>
+    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
-
+  
   <!-- CARTE 6 -->
-  <div style="
-    flex:0 0 20%; 
-    max-width:20%; 
-    background-color:#0a0f16; 
-    border:1px solid #3fb950; 
-    border-radius:10px; 
-    padding:14px; 
-    color:#e9f1ff; 
-    font-family:'Courier New', monospace; 
-    box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:center;
-    display:flex; 
-    flex-direction:column;
-  ">
-    <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Notes de cours (réseau, cybersécurité, programmation)</p>
-    <a href="projects/articles/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  <div class="project-card project-card--compact">
+    <p class="project-card__desc">Notes de cours (réseau, cybersécurité, programmation)</p>
+    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
 
   <!-- CARTE 7 -->
-  <div style="
-    flex:0 0 20%; 
-    max-width:20%; 
-    background-color:#0a0f16; 
-    border:1px solid #3fb950; 
-    border-radius:10px; 
-    padding:14px; 
-    color:#e9f1ff; 
-    font-family:'Courier New', monospace; 
-    box-shadow:0 0 10px rgba(79,179,255,0.18); 
-    text-align:center;
-    display:flex; 
-    flex-direction:column;
-  ">
-    <!--img src="assets/project3.png" alt="Ressources" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
-    <p style="margin:0 0 10px; line-height:1.45;">Bibliothèque de ressources.</p>
-    <a href="projects/ressources/ressources.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  <div class="project-card project-card--compact">
+    <p class="project-card__desc">Bibliothèque de ressources</p>
+    <a class="project-card__link" href="projects/ctf/a-venir.html">Ouvrir le projet</a>
   </div>
 
 </div>
