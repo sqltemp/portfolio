@@ -82,7 +82,7 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
 </div>
 
 
-<h3 id="Autres projets">Autres projets </h3>
+<h2 id="Autres projets">Autres projets </h2>
 
 <div class="projects-row" style="
   display:flex; 
