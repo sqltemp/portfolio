@@ -174,8 +174,23 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
     </a>
   </div>
 
+  <!-- CARTE 6 – Notes de Cours -->
+  <div class="project-card project-card--compact">
+    <div class="project-card__accent"></div>
   
-  <!-- CARTE 6 – Bibliotheque de ressources -->
+      
+    <p class="project-card__desc">
+     Notes de cours (réseau, cybersécurité, programmation)
+    </p>
+  
+
+    <a class="project-card__link" href="projects/ctf/a-venir.html">
+      Ouvrir le projet
+    </a>
+  </div>
+
+  
+  <!-- CARTE 7 – Bibliotheque de ressources -->
   <div class="project-card project-card--compact">
     <div class="project-card__accent"></div>
   
@@ -280,6 +295,26 @@ Analyste en cybersécurité, je me consacre à rendre la cybersécurité accessi
   </div>
 
   <!-- CARTE 6 -->
+  <div style="
+    flex:0 0 20%; 
+    max-width:20%; 
+    background-color:#0a0f16; 
+    border:1px solid #3fb950; 
+    border-radius:10px; 
+    padding:14px; 
+    color:#e9f1ff; 
+    font-family:'Courier New', monospace; 
+    box-shadow:0 0 10px rgba(79,179,255,0.18); 
+    text-align:center;
+    display:flex; 
+    flex-direction:column;
+  ">
+    <!--img src="assets/project2.png" alt="Articles" style="width:68%; border-radius:6px; margin-bottom:10px; border:1px solid #4fb3ff;"-->
+    <p style="margin:0 0 10px; line-height:1.45;">Notes de cours (réseau, cybersécurité, programmation)</p>
+    <a href="projects/articles/a-venir.html" style="display:inline-block; margin-top:auto; padding:6px 10px; background-color:#3fb950; color:#ffffff; text-decoration:none; border-radius:4px; font-weight:bold;">Ouvrir le projet</a>
+  </div>
+
+  <!-- CARTE 7 -->
   <div style="
     flex:0 0 20%; 
     max-width:20%; 
