@@ -115,8 +115,6 @@
 }
 
 /* ====== TÉLÉPHONES (≤ 640px) ====== */
-@media (max-width: 640px) {
-
   /* IMPORTANT : on ne casse pas tout le layout,
      on force l’empilement surtout pour "other" */
 @media (max-width: 640px){
