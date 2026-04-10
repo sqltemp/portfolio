@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Timeline ICS / SCADA Cyber Attacks</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e2e8f0;
+}
+.timeline {
+    position: relative;
+    max-width: 900px;
+    margin: auto;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    background-color: #38bdf8;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -2px;
+}
+.container {
+    padding: 20px;
+    position: relative;
+    width: 50%;
+}
+.left { left: 0; }
+.right { left: 50%; }
+
+.content {
+    padding: 15px;
+    background: #1e293b;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.content:hover {
+    background: #334155;
+    transform: scale(1.03);
+}
+a {
+    color: #38bdf8;
+    text-decoration: none;
+}
+h3 { margin-top: 0; }
+</style>
+</head>
+
+<body>
+
+<h1 style="text-align:center;">Timeline des attaques ICS / SCADA</h1>
+
+<div class="timeline">
+
+<div class="container left">
+  <div class="content">
+    <h3>1997 – Worcester Airport Hack</h3>
+    <p>Première attaque connue contre un système industriel via intrusion téléphonique.</p>
+    <a href="https://www.otsechuddle.com/attack-timeline" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container right">
+  <div class="content">
+    <h3>2010 – Stuxnet</h3>
+    <p>Premier malware ciblant des PLC industriels (nucléaire iranien).</p>
+    <a href="https://en.wikipedia.org/wiki/Stuxnet" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container left">
+  <div class="content">
+    <h3>2010 – Night Dragon</h3>
+    <p>Campagne visant les entreprises pétrolières et énergétiques.</p>
+    <a href="https://github.com/donadelden/awesome-ics-malware" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container right">
+  <div class="content">
+    <h3>2011 – Duqu</h3>
+    <p>Malware lié à Stuxnet ciblant les fabricants de systèmes ICS.</p>
+    <a href="https://github.com/donadelden/awesome-ics-malware" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container left">
+  <div class="content">
+    <h3>2012 – Shamoon</h3>
+    <p>Destruction massive de données dans des entreprises énergétiques (Saudi Aramco).</p>
+    <a href="https://github.com/donadelden/awesome-ics-malware" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container right">
+  <div class="content">
+    <h3>2015 – Ukraine Power Grid</h3>
+    <p>Première coupure d’électricité causée par une cyberattaque (~230 000 personnes).</p>
+    <a href="https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container left">
+  <div class="content">
+    <h3>2016 – Industroyer</h3>
+    <p>Malware ICS avancé provoquant une panne électrique à Kyiv.</p>
+    <a href="https://news.ucsc.edu/2024/05/ukraine-cybersecurity/" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container right">
+  <div class="content">
+    <h3>2017 – Triton / Trisis</h3>
+    <p>Attaque contre des systèmes de sécurité industriels (SIS).</p>
+    <a href="https://www.dragos.com/blog/the-evolution-of-cyber-attacks-on-electric-operations/" target="_blank">Lire →</a>
+  </div>
+</div>
+
+<div class="container left">
+  <div class="content">
+    <h3>2022 – Industroyer2</h3>
+    <p>Nouvelle attaque ICS coordonnée pendant la guerre en Ukraine.</p>
+    <a href="https://news.ucsc.edu/2024/05/ukraine-cybersecurity/" target="_blank">Lire →</a>
+  </div>
+</div>
+
+</div>
+
+</body>
+</html>
