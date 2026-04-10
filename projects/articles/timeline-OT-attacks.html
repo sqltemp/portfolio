@@ -2,200 +2,159 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>ICS Cyber Attacks Timeline (MITRE ATT&CK)</title>
+<title>ICS Cyber Attack Map (Offline)</title>
 
 <style>
 body {
-    font-family: Arial, sans-serif;
+    margin: 0;
+    font-family: Arial;
     background: #020617;
-    color: #e2e8f0;
+    color: white;
 }
 
-h1 {
-    text-align: center;
-    margin: 30px;
-}
-
-.timeline {
-    max-width: 1000px;
-    margin: auto;
+#map {
+    width: 100%;
+    height: 100vh;
     position: relative;
 }
 
-.timeline::after {
-    content: '';
+svg {
+    width: 100%;
+    height: 100%;
+    background: #020617;
+}
+
+.marker {
+    fill: #ef4444;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.marker:hover {
+    fill: #f87171;
+    transform: scale(1.2);
+}
+
+#popup {
     position: absolute;
-    width: 4px;
-    background: #22c55e;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-}
-
-.container {
-    padding: 20px;
-    position: relative;
-    width: 50%;
-}
-
-.left { left: 0; }
-.right { left: 50%; }
-
-.card {
     background: #0f172a;
     padding: 15px;
-    border-radius: 10px;
-    transition: 0.3s;
-    border-left: 4px solid #22c55e;
-}
-
-.card:hover {
-    transform: scale(1.03);
-    background: #1e293b;
+    border-radius: 8px;
+    display: none;
+    max-width: 300px;
+    border: 1px solid #334155;
 }
 
 .badge {
     display: inline-block;
-    padding: 3px 8px;
-    margin: 3px;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: bold;
+    padding: 3px 6px;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: 11px;
 }
 
 .initial { background: #2563eb; }
 .execution { background: #9333ea; }
-.persistence { background: #f59e0b; }
 .lateral { background: #ec4899; }
 .impact { background: #ef4444; }
 
-a {
-    color: #38bdf8;
-    text-decoration: none;
-}
-
-h3 {
-    margin-top: 0;
-}
+a { color: #38bdf8; }
 </style>
 </head>
 
 <body>
 
-<h1>ICS / SCADA Cyber Attacks + MITRE ATT&CK Mapping</h1>
+<div id="map">
 
-<div class="timeline">
+<!-- Carte simplifiée monde (projection basique) -->
+<svg viewBox="0 0 1000 500">
 
-<!-- STUXNET -->
-<div class="container left">
-<div class="card">
-<h3>2010 – Stuxnet</h3>
-<p>Sabotage du programme nucléaire iranien via PLC Siemens.</p>
+<!-- continents simplifiés -->
+<rect x="0" y="0" width="1000" height="500" fill="#020617"/>
 
-<div>
-<span class="badge initial">Initial Access</span>
-<span class="badge execution">Execution</span>
-<span class="badge lateral">Lateral Movement</span>
-<span class="badge impact">Impact</span>
-</div>
+<!-- markers -->
+<circle class="marker" cx="620" cy="260" r="6" onclick="showPopup(event, 0)"/>
+<circle class="marker" cx="540" cy="200" r="6" onclick="showPopup(event, 1)"/>
+<circle class="marker" cx="700" cy="220" r="6" onclick="showPopup(event, 2)"/>
+<circle class="marker" cx="720" cy="260" r="6" onclick="showPopup(event, 3)"/>
+<circle class="marker" cx="540" cy="200" r="6" onclick="showPopup(event, 4)"/>
 
-<p>
-Mapping MITRE :
-<ul>
-<li>T0847 – Lateral Tool Transfer</li>
-<li>T0851 – Modify Control Logic</li>
-<li>T0831 – Program Download</li>
-</ul>
-</p>
+</svg>
 
-<a href="https://en.wikipedia.org/wiki/Stuxnet" target="_blank">Lire →</a>
-</div>
-</div>
-
-<!-- UKRAINE 2015 -->
-<div class="container right">
-<div class="card">
-<h3>2015 – Ukraine Power Grid</h3>
-<p>Première panne électrique causée par cyberattaque.</p>
-
-<div>
-<span class="badge initial">Initial Access</span>
-<span class="badge lateral">Lateral Movement</span>
-<span class="badge impact">Impact</span>
-</div>
-
-<ul>
-<li>T0866 – Spearphishing Attachment</li>
-<li>T0886 – Remote Services</li>
-<li>T0829 – Loss of Control</li>
-</ul>
-
-<a href="https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack" target="_blank">Lire →</a>
-</div>
-</div>
-
-<!-- INDUSTROYER -->
-<div class="container left">
-<div class="card">
-<h3>2016 – Industroyer</h3>
-<p>Malware ICS modulaire ciblant les protocoles industriels.</p>
-
-<div>
-<span class="badge execution">Execution</span>
-<span class="badge impact">Impact</span>
-</div>
-
-<ul>
-<li>T0855 – Unauthorized Command Message</li>
-<li>T0806 – Manipulation of Control</li>
-</ul>
-
-<a href="https://www.welivesecurity.com/2017/06/12/industroyer-largest-threat-industrial-control-systems-since-stuxnet/" target="_blank">Lire →</a>
-</div>
-</div>
-
-<!-- TRITON -->
-<div class="container right">
-<div class="card">
-<h3>2017 – Triton / Trisis</h3>
-<p>Attaque ciblant les systèmes de sécurité industriels (SIS).</p>
-
-<div>
-<span class="badge execution">Execution</span>
-<span class="badge persistence">Persistence</span>
-<span class="badge impact">Impact</span>
-</div>
-
-<ul>
-<li>T0851 – Modify Control Logic</li>
-<li>T0890 – Loss of Safety</li>
-</ul>
-
-<a href="https://www.dragos.com/blog/triton/" target="_blank">Lire →</a>
-</div>
-</div>
-
-<!-- INDUSTROYER2 -->
-<div class="container left">
-<div class="card">
-<h3>2022 – Industroyer2</h3>
-<p>Nouvelle version utilisée pendant la guerre en Ukraine.</p>
-
-<div>
-<span class="badge execution">Execution</span>
-<span class="badge impact">Impact</span>
-</div>
-
-<ul>
-<li>T0855 – Unauthorized Command Message</li>
-<li>T0829 – Loss of Control</li>
-</ul>
-
-<a href="https://www.welivesecurity.com/2022/04/12/industroyer2-industroyer-reloaded/" target="_blank">Lire →</a>
-</div>
-</div>
+<div id="popup"></div>
 
 </div>
+
+<script>
+
+const attacks = [
+{
+name: "Stuxnet (2010)",
+desc: "Sabotage nucléaire iranien via PLC",
+mitre: ["T0847", "T0851", "T0831"],
+tactics: ["initial","execution","lateral","impact"],
+link: "https://en.wikipedia.org/wiki/Stuxnet"
+},
+{
+name: "Ukraine Power Grid (2015)",
+desc: "Blackout massif (~230k personnes)",
+mitre: ["T0866","T0886","T0829"],
+tactics: ["initial","lateral","impact"],
+link: "https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack"
+},
+{
+name: "Industroyer (2016)",
+desc: "Malware ICS protocol-aware",
+mitre: ["T0855","T0806"],
+tactics: ["execution","impact"],
+link: "https://www.welivesecurity.com/"
+},
+{
+name: "Triton (2017)",
+desc: "Ciblage des systèmes de sécurité industriels",
+mitre: ["T0851","T0890"],
+tactics: ["execution","impact"],
+link: "https://www.dragos.com/"
+},
+{
+name: "Industroyer2 (2022)",
+desc: "Attaque ICS en contexte de guerre",
+mitre: ["T0855","T0829"],
+tactics: ["execution","impact"],
+link: "https://www.welivesecurity.com/"
+}
+];
+
+function showPopup(event, index) {
+
+const attack = attacks[index];
+
+const popup = document.getElementById("popup");
+
+const badges = attack.tactics.map(t =>
+`<span class="badge ${t}">${t}</span>`
+).join("");
+
+popup.innerHTML = `
+<h3>${attack.name}</h3>
+<p>${attack.desc}</p>
+<div>${badges}</div>
+<p><b>MITRE:</b> ${attack.mitre.join(", ")}</p>
+<a href="${attack.link}" target="_blank">Lire plus</a>
+`;
+
+popup.style.display = "block";
+popup.style.left = event.pageX + 10 + "px";
+popup.style.top = event.pageY + 10 + "px";
+}
+
+// close popup on click outside
+document.addEventListener("click", function(e) {
+if (!e.target.classList.contains("marker")) {
+document.getElementById("popup").style.display = "none";
+}
+});
+
+</script>
 
 </body>
 </html>
