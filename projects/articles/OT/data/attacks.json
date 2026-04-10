@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Stuxnet (2010)",
+    "coords": [51.3890, 35.6892],
+    "desc": "Sabotage nucléaire iranien",
+    "mitre": ["T0847","T0851","T0831"],
+    "tactics": ["initial","execution","lateral","impact"],
+    "link": "https://en.wikipedia.org/wiki/Stuxnet"
+  },
+  {
+    "name": "Ukraine Power Grid (2015)",
+    "coords": [31.1656, 48.3794],
+    "desc": "Blackout massif",
+    "mitre": ["T0866","T0886","T0829"],
+    "tactics": ["initial","lateral","impact"],
+    "link": "https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack"
+  }
+]
