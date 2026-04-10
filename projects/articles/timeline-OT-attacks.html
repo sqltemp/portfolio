@@ -2,130 +2,197 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Timeline ICS / SCADA Cyber Attacks</title>
+<title>ICS Cyber Attacks Timeline (MITRE ATT&CK)</title>
+
 <style>
 body {
     font-family: Arial, sans-serif;
-    background: #0f172a;
+    background: #020617;
     color: #e2e8f0;
 }
-.timeline {
-    position: relative;
-    max-width: 900px;
-    margin: auto;
+
+h1 {
+    text-align: center;
+    margin: 30px;
 }
+
+.timeline {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
 .timeline::after {
     content: '';
     position: absolute;
     width: 4px;
-    background-color: #38bdf8;
+    background: #22c55e;
     top: 0;
     bottom: 0;
     left: 50%;
-    margin-left: -2px;
 }
+
 .container {
     padding: 20px;
     position: relative;
     width: 50%;
 }
+
 .left { left: 0; }
 .right { left: 50%; }
 
-.content {
+.card {
+    background: #0f172a;
     padding: 15px;
-    background: #1e293b;
-    border-radius: 8px;
+    border-radius: 10px;
     transition: 0.3s;
+    border-left: 4px solid #22c55e;
 }
-.content:hover {
-    background: #334155;
+
+.card:hover {
     transform: scale(1.03);
+    background: #1e293b;
 }
+
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.initial { background: #2563eb; }
+.execution { background: #9333ea; }
+.persistence { background: #f59e0b; }
+.lateral { background: #ec4899; }
+.impact { background: #ef4444; }
+
 a {
     color: #38bdf8;
     text-decoration: none;
 }
-h3 { margin-top: 0; }
+
+h3 {
+    margin-top: 0;
+}
 </style>
 </head>
 
 <body>
 
-<h1 style="text-align:center;">Timeline des attaques ICS / SCADA</h1>
+<h1>ICS / SCADA Cyber Attacks + MITRE ATT&CK Mapping</h1>
 
 <div class="timeline">
 
+<!-- STUXNET -->
 <div class="container left">
-  <div class="content">
-    <h3>1997 – Worcester Airport Hack</h3>
-    <p>Première attaque connue contre un système industriel via intrusion téléphonique.</p>
-    <a href="https://www.otsechuddle.com/attack-timeline" target="_blank">Lire →</a>
-  </div>
+<div class="card">
+<h3>2010 – Stuxnet</h3>
+<p>Sabotage du programme nucléaire iranien via PLC Siemens.</p>
+
+<div>
+<span class="badge initial">Initial Access</span>
+<span class="badge execution">Execution</span>
+<span class="badge lateral">Lateral Movement</span>
+<span class="badge impact">Impact</span>
 </div>
 
+<p>
+Mapping MITRE :
+<ul>
+<li>T0847 – Lateral Tool Transfer</li>
+<li>T0851 – Modify Control Logic</li>
+<li>T0831 – Program Download</li>
+</ul>
+</p>
+
+<a href="https://en.wikipedia.org/wiki/Stuxnet" target="_blank">Lire →</a>
+</div>
+</div>
+
+<!-- UKRAINE 2015 -->
 <div class="container right">
-  <div class="content">
-    <h3>2010 – Stuxnet</h3>
-    <p>Premier malware ciblant des PLC industriels (nucléaire iranien).</p>
-    <a href="https://en.wikipedia.org/wiki/Stuxnet" target="_blank">Lire →</a>
-  </div>
+<div class="card">
+<h3>2015 – Ukraine Power Grid</h3>
+<p>Première panne électrique causée par cyberattaque.</p>
+
+<div>
+<span class="badge initial">Initial Access</span>
+<span class="badge lateral">Lateral Movement</span>
+<span class="badge impact">Impact</span>
 </div>
 
+<ul>
+<li>T0866 – Spearphishing Attachment</li>
+<li>T0886 – Remote Services</li>
+<li>T0829 – Loss of Control</li>
+</ul>
+
+<a href="https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack" target="_blank">Lire →</a>
+</div>
+</div>
+
+<!-- INDUSTROYER -->
 <div class="container left">
-  <div class="content">
-    <h3>2010 – Night Dragon</h3>
-    <p>Campagne visant les entreprises pétrolières et énergétiques.</p>
-    <a href="https://github.com/donadelden/awesome-ics-malware" target="_blank">Lire →</a>
-  </div>
+<div class="card">
+<h3>2016 – Industroyer</h3>
+<p>Malware ICS modulaire ciblant les protocoles industriels.</p>
+
+<div>
+<span class="badge execution">Execution</span>
+<span class="badge impact">Impact</span>
 </div>
 
+<ul>
+<li>T0855 – Unauthorized Command Message</li>
+<li>T0806 – Manipulation of Control</li>
+</ul>
+
+<a href="https://www.welivesecurity.com/2017/06/12/industroyer-largest-threat-industrial-control-systems-since-stuxnet/" target="_blank">Lire →</a>
+</div>
+</div>
+
+<!-- TRITON -->
 <div class="container right">
-  <div class="content">
-    <h3>2011 – Duqu</h3>
-    <p>Malware lié à Stuxnet ciblant les fabricants de systèmes ICS.</p>
-    <a href="https://github.com/donadelden/awesome-ics-malware" target="_blank">Lire →</a>
-  </div>
+<div class="card">
+<h3>2017 – Triton / Trisis</h3>
+<p>Attaque ciblant les systèmes de sécurité industriels (SIS).</p>
+
+<div>
+<span class="badge execution">Execution</span>
+<span class="badge persistence">Persistence</span>
+<span class="badge impact">Impact</span>
 </div>
 
+<ul>
+<li>T0851 – Modify Control Logic</li>
+<li>T0890 – Loss of Safety</li>
+</ul>
+
+<a href="https://www.dragos.com/blog/triton/" target="_blank">Lire →</a>
+</div>
+</div>
+
+<!-- INDUSTROYER2 -->
 <div class="container left">
-  <div class="content">
-    <h3>2012 – Shamoon</h3>
-    <p>Destruction massive de données dans des entreprises énergétiques (Saudi Aramco).</p>
-    <a href="https://github.com/donadelden/awesome-ics-malware" target="_blank">Lire →</a>
-  </div>
+<div class="card">
+<h3>2022 – Industroyer2</h3>
+<p>Nouvelle version utilisée pendant la guerre en Ukraine.</p>
+
+<div>
+<span class="badge execution">Execution</span>
+<span class="badge impact">Impact</span>
 </div>
 
-<div class="container right">
-  <div class="content">
-    <h3>2015 – Ukraine Power Grid</h3>
-    <p>Première coupure d’électricité causée par une cyberattaque (~230 000 personnes).</p>
-    <a href="https://en.wikipedia.org/wiki/2015_Ukraine_power_grid_hack" target="_blank">Lire →</a>
-  </div>
-</div>
+<ul>
+<li>T0855 – Unauthorized Command Message</li>
+<li>T0829 – Loss of Control</li>
+</ul>
 
-<div class="container left">
-  <div class="content">
-    <h3>2016 – Industroyer</h3>
-    <p>Malware ICS avancé provoquant une panne électrique à Kyiv.</p>
-    <a href="https://news.ucsc.edu/2024/05/ukraine-cybersecurity/" target="_blank">Lire →</a>
-  </div>
+<a href="https://www.welivesecurity.com/2022/04/12/industroyer2-industroyer-reloaded/" target="_blank">Lire →</a>
 </div>
-
-<div class="container right">
-  <div class="content">
-    <h3>2017 – Triton / Trisis</h3>
-    <p>Attaque contre des systèmes de sécurité industriels (SIS).</p>
-    <a href="https://www.dragos.com/blog/the-evolution-of-cyber-attacks-on-electric-operations/" target="_blank">Lire →</a>
-  </div>
-</div>
-
-<div class="container left">
-  <div class="content">
-    <h3>2022 – Industroyer2</h3>
-    <p>Nouvelle attaque ICS coordonnée pendant la guerre en Ukraine.</p>
-    <a href="https://news.ucsc.edu/2024/05/ukraine-cybersecurity/" target="_blank">Lire →</a>
-  </div>
 </div>
 
 </div>
