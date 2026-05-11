@@ -39,6 +39,57 @@
       color: #e5e5e5;
       text-decoration: underline;
     }
+    /* =========================
+      STRUCTURE UNIFORME
+    ========================= */
+
+    .terminal-section {
+      max-width: 900px;
+      margin: 24px auto;
+      background-color: #0d0d0d;
+      color: #e5e7eb;
+
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+
+      padding: 24px 20px;
+
+      box-sizing: border-box;
+    }
+
+    /* Header aligné avec les autres sections */
+    #header-pme {
+      max-width: 900px;
+      margin: 24px auto;
+      border: 1px solid #1f2937;
+      border-radius: 12px;
+      padding: 40px 20px;
+      box-sizing: border-box;
+    }
+
+    /* =========================
+       IMAGES
+       ========================= */
+
+    .article-image {
+      margin: 0;
+      padding: 0;
+
+      text-align: center;
+
+      line-height: 0;
+    }
+
+    .article-image img {
+      display: block;
+
+      width: 100%;
+      height: auto;
+
+      border-radius: 10px;
+
+      border: none;
+    }
   </style>
 </head>
 
@@ -48,9 +99,7 @@
 <main>
 
   <!-- ===== ENTÊTE ARTICLE ===== -->
-  <section class="terminal-section" id="header-pme"
-           style="text-align:center; background-color:#0d0d0d; color:#e5e7eb;
-                  padding:60px 20px 40px; border-bottom:1px solid #1f2937; border-radius:12px 12px 0 0;">
+  <section class="terminal-section" id="header-pme">
 
     <div style="font-size:3.5em; color:#3fb950; margin-bottom:10px;">🔒</div>
     <h1 style="font-size:2rem; margin-bottom:10px; color:#3fb950;">
@@ -69,9 +118,7 @@
   <!-- ===== FIN ENTÊTE ===== -->
 
   <!-- ===== INTRODUCTION ===== -->
-  <section class="terminal-section" id="intro-pme"
-           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
-                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+  <section class="terminal-section" id="intro-pme">
    
     <h2 style="color:#3fb950; ">Introduction</h2>
 
@@ -99,17 +146,13 @@
   <!-- ===== FIN INTRODUCTION ===== -->
 
   <!-- ===== SECTION FUSIONNÉE – « Pourquoi une PME serait-elle attaquée ? » ===== -->
-<section class="terminal-section" id="section-pme-cibles"
-         style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
-                color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+<section class="terminal-section" id="section-pme-cibles">
 
   <!-- IMAGE -->
-  <figure class="article-image" id="image-opportunistes"
-          style="text-align:center; margin:20px 0;">
+  <figure class="article-image" id="image-opportunistes">
     <img src="img/Opportunistes.png"
          alt="Illustration représentant un cybercriminel profitant d’une opportunité laissée ouverte"
-         class="img-reduite"
-         style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+         class="img-reduite">
   </figure>
 
   <p style="font-size:1.05em; line-height:1.7;">
@@ -263,17 +306,13 @@
   <!-- ===== SECTION 3 – « Pourquoi agir si le risque 0 n’existe pas ? » ===== -->
 <!-- IMAGE 3 : agir ou pas -->
 <!-- ===== SECTION 3 – « Pourquoi agir si le risque 0 n’existe pas ? » ===== --> 
-<section class="terminal-section" id="section-risque-zero" 
-         style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
-                color:#e5e7eb; padding:10px 10px; border-radius:12px; border:1px solid #1f2937;">
+<section class="terminal-section" id="section-risque-zero">
 
   <!-- IMAGE -->
-  <figure class="article-image" id="image-opportunistes"
-          style="text-align:center; margin:5px 0;">
+  <figure class="article-image" id="image-opportunistes">
     <img src="img/RisqueZero.png"
          alt="Illustration représentant un cybercriminel profitant d’une opportunité laissée ouverte"
-         class="img-reduite"
-         style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+         class="img-reduite">
   </figure>
 
     <p style="font-size:1.05em; line-height:1.7;">
@@ -302,18 +341,14 @@
   <!-- ===== FIN SECTION 3 ===== -->
 
   <!-- ===== SECTION 4 – « J’ai d’autres priorités pour l’instant » ===== -->
-  <section class="terminal-section" id="section-autres-priorites"
-           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
-                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+  <section class="terminal-section" id="section-autres-priorites">
 
 
     <!-- IMAGE 4 : j'ai d'autres priorites -->
-    <figure class="article-image" id="image-priorites"
-            style="text-align:center; margin:20px 0;">
+    <figure class="article-image" id="image-priorites">
       <img src="img/Conscience.png"
            alt="Illustration d’une personne qui aimerait avancer mais qui a d'autres priorites"
-           class="img-reduite"
-           style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+           class="img-reduite">
     </figure>
 
     <p style="font-size:1.05em; line-height:1.7;">
@@ -397,17 +432,13 @@
   <!-- ===== FIN SECTION 4 ===== -->
 
   <!-- ===== SECTION 5 – Bénéfices d’un programme de défense ===== -->
-  <section class="terminal-section" id="section-benefices"
-           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
-                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+  <section class="terminal-section" id="section-benefices">
 
     <!-- IMAGE 5 : benefices -->
-    <figure class="article-image" id="image-benefices"
-            style="text-align:center; margin:20px 0;">
+    <figure class="article-image" id="image-benefices">
       <img src="img/Benefices.png"
            alt="Illustration d’une personne souhaitant etre convaincue"
-           class="img-reduite"
-           style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+           class="img-reduite">
     </figure>
 
 
@@ -442,18 +473,13 @@
   <!-- ===== FIN SECTION 5 ===== -->
 
   <!-- ===== SECTION 6 – Par où commencer ? ===== -->
-  <section class="terminal-section" id="section-par-ou-commencer"
-           style="text-align:left; margin:24px auto; max-width:900px; background-color:#0d0d0d;
-                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+  <section class="terminal-section" id="section-par-ou-commencer">
 
     <!-- IMAGE 6: convaincu -->
-    <figure class="article-image" id="image-convaincu"
-            style="text-align:center; margin:20px 0;">
+    <figure class="article-image" id="image-convaincu">
       <img src="img/Convaincu.png"
            class="img-reduite"
-           alt="Illustration d’une personne convaincue par les arguments"
-           
-           style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+           alt="Illustration d’une personne convaincue par les arguments">
     </figure>
 
     <p style="font-size:1.05em; line-height:1.7;">
@@ -510,17 +536,13 @@
   <!-- ===== FIN SECTION 6 ===== -->
 
   <!-- ===== SECTION 7 – Appel à l’action / Présentation vCISO ===== -->
-  <section class="terminal-section" id="section-pret-a-franchir-le-pas"
-           style="text-align:left; margin:24px auto 40px; max-width:900px; background-color:#0d0d0d;
-                  color:#e5e7eb; padding:40px 20px; border-radius:12px; border:1px solid #1f2937;">
+  <section class="terminal-section" id="section-pret-a-franchir-le-pas">
 
     <!-- IMAGE 7 : moi -->
-    <figure class="article-image" id="image-moi"
-            style="text-align:center; margin:20px 0;">
+    <figure class="article-image" id="image-moi">
       <img src="img/Moi.png"
            alt="Illustration d’un consultant me ressemblant"
-           class="img-reduite"
-           style="max-width:100%; border-radius:10px; border:1px solid #3fb95033;">
+           class="img-reduite">
     </figure>
 
     <p style="font-size:1.05em; line-height:1.7;">
@@ -539,7 +561,7 @@
         environnement et de vos réalités, afin d’en bien comprendre les enjeux.
       </li>
       <li>
-        <strong>Rigueur et méthode</strong> : j’établis avec vous une liste de priorités et d’actions concrètes en vue
+        <strong>Rigueur et méthode</strong> : j’établis avec vous une liste de priorités et d’actions pourquoiconcrètes en vue
         d’améliorer votre posture cyberdéfensive aussi tôt que possible. Nous évaluons les contraintes techniques, les
         moyens à mettre en œuvre, et suivons l’avancement des tâches via un tableau de bord détaillé et des rapports
         d’activité à fréquence déterminée.
